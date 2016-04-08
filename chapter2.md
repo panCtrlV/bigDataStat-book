@@ -9,12 +9,16 @@ Multi-core CPUs are very common these days. This is true even for laptop's CUPs.
 
 The wide adoption of multi-core architectures makes it possible to parallelize data analysis on our personal computers. Parallel computing libraries such as OpenMP can be used to develop statistical packages for parallel computing on personal computers. 
 
-### 2.1 Computer Architecture
+### 1.1 Computer Architecture
 
-### 2.2 Multi-threading and Multi-processing
+### 1.2 Multi-threading and Multi-processing
 
-### 2.3 Shared Memory Parallel Computing
+### 1.3 Shared Memory Parallel Computing
 
 ## 2. Cluster Computing
+
+### 2.1 Cluster Architecture 
+
+### 2.2 Distributed Memory Parallel Computing
 
 ## 3. Cloud Computing
