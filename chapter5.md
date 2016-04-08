@@ -1,2 +1,3 @@
-# Chapter 5 Shared Memory Computing in R
+# Chapter 5 Parallel Computing in R with Packages
 
+`parallel` package
