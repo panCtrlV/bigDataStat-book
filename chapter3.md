@@ -1,2 +1,2 @@
-# Chapter 3
+# Chapter 3 Building a Cluster
 
