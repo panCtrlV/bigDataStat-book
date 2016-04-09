@@ -1,4 +1,4 @@
-# Chapter 5 Parallel Computing in R with Packages
+# Chapter 5 Parallel Computing in R on Personal Computer
 
 `parallel` package (TODO: fork processes instead of instantiate threads?) provides two interfaces, one like the `multicoare` package and one like the `snow` package. 
 
@@ -7,6 +7,7 @@ Call compiled function written with Rcpp, OpenMP. Parallelism with OpenMP using 
 OpenMP in R Examples:
 
   [Parallelization in rcpp via OpenMP](https://www.google.co.jp/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0ahUKEwjRq4WS2P7LAhXMsYMKHWx5BqMQFggjMAE&url=https%3A%2F%2Fwbnicholson.wordpress.com%2F2014%2F07%2F10%2Fparallelization-in-rcpp-via-openmp%2F&usg=AFQjCNHX3wbwoZbtZXN7mjwSIuceiCFFwQ)
+  [OPENMP TUTORIAL, WITH R INTERFACE](https://matloff.wordpress.com/2015/01/16/openmp-tutorial-with-r-interface/)
 
 GPU computing. [Rth](https://github.com/Rth-org/Rth) is a package of functions written in Thrust, callable from R. It thus provides to R programmers a set of parallel applications that run on both GPUs and multicore systems.
 
