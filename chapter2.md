@@ -3,7 +3,10 @@
 
 - Parallel computing on a multicore personal computer
   * Computer architecture
-  * Multithreading and multiprocessing
+  * Multithreading
+    + Most programs running on multicore systems are threaded.
+    + A key point is that the threads share memory, making it easy for them to cooperate. 
+  * Multiprocessing
   * Shared memory parallel computing
     + OpenMP
 - Cluster computing
