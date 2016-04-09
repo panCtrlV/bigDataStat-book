@@ -1,3 +1,7 @@
 # Chapter 1 Big Data, Statistics and Computing
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+This chapter includes:
+
+- What is big data and the importance of big data.
+- What we believe Statistics could do in analyzing big data.
+- 
