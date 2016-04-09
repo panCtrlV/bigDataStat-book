@@ -6,6 +6,7 @@
   * Multithreading
     + Most programs running on multicore systems are threaded.
     + A key point is that the threads share memory, making it easy for them to cooperate. 
+    + Writing threaded code directly is messy, so higher-level systems have been developed to hide the messy details from the programmer, thus making his/her life far easier. <font color='red'>How?</font>
   * Multiprocessing
   * Shared memory parallel computing
     + OpenMP
