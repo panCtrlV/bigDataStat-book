@@ -21,3 +21,6 @@ Multi-core CPUs are very common these days. This is true even for laptop's CUPs.
 
 The wide adoption of multi-core architectures makes it possible to parallelize data analysis on our personal computers. Parallel computing libraries such as OpenMP can be used to develop statistical packages for parallel computing on personal computers. 
 
+# OpenMP
+
+[The most popular way to program on multicore machines is to use OpenMP, a C/C++ (and FORTRAN) callable system that runs on Linux, Mac and Windows.  (For Macs, you need the OpenMP-enabled version of Mac’s clang compiler.)](https://matloff.wordpress.com/2015/01/16/openmp-tutorial-with-r-interface/)
