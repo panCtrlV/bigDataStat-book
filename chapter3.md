@@ -6,6 +6,10 @@ A virtual machine cluster is a poor man's solution. While building a virtual mac
 
 One can also rent a cluster from Amazon's EC2. This allows you to scale up the ideas we tested on a virtual machine cluster. 
 
+<font color='red'>TODO: Any other cluster platforms?</font>
+
+
+
 ## Virtual Machine Cluster
 
 ## Amazon EC2
