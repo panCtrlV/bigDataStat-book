@@ -8,5 +8,5 @@
 - [SparkR](https://spark.apache.org/docs/latest/sparkr.html)
   - Spark as the computing backend (im-memory computing)
   - Plot package (e.g. ggplot2.sparkr)
-  - 
+  - R-JVM bridge
 - [RHadoop](https://github.com/RevolutionAnalytics/RHadoop/wiki)
