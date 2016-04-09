@@ -10,6 +10,7 @@
   * Multiprocessing
   * Shared memory parallel computing
     + OpenMP
+    + Intel’s Threading Building Blocks system
 - Cluster computing
   * Cluster architecture
   * Distributed (memory) computing
