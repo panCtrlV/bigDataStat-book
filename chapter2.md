@@ -23,4 +23,4 @@ The wide adoption of multi-core architectures makes it possible to parallelize d
 
 ## 3. Cloud Computing
 
-### 3.1. Virualization
+### 3.1. Virtualization
