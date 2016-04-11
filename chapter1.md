@@ -6,7 +6,7 @@
   * Large Volume
   * High frequency
   * Diverse sources
-  * 
+  * Complex structure, sometimes without a structure
 - What we believe about statistical analysis on big data.
   * Exploratory data analysis
   * Modeling
