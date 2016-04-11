@@ -36,7 +36,7 @@
     + Supported data types (e.g. int, double string, array, record)
     + File format (e.g. columnar[^columnar_file_format])
       
-      The file format should be chosen such that data is suitable for storing in a distributed file system. For example, [wiggle file format](http://www.ensembl.org/info/website/upload/wig.html) is difficult to read as a splittable file[^wiggle_not_splittable],
+      The file format should be chosen such that data is suitable for storing in a distributed file system. For example, [wiggle file format](http://www.ensembl.org/info/website/upload/wig.html) is difficult to read as a splittable file[^wiggle_not_splittable], we need to convert it to some other format such as BED format then save it to HDFS.
       
   * Data model
     
@@ -47,4 +47,4 @@
 [^rapid_access_data]: Advanced Analytics with Spark p203.
 [^central_data]: Advanced Analytics with Spark p203.
 [^columnar_file_format]: It means that values for a particular column from many records are stored contiguously on disk. See Figure 10-2 on p205 of Advanced Analytics with Spark.
-[^wiggle_not_splittable]: Advanced Analytics with Spark p207.
+[^wiggle_not_splittable]: Advanced Analytics with Spark p207. It is not possible to predict how far back in a file a particular task must read in order to obtain the metadata about the contig coordinates.
