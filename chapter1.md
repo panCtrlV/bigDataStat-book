@@ -40,6 +40,8 @@
       
       The file format should be chosen such that data is suitable for storing in a distributed file system, otherwise some data processing is need to convert the file format to make it suitable for storing in a distributed file system. For example, [wiggle file format](http://www.ensembl.org/info/website/upload/wig.html) is difficult to read as a splittable file[^wiggle_not_splittable], we need to convert it to some other format such as BED format then save it to a distributed file system such as HDFS.
       
+      Another consideration in choosing a file format is to faciliate data analysis. 
+      
   * Data model
     
     <font color='red'>TODO: What are the difference and relationship between these two? -- It (Parquet) is largely based on the underlying data storage format used in Google’s Dremel system (see “Dremel: Interactive Analysis of Web-scale Datasets” Proc. VLDB, 2010, by Melnik et al.), and has a data model that is compatible with Avro, Thrift, and Protocol Buffers.</font>
