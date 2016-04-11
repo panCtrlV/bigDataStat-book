@@ -7,6 +7,9 @@
   - Rhipe as the connector between R and Hadoop
 - [SparkR](https://spark.apache.org/docs/latest/sparkr.html)
   - Spark as the computing backend (im-memory computing)
+    
+    Apache Spark is an open-source data analytics cluster computing framework. Spark is not tied to the two-stage MapReduce paradigm, and promises performance up to 100 times faster than Hadoop MapReduce for certain applications. [reference](https://www.rcac.purdue.edu/compute/hathi/guide/#run_hadoop_examples_spark) 
+    
   - Plot package (e.g. ggplot2.sparkr)
   - R-JVM bridge
 - [RHadoop](https://github.com/RevolutionAnalytics/RHadoop/wiki)
