@@ -15,6 +15,8 @@
       
       Keep a large data set close. This is important for interactive data analysis.
       
+      Centrality of data makes it easy to perform large analytical stud‐ ies, like population genetics, large-scale QC analyses, and so on.[^central_data]
+      
     + Desired properties for a distributed FS
     + Hadoop HDFS
     + MapR FS 
@@ -32,3 +34,4 @@
 
 [^maprfs]: https://en.wikipedia.org/wiki/MapR#MapR_Converged_Data_Platform
 [^rapid_access_data]: Advanced Analytics with Spark p203
+[^central_data]: Advanced Analytics with Spark p203
