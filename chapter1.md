@@ -43,6 +43,8 @@
       Another consideration in choosing a file format is to facilitate data analysis. <font color='red'>For example, if interactive data analysis is desired, file formats that are cheap to serialize and deserialize is preferrable. (TODO: not sure if this statement is correct.)</font> 
       
   * Data model
+
+    When we are performing ad hoc analysis, a suitable representation of the underlying analytical objects along with the converion tools will be very helpful. For example, ADAM provide is the set of Avro schemas for bioinformatics study. Once data is converted into the corresponding Avro schemas, many large-scale computations become relatively easy to express and distribute.[^Avro_schema_example]
     
     <font color='red'>TODO: What are the difference and relationship between these two? -- It (Parquet) is largely based on the underlying data storage format used in Google’s Dremel system (see “Dremel: Interactive Analysis of Web-scale Datasets” Proc. VLDB, 2010, by Melnik et al.), and has a data model that is compatible with Avro, Thrift, and Protocol Buffers.</font>
 
@@ -52,3 +54,4 @@
 [^central_data]: Advanced Analytics with Spark p203.
 [^columnar_file_format]: It means that values for a particular column from many records are stored contiguously on disk. See Figure 10-2 on p205 of Advanced Analytics with Spark.
 [^wiggle_not_splittable]: Advanced Analytics with Spark p207. It is not possible to predict how far back in a file a particular task must read in order to obtain the metadata about the contig coordinates.
+[^Avro_schema_example]: Advanced Analytics with Spark p214.
