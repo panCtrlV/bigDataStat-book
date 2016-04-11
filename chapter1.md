@@ -36,7 +36,7 @@
     + Supported data types (e.g. int, double string, array, record)
     + File format (e.g. columnar[^columnar_file_format])
       
-      The file format should be chosen such that data is suitable for storing in a distributed file system. For example, [wiggle file format](http://www.ensembl.org/info/website/upload/wig.html) is difficult to read as a splittable file[^wiggle_not_splittable], we need to convert it to some other format such as BED format then save it to HDFS.
+      The file format should be chosen such that data is suitable for storing in a distributed file system. For example, [wiggle file format](http://www.ensembl.org/info/website/upload/wig.html) is difficult to read as a splittable file[^wiggle_not_splittable], we need to convert it to some other format such as BED format then save it to a distributed file system such as HDFS.
       
   * Data model
     
