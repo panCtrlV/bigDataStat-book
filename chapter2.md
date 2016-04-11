@@ -1,4 +1,4 @@
-# Chapter 2 Computing Infrustructures for Big Data Statistics
+# Chapter 2 Computing Infrastructures for Big Data Statistics
 ---
 
 - Parallel computing on a multicore personal computer
