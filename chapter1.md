@@ -47,7 +47,7 @@
 
   These facts require a programming paradigm that is sensitive to the characteristics of the underlying system: one that discourages poor choices and makes it easy to write code that will execute in a highly parallel manner.[^bigdata_changes_how_we _do_data_analysis]
 
-  **A framework that makes model‐ ing easy but is also a good fit for production systems is a huge win.**
+  **A framework that makes modeling easy but is also a good fit for production systems is a huge win.**[^what_is_a_good_programming_framework_for_bigdata_analysis]
 
 - Other Considerations
   * Data storage format    
