@@ -13,6 +13,8 @@
     
       Archiving the raw data using a distributed FS such as Hadoop ensures that the data stays relatively warm (compared with, say, tape archive).[^warmdata]
       
+      Keep a large data set close. This is important for interactive data analysis.
+      
     + Desired properties for a distributed FS
     + Hadoop HDFS
     + MapR FS 
