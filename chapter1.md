@@ -1,5 +1,7 @@
 # Chapter 1 Introduction: Big Data, Statistics and Computing
 
+---
+
 - What is big data and the importance of big data.
 - What we believe about statistical analysis on big data.
   * Exploratory data analysis
