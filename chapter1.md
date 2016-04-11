@@ -64,6 +64,7 @@
     <font color='red'>TODO: What are the difference and relationship between these two? -- It (Parquet) is largely based on the underlying data storage format used in Google’s Dremel system (see “Dremel: Interactive Analysis of Web-scale Datasets” Proc. VLDB, 2010, by Melnik et al.), and has a data model that is compatible with Avro, Thrift, and Protocol Buffers.</font>
 
 
+[^bigdata_changes_how_we _do_data_analysis]: Advanced Analytics with Spark p2.
 [^maprfs]: https://en.wikipedia.org/wiki/MapR#MapR_Converged_Data_Platform
 [^rapid_access_data]: Advanced Analytics with Spark p203.
 [^central_data]: Advanced Analytics with Spark p203.
