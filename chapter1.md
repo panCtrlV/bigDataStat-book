@@ -44,6 +44,8 @@
     + Scala
     + Python
 
+  These facts require a programming paradigm that is sensitive to the characteristics of the underlying system: one that discourages poor choices and makes it easy to write code that will execute in a highly parallel manner.[^bigdata_changes_how_we _do_data_analysis]
+
 - Other Considerations
   * Data storage format    
     + Supported data types (e.g. int, double string, array, record)
