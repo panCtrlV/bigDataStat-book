@@ -40,6 +40,8 @@
       
       The file format should be chosen such that data is suitable for storing in a distributed file system, otherwise some data processing is need to convert the file format to make it suitable for storing in a distributed file system. For example, [wiggle file format](http://www.ensembl.org/info/website/upload/wig.html) is difficult to read as a splittable file[^wiggle_not_splittable], we need to convert it to some other format such as BED format then save it to a distributed file system such as HDFS.
       
+      ![Row-major vs column-major data layout.](./figures/column-major_data_layout.jpg)
+      
       Another consideration in choosing a file format is to facilitate data analysis. <font color='red'>For example, if interactive data analysis is desired, file formats that are cheap to serialize and deserialize is preferrable. (TODO: not sure if this statement is correct.)</font> 
       
   * Data model
