@@ -9,6 +9,7 @@ The most popular solution for using R in large scale distributed computing is to
   - HDFS as distributed data storage
   - R as the front end
   - Rhipe as the connector between R and Hadoop
+
 - [SparkR](https://spark.apache.org/docs/latest/sparkr.html)
   - Spark as the computing backend
     
