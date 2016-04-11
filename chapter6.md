@@ -22,7 +22,7 @@ The most popular solution for using R in large scale distributed computing is to
     * Core API (Scala, Python) is general purpose
     * Interactive programming environment
 
-  - SparkR is a compromise     
+  - SparkR allows code evaluation in R
     * Plot package (e.g. ggplot2.sparkr)
     * R-JVM bridge
 
