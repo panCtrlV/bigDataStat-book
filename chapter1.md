@@ -3,6 +3,9 @@
 ---
 
 - What is big data and the importance of big data.
+  * Large Volume
+  * High frequency
+  * 
 - What we believe about statistical analysis on big data.
   * Exploratory data analysis
   * Modeling
