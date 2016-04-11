@@ -2,7 +2,7 @@
 
 ---
 
-Packages are available in R for parallel / high performance computing.
+Packages are available in R for parallel / high performance computing. The CRAN page of [High-Performance and Parallel Computing with R](https://cran.r-project.org/web/views/HighPerformanceComputing.html) contains such a list of packages. 
 
 - `parallel` package (TODO: fork processes instead of instantiate threads?) provides two interfaces, one like the `multicoare` package and one like the `snow` package. 
 
