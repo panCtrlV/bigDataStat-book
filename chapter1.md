@@ -31,6 +31,9 @@
     + Scala
     + Python
 
+- Other Considerations
+  * Data format
+
 
 [^maprfs]: https://en.wikipedia.org/wiki/MapR#MapR_Converged_Data_Platform
 [^rapid_access_data]: Advanced Analytics with Spark p203
