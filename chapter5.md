@@ -1,5 +1,9 @@
 # Chapter 5 Native Parallel Computing in R
 
+---
+
+Packages are available in R for parallel / high performance computing.
+
 - `parallel` package (TODO: fork processes instead of instantiate threads?) provides two interfaces, one like the `multicoare` package and one like the `snow` package. 
 
 - Call compiled function written with Rcpp, OpenMP. Parallelism with OpenMP using threads. But thread safety is a big concern (TODO: how? [this post](https://wrathematics.github.io/RparallelGuide/#r-and-thread-safety) explains why but I couldn't understand.)
