@@ -11,7 +11,7 @@
   * Distributed file systems
     + Why using a distributed file system?
     
-      Archiving the raw data using a distributed FS such as Hadoop ensures that the data stays relatively warm (compared with, say, tape archive).
+      Archiving the raw data using a distributed FS such as Hadoop ensures that the data stays relatively warm (compared with, say, tape archive).[^warmdata]
       
     + Hadoop HDFS
     + MapR FS implements the HDFS API with a native C distributed read-write file system[^maprfs]
@@ -23,4 +23,6 @@
     + Scala
     + Python
 
+
 [^maprfs]: https://en.wikipedia.org/wiki/MapR#MapR_Converged_Data_Platform
+[^warmdata]: 
