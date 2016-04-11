@@ -13,5 +13,5 @@
   - Plot package (e.g. ggplot2.sparkr)
   - R-JVM bridge
 - [RHadoop](https://github.com/RevolutionAnalytics/RHadoop/wiki)
-- [MapR](https://en.wikipedia.org/wiki/MapR)
+
 
