@@ -33,11 +33,14 @@
 
 - Other Considerations
   * Data storage format    
+    + Supported data types (e.g. int, double string, array, record)
+    + File format (e.g. columnar[^columnar_file_format])
   * Data model
     
     <font color='red'>TODO: What are the difference and relationship between these two? -- It (Parquet) is largely based on the underlying data storage format used in Google’s Dremel system (see “Dremel: Interactive Analysis of Web-scale Datasets” Proc. VLDB, 2010, by Melnik et al.), and has a data model that is compatible with Avro, Thrift, and Protocol Buffers.</font>
 
 
 [^maprfs]: https://en.wikipedia.org/wiki/MapR#MapR_Converged_Data_Platform
-[^rapid_access_data]: Advanced Analytics with Spark p203
-[^central_data]: Advanced Analytics with Spark p203
+[^rapid_access_data]: Advanced Analytics with Spark p203.
+[^central_data]: Advanced Analytics with Spark p203.
+[^columnar_file_format]: It means that values for a particular column from many records are stored contiguously on disk. See Figure 10-2 on p205 of Advanced Analytics with Spark.
