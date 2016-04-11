@@ -11,7 +11,7 @@
   * Distributed file systems
     + Why using a distributed file system?
     
-      Rapid access to the totality of the data.[^warmdata]
+      Rapid access to the totality of the data.[^rapid_access_data]
       
       Keep a large data set close. This is important for interactive data analysis.
       
@@ -31,4 +31,4 @@
 
 
 [^maprfs]: https://en.wikipedia.org/wiki/MapR#MapR_Converged_Data_Platform
-[^warmdata]: Advanced Analytics with Spark p203
+[^rapid_access_data]: Advanced Analytics with Spark p203
