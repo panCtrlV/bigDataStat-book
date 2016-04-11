@@ -9,6 +9,8 @@
 - Statistical analysis requires a suitable programming environment
 - Big data brings new challenges to the computing environment
   * Distributed file systems
+    + Why using a distributed file system?
+      Archiving the raw data using a distribued FS such as Hadoop ensures that the data stays relatively warm (compared with, say, tape archive).
     + Hadoop HDFS
     + MapR FS implements the HDFS API with a native C distributed read-write file system[^maprfs]
   * Parallel and distributed computing models
