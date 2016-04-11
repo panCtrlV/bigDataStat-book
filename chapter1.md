@@ -11,7 +11,7 @@
   * Distributed file systems
     + Why using a distributed file system?
     
-      Archiving the raw data using a distributed FS such as Hadoop ensures that the data stays relatively warm (compared with, say, tape archive).[^warmdata]
+      Rapid access to the totality of the data.[^warmdata]
       
       Keep a large data set close. This is important for interactive data analysis.
       
