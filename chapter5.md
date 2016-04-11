@@ -1,4 +1,4 @@
-# Chapter 5 Parallel Computing in R on Personal Computers
+# Chapter 5 Native Parallel Computing in R
 
 `parallel` package (TODO: fork processes instead of instantiate threads?) provides two interfaces, one like the `multicoare` package and one like the `snow` package. 
 
