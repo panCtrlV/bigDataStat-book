@@ -16,6 +16,8 @@
   * Estimation
   * Inference
 - Statistical analysis requires a suitable programming environment
+  * Flexible e.g. define own procedures
+  * Rich functionality in statistics and machine learning e.g. established packages
 - Big data brings new challenges to the computing environment
   * Distributed file systems
     + Why using a distributed file system?
