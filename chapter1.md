@@ -8,10 +8,10 @@
   * Inference
 - Statistical analysis requires a suitable programming environment
 - Big data brings new challenges to the computing environment
-  * Distributed file system
+  * Distributed file systems
     + Hadoop HDFS
     + MapR FS implements the HDFS API with a native C distributed read-write file system
-  * Parallel and distributed computing model
+  * Parallel and distributed computing models
     + Hadoop YARN/MRv2
     + Spark in-memory computing
   * Suitable programming language
