@@ -23,8 +23,9 @@ The most popular solution for using R in large scale distributed computing is to
     * Interactive programming environment
 
   - SparkR allows code evaluation in R
-    * Plot package (e.g. ggplot2.sparkr)
-    * R-JVM bridge
+    * Key features in its implementation 
+      +  R-JVM bridge
+    * More packages are under development, e.g. ggplot2.sparkr
 
 - [RHadoop](https://github.com/RevolutionAnalytics/RHadoop/wiki)
 
