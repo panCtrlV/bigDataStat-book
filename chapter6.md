@@ -28,6 +28,6 @@ The most popular solution for using R in large scale distributed computing is to
       +  R-JVM bridge
     * More packages are under development, e.g. ggplot2.sparkr
 
-- [RHadoop](https://github.com/RevolutionAnalytics/RHadoop/wiki)
+- [RHadoop](https://github.com/RevolutionAnalytics/RHadoop/wiki) <font color='red'>(development seems to be paused)</font>
 
 
