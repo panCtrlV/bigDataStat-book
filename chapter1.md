@@ -13,8 +13,12 @@
     
       Archiving the raw data using a distributed FS such as Hadoop ensures that the data stays relatively warm (compared with, say, tape archive).[^warmdata]
       
+    + Desired properties for a distributed FS
     + Hadoop HDFS
-    + MapR FS implements the HDFS API with a native C distributed read-write file system[^maprfs]
+    + MapR FS 
+      
+      MapR FS implements the HDFS API with a native C distributed read-write file system[^maprfs]
+      
   * Parallel and distributed computing models
     + Hadoop YARN/MRv2
     + Spark in-memory computing
