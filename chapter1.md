@@ -25,4 +25,4 @@
 
 
 [^maprfs]: https://en.wikipedia.org/wiki/MapR#MapR_Converged_Data_Platform
-[^warmdata]: 
+[^warmdata]: Advanced Analytics with Spark p203
