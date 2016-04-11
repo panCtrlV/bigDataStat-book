@@ -32,11 +32,10 @@
     + Python
 
 - Other Considerations
-  * Data storage format
-    
-    e.g. Parquet file format
-    
+  * Data storage format    
   * Data model
+
+    It (Parquet) is largely based on the underlying data storage format used in Google’s Dremel system (see “Dremel: Interactive Analysis of Web-scale Datasets” Proc. VLDB, 2010, by Melnik et al.), and has a data model that is compatible with Avro, Thrift, and Protocol Buffers.
 
 
 [^maprfs]: https://en.wikipedia.org/wiki/MapR#MapR_Converged_Data_Platform
