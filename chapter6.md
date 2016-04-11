@@ -1,4 +1,4 @@
-# Chapter 6 R and Distributed Computing Platforms
+# Chapter 6 Combining R and Distributed Computing Platforms
 
 - [Tessera](http://tessera.io/)
   - Hadoop YARN/MRv2 as the computing backend
