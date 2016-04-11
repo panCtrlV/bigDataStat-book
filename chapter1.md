@@ -44,7 +44,7 @@
       
   * Data model
 
-    When we are performing ad hoc analysis, a suitable representation of the underlying analytical objects along with the converion tools will be very helpful. For example, ADAM provide is the set of Avro schemas for bioinformatics study. Once data is converted into the corresponding Avro schemas, many large-scale computations become relatively easy to express and distribute.[^Avro_schema_example]
+    When we are performing ad hoc analysis, a suitable representation of the underlying analytical objects along with the converion tools will be very helpful. For example, ADAM provide is the set of Avro schemas for genomics analysis. Once data is converted into the corresponding Avro schemas, many large-scale computations become relatively easy to express and distribute.[^Avro_schema_example]
     
     <font color='red'>TODO: What are the difference and relationship between these two? -- It (Parquet) is largely based on the underlying data storage format used in Google’s Dremel system (see “Dremel: Interactive Analysis of Web-scale Datasets” Proc. VLDB, 2010, by Melnik et al.), and has a data model that is compatible with Avro, Thrift, and Protocol Buffers.</font>
 
