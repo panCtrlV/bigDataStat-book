@@ -15,3 +15,6 @@
     + Hadoop YARN/MRv2
     + Spark in-memory computing
   * Suitable programming language
+    + R
+    + Scala
+    + Python
