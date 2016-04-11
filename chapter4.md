@@ -1,2 +1,2 @@
-# Chapter 4 R for Statistical Analysis
+# Chapter 4 Statistical Analysis with R
 
