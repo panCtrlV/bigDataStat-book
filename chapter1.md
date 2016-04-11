@@ -10,7 +10,7 @@
 - Big data brings new challenges to the computing environment
   * Distributed file systems
     + Hadoop HDFS
-    + MapR FS implements the HDFS API with a native C distributed read-write file system
+    + MapR FS implements the HDFS API with a native C distributed read-write file system[^maprfs]
   * Parallel and distributed computing models
     + Hadoop YARN/MRv2
     + Spark in-memory computing
@@ -18,3 +18,5 @@
     + R
     + Scala
     + Python
+
+[^maprfs]: https://en.wikipedia.org/wiki/MapR#MapR_Converged_Data_Platform
