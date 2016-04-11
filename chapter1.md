@@ -33,6 +33,8 @@
 
 - Other Considerations
   * Data format
+    
+    e.g. Parquet file format
 
 
 [^maprfs]: https://en.wikipedia.org/wiki/MapR#MapR_Converged_Data_Platform
