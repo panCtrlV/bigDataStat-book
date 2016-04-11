@@ -32,9 +32,11 @@
     + Python
 
 - Other Considerations
-  * Data format
+  * Data storage format
     
     e.g. Parquet file format
+    
+  * Data model
 
 
 [^maprfs]: https://en.wikipedia.org/wiki/MapR#MapR_Converged_Data_Platform
