@@ -4,10 +4,11 @@
 
 - Some features of R language
 
-  * Dynamic typing (<font color='red'>== type inference</font>)
+  * Dynamic typing (<font color='red'>== type inference?</font>)
   * Lexical scoping
   * Object oriented (everything is an object)
   * <font color='red'>Functional programming?</font>
+    + Pattern 1: pass a function as an argument to another function, e.g. apply(data.frame, fun)
 
 - Limitations of R
 
