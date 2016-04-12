@@ -53,6 +53,17 @@ The examples are run on Purdue's Hathi cluster.
 - Data pre-processing
 
 ```bash  
+# Download, process and put raw data in HDFS
+hdfs dfs -mkdir /user/panc/linkage
+
+wget https://archive.ics.uci.edu/ml/machine-learning-databases/00210/donation.zip
+
+unzip -d donation donation.zip
+
+for i in `seq 1 10`;
+do
+  unzip -d block_$i block_$i.zip | hdfs 
+
 source /etc/default/hadoop
 module load r
 
