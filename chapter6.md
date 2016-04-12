@@ -120,5 +120,13 @@ nrow(bigrawblock) # 1149826
 Now, let's "bring" all data into SparkR.
 
 ```r
-
+# first piece
+rawblock = read.df(sqlContext, "/user/panc/linkage/block_1.csv", "com.databricks.spark.csv", header="true") 
+# total number of pieces
+nblocks = 10
+# combine all pieces
+for(i in 2:nblocks){
+  data_file_path = paster("/user/panc/linkage/block_", i, ".csv", sep='')
+  rawblock = read.df(sqlContext, data_file_path, "com.databricks.spark.csv", header="true") 
+}
 ```
