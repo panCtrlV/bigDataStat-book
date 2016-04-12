@@ -75,12 +75,13 @@ panc@hathi ~$ hdfs dfs -ls /user/panc/linkage
 # Start SparkR console
 panc@hathi ~$ source /etc/default/hadoop
 panc@hathi ~$ module load r
-panc@hathi ~$ sparkR --master yarn-client
+panc@hathi ~$ sparkR --master yarn-client --packages com.databricks:spark-csv_2.10:1.0.3
 ```
 
 By using `sparkR` command, `sc` and `sqlContext` are automatically available.
 
 ```r
 # Read data as RRDD
-
+# SparkR natively support .csv file format
+rawblock1 = read.df(sqlContext, "/user/panc/linkage/block_1.csv", inferSchema='true')
 ```
