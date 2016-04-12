@@ -130,4 +130,7 @@ for(i in 2:nblocks){
   rawblock_i = read.df(sqlContext, data_file_path, "com.databricks.spark.csv", header="true") 
   rawblock = SparkR::rbind(rawblock, rawblock_i)
 }
+
+# Check if all data are available
+nrow(rawblock) # 5749132
 ```
