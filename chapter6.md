@@ -43,7 +43,7 @@ The most popular solution for using R in large scale distributed computing is to
     
   * Lack native language support for R
 
-    For example, SparkR is an R wrapper for Spark. Its API only provide limited high-level operations. Lacking low level ETL makes it not very useful.
+    For example, SparkR is an R wrapper for Spark. Its API only provide limited high-level operations. Typical RDD operations like map, flatMap, reduce or filter are gone in SparkR. Lacking low level ETL makes it not very useful.
 
 
 [^R-JVM_overhead]: Advanced Analytics with Spark p24.
