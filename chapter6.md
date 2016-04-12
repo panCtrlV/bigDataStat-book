@@ -150,6 +150,22 @@ for(i in 2:nblocks){
   rawblock = SparkR::rbind(rawblock, rawblock_i)
 }
 
+################################
+# If there are missing vlaues, #
+# use default schema.          #
+################################
+# first piece
+rawblock = read.df(sqlContext, "/user/panc/linkage/block_1.csv", "com.databricks.spark.csv", header="true") 
+# total number of pieces
+nblocks = 10
+# combine all pieces
+for(i in 2:nblocks){
+  data_file_path = paste("/user/panc/linkage/block_", i, ".csv", sep='')
+  rawblock_i = read.df(sqlContext, data_file_path, "com.databricks.spark.csv", header="true") 
+  rawblock = SparkR::rbind(rawblock, rawblock_i)
+}
+
+
 # Check if all data are available
 nrow(rawblock) # 5749132 
 printSchema(rawblock)
