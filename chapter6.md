@@ -52,6 +52,8 @@ The examples are run on Purdue's Hathi cluster.
 
 - Data pre-processing
 
+**Note** This example is based on the Linkage example from Advanced Analytics with Spark p37.
+
 ```bash  
 # Download, process and save raw data in HDFS
 panc@hathi ~$ hdfs dfs -mkdir /user/panc/linkage
