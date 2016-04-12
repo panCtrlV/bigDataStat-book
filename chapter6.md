@@ -103,5 +103,7 @@ head(select(rawblock1, rawblock1$id_1)) # show one column
 class(rawblock1) # DataFrame
 
 # Another piece of the dataset
+rawblock1 = read.df(sqlContext, "/user/panc/linkage/block_2.csv", "com.databricks.spark.csv", header="true") 
+
 
 ```
