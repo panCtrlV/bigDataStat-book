@@ -43,7 +43,7 @@
   
   * Distributed data model 
 
-    e.g. RDD
+    e.g. RDD, RRDD
   
   * Suitable programming language
     + R
