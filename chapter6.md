@@ -44,9 +44,12 @@ The most popular solution for using R in large scale distributed computing is to
   * Lack native language support for R
 
     For example, SparkR is an R wrapper for Spark. Its API only provide limited high-level operations. Typical RDD operations like map, flatMap, reduce or filter are gone in SparkR. Lacking low level ETL prohibits it from many use cases.
+    
+    **Note** Some low level API are available through `SparkR:::`. But it is in general not a good practice to use those private functions in your coding. In addition, Pre 1.4 low level API is embarrassingly slow and clumsy and without all the goodness of the Catalyst optimizer it is most likely the same when it comes to internal 1.4 API.[^SparkR_low_level_api_slow]
 
 
 [^R-JVM_overhead]: Advanced Analytics with Spark p24.
+[^SparkR_low_level_api_slow]: [Reading Text file in SparkR 1.4.0](http://stackoverflow.com/questions/31157649/reading-text-file-in-sparkr-1-4-0)
 
 ---
 
@@ -79,7 +82,7 @@ panc@hathi ~$ hdfs dfs -ls /user/panc/linkage
 # Start SparkR console
 panc@hathi ~$ source /etc/default/hadoop
 panc@hathi ~$ module load r
-panc@hathi ~$ sparkR --master yarn-client --packages com.databricks:spark-csv_2.10:1.0.3
+panc@hathi ~$ sparkR --master yarn-client --packages com.databricks:spark-csv_2.11:1.0.3
 ```
 
 By using `sparkR` command, `sc` and `sqlContext` are automatically available.
@@ -89,5 +92,11 @@ By using `sparkR` command, `sc` and `sqlContext` are automatically available.
 ```r
 # Read data as RRDD
 # SparkR natively support .csv file format
-rawblock1 = read.df(sqlContext, "/user/panc/linkage/block_1.csv", "com.databricks.spark.csv")
+# By default, `read.df` reads data from HDFS.
+rawblock1 = read.df(sqlContext, "/user/panc/linkage/block_1.csv", "com.databricks.spark.csv", header="true")
+
+head(rawblock1)
+printSchema(rawblock1)
+
+head(select(rawblock1, rawblock1$id_1))
 ```
