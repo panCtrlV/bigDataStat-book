@@ -190,7 +190,7 @@ printSchema(rawblock)
 
 **Note** We can see `spark-csv` sets column types to String by default and will not attempt to infer types. So we need to cast each column to their proper data types in the second method above. [Here](https://mail-archives.apache.org/mod_mbox/spark-dev/201506.mbox/%3CCAKx7Bf8c19Bsdeihqm5Xu=ZnzCJ3J8BJotdru4Z3VvEhdC3=4w@mail.gmail.com%3E) is an Apache mailing list on this matter.
 
-
+- **Preprocessing Data**
 
 
 
