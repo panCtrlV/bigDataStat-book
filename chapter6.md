@@ -208,12 +208,9 @@ The examples are run on Purdue's Hathi cluster.
   aggregating
   
   ```r
-  rawblock_filter = filter(rawblock, rawblock$id_1==20206)
-  collect(rawblock_filter)
-  
-  grouped = agg(rawblock, count = count(rawblock$is_match))
-  grouped = count(groupBy(rawblock, "is_match"))
-  collect(grouped)
+  # count the number of "TRUE" and "FALSE" respectively
+  grouped_count = count(groupBy(rawblock, "is_match"))
+  collect(grouped_count)
   class(grouped) # GroupedData
   
   ```
