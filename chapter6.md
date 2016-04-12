@@ -209,6 +209,7 @@ The examples are run on Purdue's Hathi cluster.
   
   ```r
   # count the number of "TRUE" and "FALSE" respectively
+  # similar to Spark’s countByValue action.
   grouped = groupBy(rawblock, "is_match") # GroupedData class
   grouped_count = count(grouped)
   collect(grouped_count)
