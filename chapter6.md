@@ -141,5 +141,18 @@ printSchema(rawblock)
 We can see `spark-csv` sets column types to String by default and will not attempt to infer types. So we need to cast each column to their proper data types.
 
 ```r
-SparkR::cast(rawblock$id_1, "integer")
+rawblock$id_1 = SparkR::cast(rawblock$id_1, "int")
+printSchema(rawblock) # now the first column is of intger type
+# Cast the other columns on-by-one
+rawblock$id_2 = SparkR::cast(rawblock$id_2, "int")
+rawblock$cmp_fname_c1 = SparkR::cast(rawblock$cmp_fname_c1, "double")
+rawblock$cmp_fname_c2 = SparkR::cast(rawblock$cmp_fname_c2, "double")
+rawblock$cmp_lname_c1 = SparkR::cast(rawblock$cmp_lname_c1, "double")
+rawblock$cmp_lname_c2 = SparkR::cast(rawblock$cmp_lname_c2, "double")
+rawblock$cmp_sex = SparkR::cast(rawblock$cmp_sex, "double")
+rawblock$cmp_bd = SparkR::cast(rawblock$cmp_bd, "double")
+rawblock$cmp_bm = SparkR::cast(rawblock$cmp_bm, "double")
+rawblock$cmp_by = SparkR::cast(rawblock$cmp_by, "double")
+rawblock$cmp_plz = SparkR::cast(rawblock$cmp_plz, "double")
+rawblock$is_match = SparkR::cast(rawblock$is_match, "boolean")
 ```
