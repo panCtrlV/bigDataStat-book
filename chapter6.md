@@ -80,6 +80,8 @@ panc@hathi ~$ sparkR --master yarn-client --packages com.databricks:spark-csv_2.
 
 By using `sparkR` command, `sc` and `sqlContext` are automatically available.
 
+**Note** `com.databricks:spark-csv_2.11:1.0.3` is the package including data source connectors for popular file formats like CSV and Avro. 
+
 ```r
 # Read data as RRDD
 # SparkR natively support .csv file format
