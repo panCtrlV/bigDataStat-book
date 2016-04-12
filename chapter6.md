@@ -67,7 +67,11 @@ done
 
 # Check data are saved in HDFS
 panc@hathi ~$ hdfs dfs -ls /user/panc/linkage
+```
 
+- Preprocess data
+
+```bash
 # Start SparkR console
 panc@hathi ~$ source /etc/default/hadoop
 panc@hathi ~$ module load r
