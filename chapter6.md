@@ -205,7 +205,7 @@ The examples are run on Purdue's Hathi cluster.
 
 - **Preprocessing Data**
 
-  aggregating
+  **Aggregating**
   
   ```r
   # count the number of "TRUE" and "FALSE" respectively
@@ -215,5 +215,10 @@ The examples are run on Purdue's Hathi cluster.
   ```
 
   **Note** We aren't able to do much with the GroupedData at this point - we can't print or view the data. The only way to use the GroupedData is to pass it into aggregate functions, such as agg or avg.
+  
+  **Note** Performing aggregations on data in the cluster is usually expensive. The more filtering that we can do to the data before performing an aggregation, the faster we will get an answer to our question.[^filter_before_aggregate]
 
 
+---
+
+[^filter_before_aggregate]: Advanced Analytics with Spark p42
