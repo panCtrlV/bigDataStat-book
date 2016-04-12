@@ -176,7 +176,10 @@ The examples are run on Purdue's Hathi cluster.
   rawblock$cmp_bm = SparkR::cast(rawblock$cmp_bm, "double")
   rawblock$cmp_by = SparkR::cast(rawblock$cmp_by, "double")
   rawblock$cmp_plz = SparkR::cast(rawblock$cmp_plz, "double")
-  rawblock$is_match = cast(rawblock$is_match, list(type="array", elementType="bool", containsNull=TRUE)
+  rawblock$is_match = cast(rawblock$is_match, "byte")
+  
+  rawblock_filter = filter(rawblock, rawblock$id_1=="16024"&rawblock$id_2=="27196")
+  collect(rawblock_filter)
 
   # Persist data
   persist(rawblock, "MEMORY_AND_DISK")
