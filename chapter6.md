@@ -61,142 +61,146 @@ The examples are run on Purdue's Hathi cluster.
 
 - **Download raw data and save on HDFS**
 
-```bash  
-# Download, process and save raw data in HDFS
-panc@hathi ~$ hdfs dfs -mkdir /user/panc/linkage
-panc@hathi ~$ cd download
-panc@hathi download$ wget https://archive.ics.uci.edu/ml/machine-learning-databases/00210/donation.zip
-panc@hathi download$ unzip -d donation donation.zip
-panc@hathi download$ cd donation 
-panc@hathi donation$ for i in `seq 1 10`; do 
-  unzip -d block_$i block_$i.zip | hdfs dfs -put ./block_$i/block_$i.csv /user/panc/linkage 
-done
+  ```bash  
+  # Download, process and save raw data in HDFS
+  panc@hathi ~$ hdfs dfs -mkdir /user/panc/linkage
+  panc@hathi ~$ cd download
+  panc@hathi download$ wget https://archive.ics.uci.edu/ml/machine-learning-databases/00210/donation.zip
+  panc@hathi download$ unzip -d donation donation.zip
+  panc@hathi download$ cd donation 
+  panc@hathi donation$ for i in `seq 1 10`; do 
+    unzip -d block_$i block_$i.zip | hdfs dfs -put ./block_$i/block_$i.csv /user/panc/linkage 
+  done
 
-# Check data are saved in HDFS
-panc@hathi ~$ hdfs dfs -ls /user/panc/linkage
-```
+  # Check data are saved in HDFS
+  panc@hathi ~$ hdfs dfs -ls /user/panc/linkage
+  ```
 
 - **Bring data into SparkR**
 
-```bash
-# Start SparkR console
-panc@hathi ~$ source /etc/default/hadoop
-panc@hathi ~$ module load r
-panc@hathi ~$ sparkR --master yarn-client --packages com.databricks:spark-csv_2.10:1.3.0
-```
+  ```bash
+  # Start SparkR console
+  panc@hathi ~$ source /etc/default/hadoop
+  panc@hathi ~$ module load r
+  panc@hathi ~$ sparkR --master yarn-client --packages com.databricks:spark-csv_2.10:1.3.0
+  ```
 
-By using `sparkR` command, `SparkR` package is automatically sourced in R and `sc` and `sqlContext` are created.
+  By using `sparkR` command, `SparkR` package is automatically sourced in R and `sc` and `sqlContext` are created.
 
-**Note** `com.databricks:spark-csv_2.10:1.3.0` is the package including data source connectors for popular file formats like CSV and Avro. 
+  **Note** `com.databricks:spark-csv_2.10:1.3.0` is the package including data source connectors for popular file formats like CSV and Avro. 
 
-**Note** [SparkR doc](https://spark.apache.org/docs/latest/sparkr.html#from-data-sources) says we should use `com.databricks:spark-csv_2.11:1.0.3` (or `com.databricks:spark-csv_2.10:1.0.3`) but I failed to load data by using this package. Instead, I use `com.databricks:spark-csv_2.10:1.3.0` and successfully loaded data. This solution is described on [this spark-csv issue page](https://github.com/databricks/spark-csv/issues/206#issuecomment-197403908).
+  **Note** [SparkR doc](https://spark.apache.org/docs/latest/sparkr.html#from-data-sources) says we should use `com.databricks:spark-csv_2.11:1.0.3` (or `com.databricks:spark-csv_2.10:1.0.3`) but I failed to load data by using this package. Instead, I use `com.databricks:spark-csv_2.10:1.3.0` and successfully loaded data. This solution is described on [this spark-csv issue page](https://github.com/databricks/spark-csv/issues/206#issuecomment-197403908).
 
-The data set consists of 10 block files (.csv format). Let's first have a taste of the data.
+  The data set consists of 10 block files (.csv format). Let's first have a taste of the data.
 
-```r
-# Read one piece of the dataset as SparkR DataFrame
-# SparkR natively support .csv file format
-# By default, `read.df` reads data from HDFS.
-rawblock1 = read.df(sqlContext, "/user/panc/linkage/block_1.csv", "com.databricks.spark.csv", header="true") 
+  ```r
+  # Read one piece of the dataset as SparkR DataFrame
+  # SparkR natively support .csv file format
+  # By default, `read.df` reads data from HDFS.
+  rawblock1 = read.df(sqlContext, "/user/panc/linkage/block_1.csv", "com.databricks.spark.csv", header="true") 
 
-head(rawblock1) # how it looks like
-printSchema(rawblock1) # schema shows data types
-head(select(rawblock1, rawblock1$id_1)) # select one column
-class(rawblock1) # DataFrame
-nrow(rawblock1) # 574913
-ncol(rawblock1) # 12
+  head(rawblock1) # how it looks like
+  printSchema(rawblock1) # schema shows data types
+  head(select(rawblock1, rawblock1$id_1)) # select one column
+  class(rawblock1) # DataFrame
+  nrow(rawblock1) # 574913
+  ncol(rawblock1) # 12
 
-# Another piece of the dataset
-rawblock2 = read.df(sqlContext, "/user/panc/linkage/block_2.csv", "com.databricks.spark.csv", header="true") 
+  # Another piece of the dataset
+  rawblock2 = read.df(sqlContext, "/user/panc/linkage/block_2.csv", "com.databricks.spark.csv", header="true") 
 
-nrow(rawblock2) # 574913
+  nrow(rawblock2) # 574913
 
-# Combine the two DataFrames
-bigrawblock = SparkR::rbind(rawblock1, rawblock2)
+  # Combine the two DataFrames
+  bigrawblock = SparkR::rbind(rawblock1, rawblock2)
 
-nrow(bigrawblock) # 1149826
-```
+  nrow(bigrawblock) # 1149826
+  ```
 
-Now, let's "bring" all data into SparkR.
+  Now, let's "bring" all data into SparkR.
 
-```r
-###########################################
-# If you know there is no missing values. #
-###########################################
-# Define the schema
-# otherwise, spark-csv will not infer the column types
-# and set all columns as String
-myschema = structType(structField("id_1", "integer"),
-                      structField("id_2", "integer"),
-                      structField("cmp_fname_c1", "double"),
-                      structField("cmp_fname_c2", "double"),
-                      structField("cmp_lname_c1", "double"),
-                      structField("cmp_lname_c2", "double"),
-                      structField("cmp_sex", "double"),
-                      structField("cmp_bd", "double"),
-                      structField("cmp_bm", "double"),
-                      structField("cmp_by", "double"),
-                      structField("cmp_plz", "double"),
-                      structField("is_match", "boolean"))
+  ```r
+  ###########################################
+  # If you know there is no missing values. #
+  ###########################################
+  # Define the schema
+  # otherwise, spark-csv will not infer the column types
+  # and set all columns as String
+  myschema = structType(structField("id_1", "integer"),
+                        structField("id_2", "integer"),
+                        structField("cmp_fname_c1", "double"),
+                        structField("cmp_fname_c2", "double"),
+                        structField("cmp_lname_c1", "double"),
+                        structField("cmp_lname_c2", "double"),
+                        structField("cmp_sex", "double"),
+                        structField("cmp_bd", "double"),
+                        structField("cmp_bm", "double"),
+                        structField("cmp_by", "double"),
+                        structField("cmp_plz", "double"),
+                        structField("is_match", "boolean"))
 
-# first piece
-rawblock = read.df(sqlContext, "/user/panc/linkage/block_1.csv", "com.databricks.spark.csv", header="true", schema=myschema) 
-# total number of pieces
-nblocks = 10
-# combine all pieces
-for(i in 2:nblocks){
-  data_file_path = paste("/user/panc/linkage/block_", i, ".csv", sep='')
-  rawblock_i = read.df(sqlContext, data_file_path, "com.databricks.spark.csv", header="true", schema=myschema) 
-  rawblock = SparkR::rbind(rawblock, rawblock_i)
-}
+  # first piece
+  rawblock = read.df(sqlContext, "/user/panc/linkage/block_1.csv", "com.databricks.spark.csv", header="true", schema=myschema) 
+  # total number of pieces
+  nblocks = 10
+  # combine all pieces
+  for(i in 2:nblocks){
+    data_file_path = paste("/user/panc/linkage/block_", i, ".csv", sep='')
+    rawblock_i = read.df(sqlContext, data_file_path, "com.databricks.spark.csv", header="true", schema=myschema) 
+    rawblock = SparkR::rbind(rawblock, rawblock_i)
+  }
 
-################################
-# If there are missing vlaues, #
-# use default schema.          #
-################################
-# first piece
-rawblock = read.df(sqlContext, "/user/panc/linkage/block_1.csv", "com.databricks.spark.csv", header="true") 
-# total number of pieces
-nblocks = 10
-# combine all pieces
-for(i in 2:nblocks){
-  data_file_path = paste("/user/panc/linkage/block_", i, ".csv", sep='')
-  rawblock_i = read.df(sqlContext, data_file_path, "com.databricks.spark.csv", header="true") 
-  rawblock = SparkR::rbind(rawblock, rawblock_i)
-}
-# Cast column types one-by-one
-rawblock$id_1 = SparkR::cast(rawblock$id_1, "int")
-rawblock$id_2 = SparkR::cast(rawblock$id_2, "int")
-rawblock$cmp_fname_c1 = SparkR::cast(rawblock$cmp_fname_c1, "double")
-rawblock$cmp_fname_c2 = SparkR::cast(rawblock$cmp_fname_c2, "double")
-rawblock$cmp_lname_c1 = SparkR::cast(rawblock$cmp_lname_c1, "double")
-rawblock$cmp_lname_c2 = SparkR::cast(rawblock$cmp_lname_c2, "double")
-rawblock$cmp_sex = SparkR::cast(rawblock$cmp_sex, "double")
-rawblock$cmp_bd = SparkR::cast(rawblock$cmp_bd, "double")
-rawblock$cmp_bm = SparkR::cast(rawblock$cmp_bm, "double")
-rawblock$cmp_by = SparkR::cast(rawblock$cmp_by, "double")
-rawblock$cmp_plz = SparkR::cast(rawblock$cmp_plz, "double")
-rawblock$is_match = SparkR::cast(rawblock$is_match, "boolean")
+  ################################
+  # If there are missing vlaues, #
+  # use default schema.          #
+  ################################
+  # first piece
+  rawblock = read.df(sqlContext, "/user/panc/linkage/block_1.csv", "com.databricks.spark.csv", header="true") 
+  # total number of pieces
+  nblocks = 10
+  # combine all pieces
+  for(i in 2:nblocks){
+    data_file_path = paste("/user/panc/linkage/block_", i, ".csv", sep='')
+    rawblock_i = read.df(sqlContext, data_file_path, "com.databricks.spark.csv", header="true") 
+    rawblock = SparkR::rbind(rawblock, rawblock_i)
+  }
+  # Cast column types one-by-one
+  rawblock$id_1 = SparkR::cast(rawblock$id_1, "int")
+  rawblock$id_2 = SparkR::cast(rawblock$id_2, "int")
+  rawblock$cmp_fname_c1 = SparkR::cast(rawblock$cmp_fname_c1, "double")
+  rawblock$cmp_fname_c2 = SparkR::cast(rawblock$cmp_fname_c2, "double")
+  rawblock$cmp_lname_c1 = SparkR::cast(rawblock$cmp_lname_c1, "double")
+  rawblock$cmp_lname_c2 = SparkR::cast(rawblock$cmp_lname_c2, "double")
+  rawblock$cmp_sex = SparkR::cast(rawblock$cmp_sex, "double")
+  rawblock$cmp_bd = SparkR::cast(rawblock$cmp_bd, "double")
+  rawblock$cmp_bm = SparkR::cast(rawblock$cmp_bm, "double")
+  rawblock$cmp_by = SparkR::cast(rawblock$cmp_by, "double")
+  rawblock$cmp_plz = SparkR::cast(rawblock$cmp_plz, "double")
+  rawblock$is_match = SparkR::cast(rawblock$is_match, "boolean")
 
-# Persist data
-persist(rawblock, "MEMORY_AND_DISK")
+  # Persist data
+  persist(rawblock, "MEMORY_AND_DISK")
 
-# Check if all data are available
-nrow(rawblock) # 5749132 
-printSchema(rawblock)
-```
+  # Check if all data are available
+  nrow(rawblock) # 5749132 
+  printSchema(rawblock)
+  ```
 
-**Note** I couldn't find SparkR's native support for read data files (at least .csv files) from a folder. 
+  **Note** I couldn't find SparkR's native support for read data files (at least .csv files) from a folder. 
 
-**Note** We can see `spark-csv` sets column types to String by default and will not attempt to infer types. So we need to cast each column to their proper data types in the second method above. [Here](https://mail-archives.apache.org/mod_mbox/spark-dev/201506.mbox/%3CCAKx7Bf8c19Bsdeihqm5Xu=ZnzCJ3J8BJotdru4Z3VvEhdC3=4w@mail.gmail.com%3E) is an Apache mailing list on this matter.
+  **Note** We can see `spark-csv` sets column types to String by default and will not attempt to infer types. So we need to cast each column to their proper data types in the second method above. [Here](https://mail-archives.apache.org/mod_mbox/spark-dev/201506.mbox/%3CCAKx7Bf8c19Bsdeihqm5Xu=ZnzCJ3J8BJotdru4Z3VvEhdC3=4w@mail.gmail.com%3E) is an Apache mailing list on this matter.
 
 - **Preprocessing Data**
 
   aggregating
   
   ```r
-  agg()
+  grouped = agg(rawblock, count = n(rawblock$is_match))
+  grouped = groupBy(rawblock, 'is_match')
+  class(grouped) # GroupedData
+  
   ```
 
+  **NOte
 
 
