@@ -176,7 +176,7 @@ The examples are run on Purdue's Hathi cluster.
   rawblock$cmp_bm = SparkR::cast(rawblock$cmp_bm, "double")
   rawblock$cmp_by = SparkR::cast(rawblock$cmp_by, "double")
   rawblock$cmp_plz = SparkR::cast(rawblock$cmp_plz, "double")
-  rawblock$is_match = SparkR::cast(rawblock$is_match, "boolean")
+  rawblock$is_match = SparkR::cast(rawblock$is_match, "bool")
 
   # Persist data
   persist(rawblock, "MEMORY_AND_DISK")
@@ -195,8 +195,12 @@ The examples are run on Purdue's Hathi cluster.
   aggregating
   
   ```r
-  grouped = agg(rawblock, count = n(rawblock$is_match))
-  grouped = groupBy(rawblock, 'is_match')
+  rawblock_filter = filter(rawblock, rawblock$id_1==20206)
+  collect(rawblock_filter)
+  
+  grouped = agg(rawblock, count = count(rawblock$is_match))
+  grouped = sum(groupBy(rawblock, "is_match"))
+  collect(grouped)
   class(grouped) # GroupedData
   
   ```
