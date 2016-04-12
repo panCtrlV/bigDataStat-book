@@ -199,7 +199,8 @@ The examples are run on Purdue's Hathi cluster.
 
   **Note** We can see `spark-csv` sets column types to String by default and will not attempt to infer types. So we need to cast each column to their proper data types in the second method above. [Here](https://mail-archives.apache.org/mod_mbox/spark-dev/201506.mbox/%3CCAKx7Bf8c19Bsdeihqm5Xu=ZnzCJ3J8BJotdru4Z3VvEhdC3=4w@mail.gmail.com%3E) is an Apache mailing list on this matter.
   
-  **Note**
+  **Note** According to [Spark SQL, DataFrames and Datasets Guide](http://spark.apache.org/docs/latest/sql-programming-guide.html#data-types), 
+    
 
 - **Preprocessing Data**
 
@@ -210,7 +211,7 @@ The examples are run on Purdue's Hathi cluster.
   collect(rawblock_filter)
   
   grouped = agg(rawblock, count = count(rawblock$is_match))
-  grouped = sum(groupBy(rawblock, "is_match"))
+  grouped = count(groupBy(rawblock, "is_match"))
   collect(grouped)
   class(grouped) # GroupedData
   
