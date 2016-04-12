@@ -134,3 +134,5 @@ for(i in 2:nblocks){
 # Check if all data are available
 nrow(rawblock) # 5749132
 ```
+
+**Note** I couldn't find SparkR's native support for read data files (at least .csv files) from a folder. 
