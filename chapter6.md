@@ -101,7 +101,7 @@ rawblock1 = read.df(sqlContext, "/user/panc/linkage/block_1.csv", "com.databrick
 
 head(rawblock1) # how it looks like
 printSchema(rawblock1) # schema shows data types
-head(select(rawblock1, rawblock1$id_1)) # show one column
+head(select(rawblock1, rawblock1$id_1)) # select one column
 class(rawblock1) # DataFrame
 nrow(rawblock1) # 574913
 ncol(rawblock1) # 12
@@ -141,5 +141,5 @@ printSchema(rawblock)
 We can see `spark-csv` sets column types to String by default and will not attempt to infer types. So we need to cast each column to their proper data types.
 
 ```r
-rawblock$id_1 = as.integer(rawblock$id_1)
+SparkR::cast(rawblock$id_1, "integer")
 ```
