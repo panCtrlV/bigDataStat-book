@@ -59,3 +59,7 @@ module load r
 sparkR --master yarn-client
 ```
 
+```r
+# Read data as RRDD
+
+```
