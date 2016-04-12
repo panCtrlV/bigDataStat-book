@@ -25,6 +25,8 @@ The most popular solution for using R in large scale distributed computing is to
 
   - SparkR architecture
 
+    <font color='red'>Refer to the paper</font>
+
     * Key features in its implementation 
       +  R-JVM bridge
     * More packages are under development, e.g. ggplot2.sparkr
