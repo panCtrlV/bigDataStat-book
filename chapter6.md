@@ -120,6 +120,20 @@ nrow(bigrawblock) # 1149826
 Now, let's "bring" all data into SparkR.
 
 ```r
+# Set the schema
+myschema = structType(structField("id_1", "integer"),
+                      structField("id_2", "integer"),
+                      structField("cmp_fname_c1", "double"),
+                      structField("cmp_fname_c2", "double"),
+                      structField("cmp_lname_c1", "double"),
+                      structField("cmp_lname_c2", "double"),
+                      structField("cmp_sex", "double"),
+                      structField("cmp_bd", "double"),
+                      structField("cmp_bm", "double"),
+                      structField("cmp_by", "double"),
+                      structField("cmp_plz", "double"),
+                      structField("is_match", "boolean"))
+
 # first piece
 rawblock = read.df(sqlContext, "/user/panc/linkage/block_1.csv", "com.databricks.spark.csv", header="true") 
 # total number of pieces
