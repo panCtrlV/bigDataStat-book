@@ -156,6 +156,10 @@ The examples are run on Purdue's Hathi cluster.
   ################################
   # first piece
   rawblock = read.df(sqlContext, "/user/panc/linkage/block_1.csv", "com.databricks.spark.csv", header="true") 
+  
+  #rawblock_filter = filter(rawblock, rawblock$id_1=="16024"&rawblock$id_2=="27196")
+  #collect(rawblock_filter)
+  
   # total number of pieces
   nblocks = 10
   # combine all pieces
@@ -178,8 +182,10 @@ The examples are run on Purdue's Hathi cluster.
   rawblock$cmp_plz = SparkR::cast(rawblock$cmp_plz, "double")
   #rawblock$is_match = cast(rawblock$is_match, "bool") # bool type doesn't handle '?' missing values
   
-  rawblock_filter = filter(rawblock, rawblock$id_1=="16024"&rawblock$id_2=="27196")
-  collect(rawblock_filter)
+  
+  #rawblock_filter = filter(rawblock, rawblock$id_1==16024&rawblock$id_2==27196)
+  #collect(rawblock_filter)
+  
 
   # Persist data
   persist(rawblock, "MEMORY_AND_DISK")
@@ -192,6 +198,8 @@ The examples are run on Purdue's Hathi cluster.
   **Note** I couldn't find SparkR's native support for read data files (at least .csv files) from a folder. 
 
   **Note** We can see `spark-csv` sets column types to String by default and will not attempt to infer types. So we need to cast each column to their proper data types in the second method above. [Here](https://mail-archives.apache.org/mod_mbox/spark-dev/201506.mbox/%3CCAKx7Bf8c19Bsdeihqm5Xu=ZnzCJ3J8BJotdru4Z3VvEhdC3=4w@mail.gmail.com%3E) is an Apache mailing list on this matter.
+  
+  **Note**
 
 - **Preprocessing Data**
 
