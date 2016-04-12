@@ -30,4 +30,8 @@ The most popular solution for using R in large scale distributed computing is to
 
 - [RHadoop](https://github.com/RevolutionAnalytics/RHadoop/wiki) <font color='red'>(development seems to be paused)</font>
 
+- Limitations of the approaches in this chapter
+  * It reduces performance overhead
+
+    Running an algorithm in R or Python on top of a JVM-based language like Java or Scala, we have to do some work to pass code and data across the different environments.
 
