@@ -192,5 +192,11 @@ printSchema(rawblock)
 
 - **Preprocessing Data**
 
+  aggregating
+  
+  ```r
+  agg()
+  ```
+
 
 
