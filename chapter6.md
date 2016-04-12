@@ -138,7 +138,7 @@ printSchema(rawblock)
 
 **Note** I couldn't find SparkR's native support for read data files (at least .csv files) from a folder. 
 
-We can see `spark-csv` sets column types to String by default and will not attempt to infer types. So we need to cast each column to a proper data type.
+We can see `spark-csv` sets column types to String by default and will not attempt to infer types. So we need to cast each column to their proper data types.
 
 ```r
 rawblock$id_1 = as.integer(rawblock$id_1)
