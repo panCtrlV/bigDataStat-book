@@ -201,6 +201,6 @@ The examples are run on Purdue's Hathi cluster.
   
   ```
 
-  **NOte
+  **Note** We aren't able to do much with the GroupedData at this point - we can't print or view the data. The only way to use the GroupedData is to pass it into aggregate functions, such as agg or avg.
 
 
