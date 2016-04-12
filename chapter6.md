@@ -40,6 +40,10 @@ The most popular solution for using R in large scale distributed computing is to
   * It reduces performance overhead
 
     Running an algorithm in R on top of a JVM-based language like Java or Scala, we have to do some work to pass code and data across the different environments.[^R-JVM_overhead]
+    
+  * Lack native language support for R
+
+    For example, SparkR is an R wrapper for Spark. Its API only provide limited high-level operations. Lacking low level ETL makes it not very useful.
 
 
 [^R-JVM_overhead]: Advanced Analytics with Spark p24.
@@ -85,5 +89,5 @@ By using `sparkR` command, `sc` and `sqlContext` are automatically available.
 ```r
 # Read data as RRDD
 # SparkR natively support .csv file format
-rawblock1 = read.df(sqlContext, "/user/panc/linkage/block_1.csv", inferSchema='true')
+rawblock1 = read.df(sqlContext, "/user/panc/linkage/block_1.csv", "com.databricks.spark.csv")
 ```
