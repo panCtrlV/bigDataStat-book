@@ -120,7 +120,9 @@ nrow(bigrawblock) # 1149826
 Now, let's "bring" all data into SparkR.
 
 ```r
-# Set the schema
+# Define the schema
+# otherwise, spark-csv will not infer the column types
+# and set all columns as String
 myschema = structType(structField("id_1", "integer"),
                       structField("id_2", "integer"),
                       structField("cmp_fname_c1", "double"),
@@ -135,13 +137,13 @@ myschema = structType(structField("id_1", "integer"),
                       structField("is_match", "boolean"))
 
 # first piece
-rawblock = read.df(sqlContext, "/user/panc/linkage/block_1.csv", "com.databricks.spark.csv", header="true") 
+rawblock = read.df(sqlContext, "/user/panc/linkage/block_1.csv", "com.databricks.spark.csv", header="true", schema=myschema) 
 # total number of pieces
 nblocks = 10
 # combine all pieces
 for(i in 2:nblocks){
   data_file_path = paste("/user/panc/linkage/block_", i, ".csv", sep='')
-  rawblock_i = read.df(sqlContext, data_file_path, "com.databricks.spark.csv", header="true") 
+  rawblock_i = read.df(sqlContext, data_file_path, "com.databricks.spark.csv", header="true", schema=myschema) 
   rawblock = SparkR::rbind(rawblock, rawblock_i)
 }
 
