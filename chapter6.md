@@ -98,7 +98,6 @@ By using `sparkR` command, `sc` and `sqlContext` are automatically available.
 rawblock1 = read.df(sqlContext, "/user/panc/linkage/block_1.csv", "com.databricks.spark.csv", header="true") 
 
 head(rawblock1) # how it looks like
-printSchema(rawblock1) # schema
-
-head(select(rawblock1, rawblock1$id_1))
+printSchema(rawblock1) # schema shows data types
+head(select(rawblock1, rawblock1$id_1)) # show one column
 ```
