@@ -66,10 +66,10 @@ done
 # Check data are saved in HDFS
 panc@hathi ~$ hdfs dfs -ls /user/panc/linkage
 
-source /etc/default/hadoop
-module load r
-
-sparkR --master yarn-client
+# Start SparkR console
+panc@hathi ~$ source /etc/default/hadoop
+panc@hathi ~$ module load r
+panc@hathi ~$ sparkR --master yarn-client
 ```
 
 By using `sparkR` command, `sc` and `sqlContext` are automatically available.
