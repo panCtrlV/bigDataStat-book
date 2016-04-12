@@ -164,21 +164,8 @@ for(i in 2:nblocks){
   rawblock_i = read.df(sqlContext, data_file_path, "com.databricks.spark.csv", header="true") 
   rawblock = SparkR::rbind(rawblock, rawblock_i)
 }
-
-
-# Check if all data are available
-nrow(rawblock) # 5749132 
-printSchema(rawblock)
-```
-
-**Note** I couldn't find SparkR's native support for read data files (at least .csv files) from a folder. 
-
-We can see `spark-csv` sets column types to String by default and will not attempt to infer types. So we need to cast each column to their proper data types.
-
-```r
+# Cast column types one-by-one
 rawblock$id_1 = SparkR::cast(rawblock$id_1, "int")
-printSchema(rawblock) # now the first column is of intger type
-# Cast the other columns on-by-one
 rawblock$id_2 = SparkR::cast(rawblock$id_2, "int")
 rawblock$cmp_fname_c1 = SparkR::cast(rawblock$cmp_fname_c1, "double")
 rawblock$cmp_fname_c2 = SparkR::cast(rawblock$cmp_fname_c2, "double")
@@ -190,6 +177,21 @@ rawblock$cmp_bm = SparkR::cast(rawblock$cmp_bm, "double")
 rawblock$cmp_by = SparkR::cast(rawblock$cmp_by, "double")
 rawblock$cmp_plz = SparkR::cast(rawblock$cmp_plz, "double")
 rawblock$is_match = SparkR::cast(rawblock$is_match, "boolean")
+
+# Check if all data are available
+nrow(rawblock) # 5749132 
+printSchema(rawblock)
+```
+
+**Note** I couldn't find SparkR's native support for read data files (at least .csv files) from a folder. 
+
+**Note** We can see `spark-csv` sets column types to String by default and will not attempt to infer types. So we need to cast each column to their proper data types in the second method above.
+
+```r
+rawblock$id_1 = SparkR::cast(rawblock$id_1, "int")
+printSchema(rawblock) # now the first column is of intger type
+# Cast the other columns on-by-one
+
 printSchema(rawblock) # now column types are approperiate
 ```
 
