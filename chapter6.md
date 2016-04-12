@@ -201,7 +201,7 @@ The examples are run on Purdue's Hathi cluster.
     
   >There is specially handling for not-a-number (NaN) when dealing with float or double types that does not exactly match standard floating point semantics.
 
-    If a column contains "TRUE", "FALSE" and missing values represented by "?" and we want to cast it to "bool", SparkR fails to gracefully accommodate the missing values and <font color='red'>fuck up</font> the whole column.
+    If a column contains "TRUE", "FALSE" and missing values represented by "?" and we want to cast it to "bool", SparkR fails to gracefully accommodate the missing values and <font color='red'>fuck up</font> the whole column. That's why I left the last column unchnaged.
 
 - **Preprocessing Data**
 
