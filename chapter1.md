@@ -40,6 +40,11 @@
   * Parallel and distributed computing models<font color='red'>(or paradigms?)</font>
     + Hadoop YARN/MRv2
     + Spark in-memory computing
+  
+  * Distributed data model 
+
+    e.g. RDD
+  
   * Suitable programming language
     + R
     + Scala
