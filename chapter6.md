@@ -54,5 +54,8 @@ The examples are run on Purdue's Hathi cluster.
 
 ```bash  
 source /etc/default/hadoop
+module load r
 
+sparkR --master yarn-client
 ```
+
