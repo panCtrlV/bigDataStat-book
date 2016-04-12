@@ -43,7 +43,7 @@
   
   * Distributed data model 
 
-    We need an abstraction for representing a collection of objects that can be distributed across multiple machines in a cluster, e.g. RDD, RRDD
+    We need an abstraction for representing a collection of objects that can be distributed across multiple machines in a cluster, e.g. RDD
   
   * Suitable programming language
     + R
