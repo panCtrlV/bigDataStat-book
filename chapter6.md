@@ -76,7 +76,7 @@ done
 panc@hathi ~$ hdfs dfs -ls /user/panc/linkage
 ```
 
-- **Preprocess data**
+- **Bring data into SparkR**
 
 ```bash
 # Start SparkR console
@@ -177,6 +177,9 @@ rawblock$cmp_bm = SparkR::cast(rawblock$cmp_bm, "double")
 rawblock$cmp_by = SparkR::cast(rawblock$cmp_by, "double")
 rawblock$cmp_plz = SparkR::cast(rawblock$cmp_plz, "double")
 rawblock$is_match = SparkR::cast(rawblock$is_match, "boolean")
+
+# Persist data
+persist(rawblock, "MEMORY_AND_DISK")
 
 # Check if all data are available
 nrow(rawblock) # 5749132 
