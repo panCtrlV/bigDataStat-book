@@ -48,5 +48,11 @@ The most popular solution for using R in large scale distributed computing is to
 
 ## SparkR Examples
 
+The examples are run on Purdue's Hathi cluster.
+
 - Data pre-processing
 
+```bash  
+source /etc/default/hadoop
+
+```
