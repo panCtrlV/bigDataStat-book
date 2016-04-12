@@ -92,7 +92,7 @@ By using `sparkR` command, `sc` and `sqlContext` are automatically available.
 **Note** [SparkR doc](https://spark.apache.org/docs/latest/sparkr.html#from-data-sources) says we should use `com.databricks:spark-csv_2.11:1.0.3` (or `com.databricks:spark-csv_2.10:1.0.3`) but I failed to load data by using this package. Instead, I use `com.databricks:spark-csv_2.10:1.3.0` and successfully loaded data. This solution is described on [this spark-csv issue page](https://github.com/databricks/spark-csv/issues/206#issuecomment-197403908).
 
 ```r
-# Read data as RRDD
+# Read one piece of the dataset as SparkR DataFrame
 # SparkR natively support .csv file format
 # By default, `read.df` reads data from HDFS.
 rawblock1 = read.df(sqlContext, "/user/panc/linkage/block_1.csv", "com.databricks.spark.csv", header="true") 
@@ -100,4 +100,8 @@ rawblock1 = read.df(sqlContext, "/user/panc/linkage/block_1.csv", "com.databrick
 head(rawblock1) # how it looks like
 printSchema(rawblock1) # schema shows data types
 head(select(rawblock1, rawblock1$id_1)) # show one column
+class(rawblock1) # DataFrame
+
+# Another piece of the dataset
+
 ```
