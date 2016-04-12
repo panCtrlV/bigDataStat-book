@@ -33,5 +33,7 @@ The most popular solution for using R in large scale distributed computing is to
 - Limitations of the approaches in this chapter
   * It reduces performance overhead
 
-    Running an algorithm in R on top of a JVM-based language like Java or Scala, we have to do some work to pass code and data across the different environments.
+    Running an algorithm in R on top of a JVM-based language like Java or Scala, we have to do some work to pass code and data across the different environments.[^R-JVM_overhead]
 
+
+[^R-JVM_overhead]: Advanced Analytics with Spark p24.
