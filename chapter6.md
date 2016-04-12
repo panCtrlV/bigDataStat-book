@@ -107,6 +107,10 @@ ncol(rawblock1) # 12
 # Another piece of the dataset
 rawblock2 = read.df(sqlContext, "/user/panc/linkage/block_2.csv", "com.databricks.spark.csv", header="true") 
 
+nrow(rawblock2) # 574913
+
 # Combine the two DataFrames
 bigrawblock = SparkR::rbind(rawblock1, rawblock2)
+
+nrow(bigrawblock) # 1149826
 ```
