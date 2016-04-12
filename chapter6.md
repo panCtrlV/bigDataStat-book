@@ -185,14 +185,7 @@ printSchema(rawblock)
 
 **Note** I couldn't find SparkR's native support for read data files (at least .csv files) from a folder. 
 
-**Note** We can see `spark-csv` sets column types to String by default and will not attempt to infer types. So we need to cast each column to their proper data types in the second method above.
+**Note** We can see `spark-csv` sets column types to String by default and will not attempt to infer types. So we need to cast each column to their proper data types in the second method above. [Here](https://mail-archives.apache.org/mod_mbox/spark-dev/201506.mbox/%3CCAKx7Bf8c19Bsdeihqm5Xu=ZnzCJ3J8BJotdru4Z3VvEhdC3=4w@mail.gmail.com%3E) is an Apache mailing list on this matter.
 
-```r
-rawblock$id_1 = SparkR::cast(rawblock$id_1, "int")
-printSchema(rawblock) # now the first column is of intger type
-# Cast the other columns on-by-one
-
-printSchema(rawblock) # now column types are approperiate
-```
 
 
