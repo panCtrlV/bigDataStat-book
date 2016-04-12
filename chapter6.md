@@ -59,7 +59,7 @@ The examples are run on Purdue's Hathi cluster.
 
 **Note** This example is based on the Linkage example from Advanced Analytics with Spark p37.
 
-- Download raw data and save on HDFS
+- **Download raw data and save on HDFS**
 
 ```bash  
 # Download, process and save raw data in HDFS
