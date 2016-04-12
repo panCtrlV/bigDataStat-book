@@ -180,13 +180,11 @@ The examples are run on Purdue's Hathi cluster.
   rawblock$cmp_bm = SparkR::cast(rawblock$cmp_bm, "double")
   rawblock$cmp_by = SparkR::cast(rawblock$cmp_by, "double")
   rawblock$cmp_plz = SparkR::cast(rawblock$cmp_plz, "double")
-  #rawblock$is_match = cast(rawblock$is_match, "bool") # bool type doesn't handle '?' missing values
-  
+  #rawblock$is_match = cast(rawblock$is_match, "bool") # bool type doesn't handle "?" missing values
   
   #rawblock_filter = filter(rawblock, rawblock$id_1==16024&rawblock$id_2==27196)
   #collect(rawblock_filter)
-  
-
+ 
   # Persist data
   persist(rawblock, "MEMORY_AND_DISK")
 
@@ -201,6 +199,7 @@ The examples are run on Purdue's Hathi cluster.
   
   **Note** According to [Spark SQL, DataFrames and Datasets Guide](http://spark.apache.org/docs/latest/sql-programming-guide.html#data-types), 
     
+    There is specially handling for not-a-number (NaN) when dealing with float or double types that does not exactly match standard floating point semantics.
 
 - **Preprocessing Data**
 
