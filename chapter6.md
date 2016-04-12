@@ -40,3 +40,7 @@ The most popular solution for using R in large scale distributed computing is to
 
 
 [^R-JVM_overhead]: Advanced Analytics with Spark p24.
+
+---
+
+## SparkR Examples
