@@ -157,3 +157,5 @@ rawblock$cmp_plz = SparkR::cast(rawblock$cmp_plz, "double")
 rawblock$is_match = SparkR::cast(rawblock$is_match, "boolean")
 printSchema(rawblock) # now column types are approperiate
 ```
+
+
