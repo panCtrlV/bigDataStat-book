@@ -176,7 +176,7 @@ The examples are run on Purdue's Hathi cluster.
   rawblock$cmp_bm = SparkR::cast(rawblock$cmp_bm, "double")
   rawblock$cmp_by = SparkR::cast(rawblock$cmp_by, "double")
   rawblock$cmp_plz = SparkR::cast(rawblock$cmp_plz, "double")
-  #rawblock$is_match = cast(rawblock$is_match, "bool")
+  #rawblock$is_match = cast(rawblock$is_match, "bool") # bool type doesn't handle '?' missing values
   
   rawblock_filter = filter(rawblock, rawblock$id_1=="16024"&rawblock$id_2=="27196")
   collect(rawblock_filter)
