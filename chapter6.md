@@ -127,6 +127,7 @@ nblocks = 10
 # combine all pieces
 for(i in 2:nblocks){
   data_file_path = paster("/user/panc/linkage/block_", i, ".csv", sep='')
-  rawblock = read.df(sqlContext, data_file_path, "com.databricks.spark.csv", header="true") 
+  rawblock_i = read.df(sqlContext, data_file_path, "com.databricks.spark.csv", header="true") 
+  rawblock = SparkR::rbind(rawblock, rawblock_i)
 }
 ```
