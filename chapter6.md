@@ -59,6 +59,8 @@ module load r
 sparkR --master yarn-client
 ```
 
+By using `sparkR` command, `sc` and `sqlContext` are automatically available.
+
 ```r
 # Read data as RRDD
 
