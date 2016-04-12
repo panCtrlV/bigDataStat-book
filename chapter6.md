@@ -93,7 +93,7 @@ By using `sparkR` command, `sc` and `sqlContext` are automatically available.
 # Read data as RRDD
 # SparkR natively support .csv file format
 # By default, `read.df` reads data from HDFS.
-rawblock1 = read.df(sqlContext, "/user/panc/linkage/block_1.csv", "com.databricks.spark.csv", header="true")
+rawblock1 = read.df(sqlContext, "/user/panc/linkage/block_1.csv", "com.databricks.spark.csv", header="true") # header line is parsed, but no data is read in.
 
 rawblock1 = read.text(sqlContext, "/user/panc/linkage/block_1.csv")
 
