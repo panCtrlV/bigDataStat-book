@@ -76,7 +76,7 @@ done
 panc@hathi ~$ hdfs dfs -ls /user/panc/linkage
 ```
 
-- Preprocess data
+- **Preprocess data**
 
 ```bash
 # Start SparkR console
