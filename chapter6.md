@@ -209,7 +209,8 @@ The examples are run on Purdue's Hathi cluster.
   
   ```r
   # count the number of "TRUE" and "FALSE" respectively
-  grouped_count = count(groupBy(rawblock, "is_match"))
+  grouped = groupBy(rawblock, "is_match")
+  grouped_count = count(grouped)
   collect(grouped_count)
   ```
 
