@@ -132,9 +132,14 @@ for(i in 2:nblocks){
 }
 
 # Check if all data are available
-nrow(rawblock) # 5749132
+nrow(rawblock) # 5749132 
 printSchema(rawblock)
 ```
 
 **Note** I couldn't find SparkR's native support for read data files (at least .csv files) from a folder. 
 
+We can see `spark-csv` sets column types to String by default and will not attempt to infer types. So we need to cast each column to a proper data type.
+
+```r
+rawblock$id_1 = as.integer(rawblock$id_1)
+```
