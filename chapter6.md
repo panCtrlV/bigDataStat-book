@@ -85,7 +85,7 @@ panc@hathi ~$ module load r
 panc@hathi ~$ sparkR --master yarn-client --packages com.databricks:spark-csv_2.10:1.3.0
 ```
 
-By using `sparkR` command, `sc` and `sqlContext` are automatically available.
+By using `sparkR` command, `SparkR` package is automatically sourced in R and `sc` and `sqlContext` are created.
 
 **Note** `com.databricks:spark-csv_2.10:1.3.0` is the package including data source connectors for popular file formats like CSV and Avro. 
 
@@ -117,3 +117,8 @@ bigrawblock = SparkR::rbind(rawblock1, rawblock2)
 nrow(bigrawblock) # 1149826
 ```
 
+Now, let's "bring" all data into SparkR.
+
+```r
+
+```
