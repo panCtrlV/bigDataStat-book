@@ -120,6 +120,9 @@ nrow(bigrawblock) # 1149826
 Now, let's "bring" all data into SparkR.
 
 ```r
+###########################################
+# If you know there is no missing values. #
+###########################################
 # Define the schema
 # otherwise, spark-csv will not infer the column types
 # and set all columns as String
