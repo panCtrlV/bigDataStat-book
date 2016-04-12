@@ -10,5 +10,5 @@
 
 - Limitation of R
 
-  * inability to scale (due to single threaded computing paradigm and Poor memory management)
+  * inability to scale (due to single threaded computing paradigm and poor memory management)
 
