@@ -8,6 +8,7 @@
   * Object oriented (everything is an object)
   * <font color='red'>Functional programming?</font>
 
-- R lie in their inability to scale
-  * Single threaded
-  * Poor memory management
+- Limitation of R
+
+  * inability to scale (due to single threaded computing paradigm and Poor memory management)
+
