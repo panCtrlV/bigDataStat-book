@@ -8,6 +8,8 @@
   
   Multiple packages are available: `parallel`, `snow`/`snowfall`, `foreach`.[^R_hpc_packages]  
   
+  ![](./figures/R_lapply.jpg) 
+  
   [maybe useful reference.pdf](http://www.labs.hpe.com/research/systems-research/R-workshop/luke-talk1.pdf) 
 
 - Implicit paralellization
