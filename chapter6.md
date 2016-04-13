@@ -205,7 +205,7 @@ The examples are run on Purdue's Hathi cluster.
 
 - **Exploring Data**
 
-  **Aggregating**
+  **Aggregating** (bar graph)
   
   ```r
   # Count the number of "TRUE" and "FALSE" respectively.
