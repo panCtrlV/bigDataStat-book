@@ -223,7 +223,8 @@ The examples are run on Purdue's Hathi cluster.
   **Summary statistics**
   
   ```r
-  mean(rawblock)
+  # remove missing values
+  rawblock_filtered = filter(rawblock, !isNaN(rawblock$cmp_fname_c1))
   ```
 
 
