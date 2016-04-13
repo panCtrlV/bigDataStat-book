@@ -24,7 +24,7 @@
     + R decides internally when to use more than one thread, if allowed
     + available in an experimental package `pnmath`[^pnmath_archive]
 
-  * requires no explicit user action once enabled (just call the compiled function in R)
+  * requires no explicit user action once enabled <font color='red'>(just call the compiled function in R)</font>
 
 
 ---
