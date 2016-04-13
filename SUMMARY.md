@@ -5,6 +5,7 @@
 * [Chapter 2 Computing Infrastructures](chapter2.md)
    * [Multicore Computing](multicore_computing.md)
    * [Cluster Computing](cluster_computing.md)
+   * GPU Computing
 * [Chapter 3 Building a Cluster](chapter3.md)
    * [Virtual Machine Cluster](virtual_machine_cluster.md)
    * [Amazon AWS](amazon_aws.md)
