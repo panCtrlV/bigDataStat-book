@@ -9,7 +9,8 @@
   
   **So, the future is parallel.**
   
-  ![CPU Saturates](./figures/cpu_saturates.jpg) 
+   ![35 Year CPU Trend](./figures/35years_cpu_trend.png)
+   
   
   
 - Parallel computing on a multicore personal computer
