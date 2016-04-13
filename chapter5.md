@@ -1,6 +1,8 @@
 # Chapter 5 <font color='red'>Native</font> Parallel Computing in R
 
 ---
+ [maybe useful reference.pdf](http://www.labs.hpe.com/research/systems-research/R-workshop/luke-talk1.pdf) 
+
 
 - Explicit paralellization
 
@@ -10,7 +12,7 @@
   
   ![](./figures/R_lapply.jpg) 
   
-  [maybe useful reference.pdf](http://www.labs.hpe.com/research/systems-research/R-workshop/luke-talk1.pdf) 
+ 
 
 - Implicit paralellization
 
