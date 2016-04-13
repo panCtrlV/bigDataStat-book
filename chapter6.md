@@ -82,7 +82,10 @@ The examples are run on Purdue's Hathi cluster.
   # Hathi specific loading
   panc@hathi ~$ source /etc/default/hadoop
   panc@hathi ~$ module load r
-  # Start SparkR console  
+  ########################
+  # Start SparkR console #
+  # with sparkR script   #
+  ########################
   panc@hathi ~$ sparkR --master yarn-client --packages com.databricks:spark-csv_2.10:1.3.0
   ```
 
@@ -224,7 +227,7 @@ The examples are run on Purdue's Hathi cluster.
   
   ```r
   # remove missing values
-  rawblock_filtered = filter(rawblock, !isNaN(rawblock$cmp_fname_c1))
+  rawblock_filtered = filter(rawblock, isNotNull(rawblock$cmp_fname_c1))
   ```
 
 
