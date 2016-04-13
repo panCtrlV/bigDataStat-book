@@ -2,6 +2,8 @@
 
 ---
 
+![](./figures/mapreduce_framework.jpg)
+
 - HDFS ＋ MapReduce
 
   * HDFS as distributed data storage
