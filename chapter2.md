@@ -1,6 +1,10 @@
 # Chapter 2 Computing Infrastructures for Big Data Statistics
 ---
 
+- Motivation
+
+  
+  
 - Parallel computing on a multicore personal computer
   * Computer architecture
   * Multithreading
