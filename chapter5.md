@@ -6,8 +6,6 @@
 
 - Explicit paralellization
 
-  
-
 - Implicit paralellization
   
   * uses threads and shared memory (ideally via OpenMP) <font color='red'>TODO: similar idea to SupR?</font>
