@@ -10,6 +10,7 @@ The most popular solution for using R in large scale distributed computing is to
 - [Tessera](http://tessera.io/)
   － HDFS ＋ MapReduce
     * HDFS as distributed data storage
+      + Read data from HDFS to multiple workers on different nodes (keep data close)
     * Hadoop YARN/MRv2 as the computing backend
      
   - R as the front end
