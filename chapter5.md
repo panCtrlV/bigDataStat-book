@@ -12,7 +12,10 @@
 - Implicit paralellization
 
   via vectorized operations. 
+  
+  uses threads and shared memory (ideally via OpenMP)
 
+  requires no explicit user action once enabled (just call the compiled function in R)
 
 - [Rmpi](https://bioinfomagician.wordpress.com/2013/11/25/mpi-tutorial-for-r-rmpi/) but OpenMPI is for distributed memory cluster computing?
 
