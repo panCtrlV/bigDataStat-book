@@ -28,6 +28,11 @@
 
   * Rcpp and inline
 
+    + Rcpp is a C++ library facilitates the integration of R and C++
+    + Inline provides functionality to dynamically define
+R functions and S4 methods with in-lined C, C++
+and Fortran. <font color='red'>i.e. `.Call(...)`?</font>
+
 
 ---
 
