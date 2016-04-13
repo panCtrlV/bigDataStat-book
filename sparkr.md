@@ -28,7 +28,7 @@
 
   * Key features in its implementation 
     +  R-JVM bridge
-       Older versions use rJava. Now has its own implementation. Refer to the paper.
+       Older versions use rJava to call Java/Scala code. Now has its own implementation. Refer to the paper.
        
   * More packages are under development, e.g. ggplot2.sparkr
 
