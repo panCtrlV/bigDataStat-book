@@ -219,6 +219,10 @@ The examples are run on Purdue's Hathi cluster.
   
   **Note** Performing aggregations on data in the cluster is usually expensive. The more filtering that we can do to the data before performing an aggregation, the faster we will get an answer to our question.[^filter_before_aggregate]
 
+  **Summary statistics**
+  
+  
+
 
 ---
 
