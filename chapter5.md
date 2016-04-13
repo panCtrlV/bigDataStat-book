@@ -25,8 +25,6 @@
 
 ---
 
-- [Rmpi](https://bioinfomagician.wordpress.com/2013/11/25/mpi-tutorial-for-r-rmpi/) but OpenMPI is for distributed memory cluster computing?
-
 - pbdR
 
 R has interfaces for calling compiled C/C++, Fortran codes. 
