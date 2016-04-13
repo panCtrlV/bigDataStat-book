@@ -37,6 +37,8 @@
       
       MapR FS implements the HDFS API with a native C distributed read-write file system[^maprfs]
       
+  * Distribued data model
+  
   * Parallel and distributed computing models<font color='red'>(or paradigms?)</font>
     + Hadoop YARN/MRv2
     + Spark in-memory computing
