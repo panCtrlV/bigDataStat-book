@@ -13,4 +13,4 @@
 
 ---
 
-[^top500_supercomputers]: [Top 500 super computer for Nov. 2015](http://www.top500.org/lists/2015/11/)
+[^top500_supercomputers]: [Top 500 super computer for Nov. 2015](http://www.top500.org/lists/2015/11/).
