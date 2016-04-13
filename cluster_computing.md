@@ -9,4 +9,8 @@
 
   > InfiniBand (abbreviated IB), a computer-networking communications standard used in high-performance computing, features very high throughput and very low latency.
 
-- Better scalability 
+- Better scalability [^top500_supercomputers]
+
+---
+
+[^top500_supercomputers]: [Top 500 super computer for Nov. 2015](http://www.top500.org/lists/2015/11/)
