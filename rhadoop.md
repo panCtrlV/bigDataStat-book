@@ -2,4 +2,4 @@
 
 ---
 
-<font color='red'>(development seems to be paused)</font>
+<font color='red'>development seems to be discontinued</font>
