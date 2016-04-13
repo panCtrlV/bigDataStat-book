@@ -12,7 +12,7 @@
   
   ![](./figures/R_lapply.jpg) 
   
- 
+ **Note** [Figure source](http://www.nimbios.org/tutorials/talks/Pragnesh-talk.pdf) 
 
 - Implicit paralellization
 
