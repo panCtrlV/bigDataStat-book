@@ -40,6 +40,11 @@
 
   [Link to examples ...](./sparkr_examples.md) 
 
+- Limitations
+
+  * Akward API syntax
+  * Not enough support for reading data
+
 ---
 
 [^R-JVM_overhead]: Advanced Analytics with Spark p24.
