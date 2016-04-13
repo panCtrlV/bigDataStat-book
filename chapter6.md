@@ -203,7 +203,7 @@ The examples are run on Purdue's Hathi cluster.
 
     If a column contains "TRUE", "FALSE" and missing values represented by "?" and we want to cast it to "bool", SparkR fails to gracefully accommodate the missing values and <font color='red'>fuck up</font> the whole column. That's why I left the last column unchnaged.
 
-- **Preprocessing Data**
+- **Exploring Data**
 
   **Aggregating**
   
