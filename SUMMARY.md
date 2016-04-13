@@ -9,5 +9,6 @@
 * [Chapter 6](chapter6.md)
    * [Tessera](tessera.md)
    * [SparkR](sparkr.md)
+       * Examples
 * [Chapter 7](chapter7.md)
 
