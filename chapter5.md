@@ -44,6 +44,10 @@
 
   * The "load data at master -> send to workers -> collect at master -> send to worker->repeat" workflow is not suitable for interactive data analysis and iterative algorithms.
 
+  ![](./figures/cost_of_data_movement.jpg) 
+
+**Note** [Figure source](http://www.labs.hpe.com/research/systems-research/R-workshop/Indrajit-talk5.pdf) with adaptation.
+
 ---
 
 [^R_hpc_packages]: The CRAN page of [High-Performance and Parallel Computing with R](https://cran.r-project.org/web/views/HighPerformanceComputing.html) contains such a list of packages.
