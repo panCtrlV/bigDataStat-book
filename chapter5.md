@@ -2,7 +2,7 @@
 
 ---
 
-**Note** The classification of explicit and implicit parallelization is given in [this slides](http://www.labs.hpe.com/research/systems-research/R-workshop/luke-talk1.pdf). The difference is similar to that of multi-processing vs multi-threading.
+**Note** The classification of explicit and implicit parallelization is given in [this slides](http://www.labs.hpe.com/research/systems-research/R-workshop/luke-talk1.pdf). The difference between these two types of parallelization is similar to that between multi-processing and multi-threading.
 
 - Explicit paralellization
 
