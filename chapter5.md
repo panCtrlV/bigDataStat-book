@@ -19,6 +19,7 @@
   * via vectorized operations. R is a vector-oriented language
   
   * uses threads and shared memory (ideally via OpenMP) <font color='red'>TODO: similar idea to SupR?</font>
+  
     + the user specifies a maximal number of threads to use
     + R decides internally when to use more than one thread, if allowed
     + available in an experimental package `pnmath`[^pnmath_archive]
