@@ -90,6 +90,12 @@ The examples are run on Purdue's Hathi cluster.
   ```
 
   By using `sparkR` command, `SparkR` package is automatically sourced in R and `sc` and `sqlContext` are created.
+  
+  Alternatively, we can lauch SparR from within an existing R session.
+  
+  ```r
+  
+  ```
 
   **Note** `com.databricks:spark-csv_2.10:1.3.0` is the package including data source connectors for popular file formats like CSV and Avro. 
 
