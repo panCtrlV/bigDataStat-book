@@ -38,6 +38,8 @@
       MapR FS implements the HDFS API with a native C distributed read-write file system[^maprfs]
       
   * Distribued data model
+
+    How you compute in R if the data are stored in a DFS, and it is too large to fit the local memory on one computer?
   
   * Parallel and distributed computing models<font color='red'>(or paradigms?)</font>
     + Hadoop YARN/MRv2
