@@ -8,7 +8,7 @@
   
   Multiple packages are available: `parallel`, `snow`/`snowfall`. The CRAN page of [High-Performance and Parallel Computing with R](https://cran.r-project.org/web/views/HighPerformanceComputing.html) contains such a list of packages. 
   
-  
+  [maybe useful reference.pdf](http://www.labs.hpe.com/research/systems-research/R-workshop/luke-talk1.pdf) 
 
 - Implicit paralellization
 
