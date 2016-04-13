@@ -7,7 +7,7 @@
 
 The most popular solution for using R in large scale distributed computing is to injesting R into one of the existing distributed computing platforms, like Hadoop and Spark.
 
-- Tessera
+- [Tessera](tessera.io) 
 
 - [SparkR](https://spark.apache.org/docs/latest/sparkr.html)
 
