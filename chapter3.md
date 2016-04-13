@@ -12,5 +12,5 @@ In the later chapters, we will show how to deploy Hadoop, Tessera, Spark, and Su
 
 ## [Virtual Machine Cluster](./virtual_machine_cluster) 
 
-## Amazon AWS
+## [Amazon AWS](amazon_aws.md) 
 
