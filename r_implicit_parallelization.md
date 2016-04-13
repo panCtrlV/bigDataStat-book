@@ -4,9 +4,9 @@
 
 Uses threads and shared memory (ideally via OpenMP) <font color='red'>TODO: similar idea to SupR?</font>
   
-    + the user specifies a maximal number of threads to use
-    + R decides internally when to use more than one thread, if allowed
-    + available in an experimental package `pnmath`[^pnmath_archive]
+  + the user specifies a maximal number of threads to use
+  + R decides internally when to use more than one thread, if allowed
+  + available in an experimental package `pnmath`[^pnmath_archive]
 
   * requires no explicit user action once enabled <font color='red'>(just call the compiled function in R?)</font>
 
