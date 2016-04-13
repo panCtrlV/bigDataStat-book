@@ -14,6 +14,6 @@ The wide adoption of multi-core architectures makes it possible to parallelize d
 - Bus interconnect 
 - Threaded programs 
 - Communication via shared variables
-- Symmetric multiprocessing (SMPs) are Commonplace because of multicore CPUs. 
+- [Symmetric multiprocessing (SMPs)](https://en.wikipedia.org/wiki/Symmetric_multiprocessing) are Commonplace because of multicore CPUs. 
 
 ![SMP Diagram](./figures/smp_diagram.png)
