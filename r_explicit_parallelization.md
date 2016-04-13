@@ -10,4 +10,4 @@ Call R packages and following certain ways to write codes.
   
   R is required at each compute node. 
   
-  
+  ![](./figures/Rmpi_processes.jpg) 
