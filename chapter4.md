@@ -17,6 +17,8 @@
 
     >It spends almost all of its time reading and writing vector intermediates to memory”.[^R_is_memory_bound]
 
+    Memory bound refers to a situation in which the time to complete a given computational problem is decided primarily by the amount of memory required to hold data. 
+
 ---
 
-[^R_is_memory_bound]: Quoted from [Advanced R Performance](http://adv-r.had.co.nz/Performance.html)
+[^R_is_memory_bound]: Quoted from [Advanced R Performance](http://adv-r.had.co.nz/Performance.html).
