@@ -188,9 +188,7 @@ printSchema(rawblock)
   ```r
   library(dplyr)
 
-  # remove missing values
-  rawblock_filtered = filter(rawblock, isNotNull(rawblock$cmp_fname_c2))
-
+  # remove missing values for one column
   filter(rawblock, isNotNull(rawblock$cmp_fname_c2)) %>% head()
   ```
 
