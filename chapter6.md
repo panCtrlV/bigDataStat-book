@@ -99,6 +99,7 @@ The examples are run on Purdue's Hathi cluster.
   sc <- sparkR.init(master = "yarn-client", 
                     sparkEnvir = list(spark.driver.memory="2g"),
                     sparkPackages="com.databricks:spark-csv_2.10:1.3.0")
+  sqlContext <- sparkRSQL.init(sc)
   ```
 
   **Note** `com.databricks:spark-csv_2.10:1.3.0` is the package including data source connectors for popular file formats like CSV and Avro. 
