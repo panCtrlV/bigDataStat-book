@@ -4,6 +4,8 @@
 
 - Explicit paralellization
 
+- Implicit paralellization
+
 
 Packages are available in R for parallel / high performance computing. The CRAN page of [High-Performance and Parallel Computing with R](https://cran.r-project.org/web/views/HighPerformanceComputing.html) contains such a list of packages. 
 
