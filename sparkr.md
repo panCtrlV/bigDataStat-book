@@ -1,4 +1,4 @@
-# SparkR
+# Spark and SparkR
 
 ---
 
