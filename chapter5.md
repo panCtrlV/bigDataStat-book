@@ -6,7 +6,7 @@
 
   Instruct R code to execute operations with multiple R processes (possibly on different machines).
   
-  Multiple packages are available: `parallel`, `snow`. The CRAN page of [High-Performance and Parallel Computing with R](https://cran.r-project.org/web/views/HighPerformanceComputing.html) contains such a list of packages. 
+  Multiple packages are available: `parallel`, `snow`/`snowfall`. The CRAN page of [High-Performance and Parallel Computing with R](https://cran.r-project.org/web/views/HighPerformanceComputing.html) contains such a list of packages. 
     
 
 - Implicit paralellization
