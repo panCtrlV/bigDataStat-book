@@ -15,8 +15,8 @@
   * Inability to scale (due to single threaded computing paradigm and poor memory management)
   * R is a memory bound language 
 
-    It spends almost all of its time reading and writing vector intermediates to memory”.[^R_is_memory_bound]
+    >It spends almost all of its time reading and writing vector intermediates to memory”.[^R_is_memory_bound]
 
 ---
 
-[^R_is_memory_bound]: 
+[^R_is_memory_bound]: Quoted from [Advanced R Performance](http://adv-r.had.co.nz/Performance.html)
