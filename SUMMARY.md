@@ -7,5 +7,6 @@
 * [Chapter 4 Statistical Analysis with R](chapter4.md)
 * [Chapter 5](chapter5.md)
 * [Chapter 6](chapter6.md)
+   * Tessera
 * [Chapter 7](chapter7.md)
 
