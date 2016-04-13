@@ -10,6 +10,6 @@
    * [Tessera](tessera.md)
    * [SparkR](sparkr.md)
        * [Examples](sparkr_examples.md)
-   * RHadoop
+   * [RHadoop](rhadoop.md)
 * [Chapter 7](chapter7.md)
 
