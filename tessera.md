@@ -4,6 +4,8 @@
 
 ![](./figures/mapreduce_framework.jpg)
 
+**Note** [Figure source](http://www.nimbios.org/tutorials/talks/Pragnesh-talk.pdf) with adaptation.
+
 - HDFS ＋ MapReduce
 
   * HDFS as distributed data storage
