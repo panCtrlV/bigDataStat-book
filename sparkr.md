@@ -12,7 +12,7 @@
     
   * In-memory computing
 
-    Spark stores data in memory between operations, as opposed to writing data to disk required by Hadoop. This makes iterative computing possible and efficient in Spark
+    Spark stores data in memory between operations, as opposed to writing data to disk required by Hadoop. This makes iterative algorithm and interactive data analysis possible and efficient in Spark
 
   * Core API (Scala, Python) is general purpose
   * Interactive programming environment
