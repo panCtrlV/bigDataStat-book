@@ -31,6 +31,8 @@
        
   * Scala code spawns Rscript processes.
 
+    Currently, Rscript process is launched and terminated for each operation. But it should be optimized via something like DAG.
+
   [Link to examples](./sparkr_examples.md) 
 
 ---
