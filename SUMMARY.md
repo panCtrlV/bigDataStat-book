@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [Chapter 1 Introduction](chapter1.md)
 * [Chapter 2 Computing Infrastructures](chapter2.md)
+   * Multicore Computing
 * [Chapter 3 Building a Cluster](chapter3.md)
    * [Virtual Machine Cluster](virtual_machine_cluster.md)
    * [Amazon AWS](amazon_aws.md)
