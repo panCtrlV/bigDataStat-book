@@ -24,7 +24,7 @@
     + OpenMP
     + Intel’s Threading Building Blocks (TBB) system
 
-- Cluster computing
+- Cluster computing (distributed memory)
   * Cluster architecture
   * Distributed (memory) computing
   * Distributed data storage
