@@ -2,6 +2,8 @@
 
 ---
 
+**Note** The classification of explicit and implicit paralleliziation is given in [this slides](http://www.labs.hpe.com/research/systems-research/R-workshop/luke-talk1.pdf).
+
 - Explicit paralellization
 
   Instruct R code to execute operations with multiple R processes (possibly on different machines).
@@ -15,8 +17,6 @@
  **Note** [maybe useful reference.pdf](http://www.labs.hpe.com/research/systems-research/R-workshop/luke-talk1.pdf) 
 
 - Implicit paralellization
-
-  * via vectorized operations. R is a vector-oriented language
   
   * uses threads and shared memory (ideally via OpenMP) <font color='red'>TODO: similar idea to SupR?</font>
   
@@ -35,6 +35,7 @@
     + It is a shared memory model.
     + It is a Lightweight approach. 
     + Workload is distributed between threads. 
+    + Supported by many compilers: GNU, Intel, IBM, NAG and PGI. 
 
   * OpenMPI
 
