@@ -36,7 +36,7 @@
     
     Scala communicates with worker process via stdin/stdout, using custom protocol.[^how_communicate]
     
-    Serializes data via R serialization, simple binary serialization of integers, strings, raw bytes.[^serialize]
+    Serializes data via <font color='red'>R serialization?</font>, simple binary serialization of integers, strings, raw bytes.[^serialize]
 
   [Link to examples ...](./sparkr_examples.md) 
 
