@@ -12,7 +12,7 @@
 
 - Implicit paralellization
 
-  via vectorized operations. 
+  via vectorized operations. R is a vector-oriented language
   
   uses threads and shared memory (ideally via OpenMP)
 
