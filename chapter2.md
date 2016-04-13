@@ -13,7 +13,6 @@
   
   **Note** The explanation and raw data for this figure can be found on [Karl Rupp's webpage](https://www.karlrupp.net/2015/06/40-years-of-microprocessor-trend-data/).
   
-  
 - Parallel computing on a multicore computer
   * Computer architecture
   * Multithreading
@@ -24,6 +23,7 @@
   * Shared memory parallel computing
     + OpenMP
     + Intel’s Threading Building Blocks (TBB) system
+
 - Cluster computing
   * Cluster architecture
   * Distributed (memory) computing
