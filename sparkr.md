@@ -30,6 +30,8 @@
     +  R-JVM bridge
        Older versions use rJava to call Java/Scala code. Now has its own implementation. Refer to the paper.
        
+  * Scala code spawns Rscript processes.
+       
   * More packages are under development, e.g. ggplot2.sparkr
 
   [Link to examples](./sparkr_examples.md) 
