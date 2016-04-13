@@ -25,10 +25,8 @@
 - SparkR Architecture
 
   <font color='red'>TODO: Refer to the paper "SparkR: Scaling R Programs with Spark"</font>
-
-  * Key features in its implementation 
-    +  R-JVM bridge
-       Older versions use rJava to call Java/Scala code. Now has its own implementation. Refer to the paper.
+  * R-JVM bridge
+    Older versions use rJava to call Java/Scala code. Now has its own implementation. Refer to the paper.
        
   * Scala code spawns Rscript processes.
 
