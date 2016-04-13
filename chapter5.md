@@ -5,6 +5,9 @@
 - Explicit paralellization
 
   Instruct R code to execute operations with multiple R processes (possibly on different machines).
+  
+  Multiple packages are available: `parallel`, `snow`
+    
 
 - Implicit paralellization
 
