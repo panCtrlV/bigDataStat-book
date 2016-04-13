@@ -38,11 +38,11 @@
     
     Serializes data via R serialization, simple binary serialization of integers, strings, raw bytes.[^serialize]
 
-  [Link to examples](./sparkr_examples.md) 
+  [Link to examples ...](./sparkr_examples.md) 
 
 ---
 
 [^R-JVM_overhead]: Advanced Analytics with Spark p24.
 [^SparkR_low_level_api_slow]: [Reading Text file in SparkR 1.4.0](http://stackoverflow.com/questions/31157649/reading-text-file-in-sparkr-1-4-0)
-[^how_communicate]: [A Friendly Critique of SparkR](http://www.labs.hpe.com/research/systems-research/R-workshop/Sannella-talk7.pdf) p8
-[^serialize]: [A Friendly Critique of SparkR](http://www.labs.hpe.com/research/systems-research/R-workshop/Sannella-talk7.pdf) p8
+[^how_communicate]: [A Friendly Critique of SparkR](http://www.labs.hpe.com/research/systems-research/R-workshop/Sannella-talk7.pdf) p8.
+[^serialize]: [A Friendly Critique of SparkR](http://www.labs.hpe.com/research/systems-research/R-workshop/Sannella-talk7.pdf) p8.
