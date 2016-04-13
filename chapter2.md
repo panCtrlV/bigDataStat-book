@@ -5,6 +5,9 @@
 
   * Clock speed saturates at 3 to 4 GHz. 
   * Computational intensive models (e.g. iterative)
+  * Large datasets
+  
+  **So, the future is parallel.**
   
 - Parallel computing on a multicore personal computer
   * Computer architecture
