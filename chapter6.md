@@ -94,7 +94,8 @@ The examples are run on Purdue's Hathi cluster.
   Alternatively, we can lauch SparR from within an existing R session.
   
   ```r
-  
+  # $SPARK_HOME is set
+  library(SparkR, lib.loc = c(file.path(Sys.getenv("SPARK_HOME"), "R", "lib")))
   ```
 
   **Note** `com.databricks:spark-csv_2.10:1.3.0` is the package including data source connectors for popular file formats like CSV and Avro. 
