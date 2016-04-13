@@ -43,7 +43,7 @@
 - Limitations
 
   * Akward API syntax
-  * Not enough support for reading data
+  * Not enough support for reading data (e.g. spark-csv does not infer data type)
 
 ---
 
