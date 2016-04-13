@@ -13,7 +13,7 @@
 * [Chapter 5](chapter5.md)
    * [Explicit Parallelization](r_explicit_parallelization.md)
    * [Implicit Parallelization](r_implicit_parallelization.md)
-   * Combined Approach
+   * [Combined Approach](r_combined_approach.md)
 * [Chapter 6](chapter6.md)
    * [Tessera](tessera.md)
    * [SparkR](sparkr.md)
