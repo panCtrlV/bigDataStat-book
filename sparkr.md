@@ -39,7 +39,4 @@
 [^R-JVM_overhead]: Advanced Analytics with Spark p24.
 [^SparkR_low_level_api_slow]: [Reading Text file in SparkR 1.4.0](http://stackoverflow.com/questions/31157649/reading-text-file-in-sparkr-1-4-0)
 
----
-
-## SparkR Examples
 
