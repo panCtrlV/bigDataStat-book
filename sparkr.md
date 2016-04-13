@@ -22,7 +22,7 @@
   
   * Interactive programming environment
 
-- SparkR architecture
+- SparkR Architecture
 
   <font color='red'>TODO: Refer to the paper "SparkR: Scaling R Programs with Spark"</font>
 
