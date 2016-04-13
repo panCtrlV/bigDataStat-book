@@ -169,19 +169,19 @@ printSchema(rawblock)
 
 - **Exploring Data**
 
-**Aggregating** (bar graph)
+  **Aggregating** (bar graph)
 
-```r
-# Count the number of "TRUE" and "FALSE" respectively.
-# Similar to Spark’s countByValue action.
-grouped = groupBy(rawblock, "is_match") # GroupedData class
-grouped_count = count(grouped)
-collect(grouped_count)
-```
+  ```r
+  # Count the number of "TRUE" and "FALSE" respectively.
+  # Similar to Spark’s countByValue action.
+  grouped = groupBy(rawblock, "is_match") # GroupedData class
+  grouped_count = count(grouped)
+  collect(grouped_count)
+  ```
 
-**Note** We aren't able to do much with the GroupedData at this point - we can't print or view the data. The only way to use the GroupedData is to pass it into aggregate functions, such as agg or avg.
+  **Note** We aren't able to do much with the GroupedData at this point - we can't print or view the data. The only way to use the GroupedData is to pass it into aggregate functions, such as agg or avg.
 
-**Note** Performing aggregations on data in the cluster is usually expensive. The more filtering that we can do to the data before performing an aggregation, the faster we will get an answer to our question.[^filter_before_aggregate]
+  **Note** Performing aggregations on data in the cluster is usually expensive. The more filtering that we can do to the data before performing an aggregation, the faster we will get an answer to our question.[^filter_before_aggregate]
 
 **Summary statistics**
 
