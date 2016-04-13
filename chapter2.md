@@ -32,8 +32,11 @@
     + Cloud architecture (virtualization)
 
 - GPU computing
+- Reconfigurable computing with FPGA
+- Vector processors 
+- 
 
-## 1. Parallel Computing on Multicore Computers
+## 1. Multicore computing
 
 Multi-core CPUs are very common these days. This is true even for laptop's CUPs. Intel Core i5 is duel-core and Intel Core i7 is usaually quad-core. Intel has a proprietary simultaneous multithreading (SMT) technology called Hyper-threading Technology (HTT). It improves parallelization of computations performed on x86 microprocessors. With HTT, one physical core appears as two processors to the operating system, allowing concurrent scheduling of two processes per core.[^TODO1]
 
