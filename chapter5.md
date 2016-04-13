@@ -10,7 +10,7 @@
   
   ![](./figures/R_lapply.jpg) 
   
- **Note** [Figure source](http://www.nimbios.org/tutorials/talks/Pragnesh-talk.pdf) 
+ **Note** Examples: multicore(mclapply), Rmpi(plapply). [Figure source](http://www.nimbios.org/tutorials/talks/Pragnesh-talk.pdf) 
  
  **Note** [maybe useful reference.pdf](http://www.labs.hpe.com/research/systems-research/R-workshop/luke-talk1.pdf) 
 
