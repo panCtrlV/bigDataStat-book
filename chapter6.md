@@ -95,7 +95,9 @@ The examples are run on Purdue's Hathi cluster.
   
   ```r
   # $SPARK_HOME is set already
+  # Load SparkR library
   library(SparkR, lib.loc = c(file.path(Sys.getenv("SPARK_HOME"), "R", "lib")))
+  # Create sc and sqlContext
   sc <- sparkR.init(master = "yarn-client", 
                     sparkEnvir = list(spark.driver.memory="2g"),
                     sparkPackages="com.databricks:spark-csv_2.10:1.3.0")
