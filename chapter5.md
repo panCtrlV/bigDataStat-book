@@ -1,4 +1,4 @@
-# Chapter 5 Native Parallel Computing in R
+# Chapter 5 <font color='red'>Native</font> Parallel Computing in R
 
 ---
 
