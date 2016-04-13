@@ -13,4 +13,10 @@
 - Limitations of R
 
   * Inability to scale (due to single threaded computing paradigm and poor memory management)
+  * R is a memory bound language 
 
+    It spends almost all of its time reading and writing vector intermediates to memory”.[^R_is_memory_bound]
+
+---
+
+[^R_is_memory_bound]: 
