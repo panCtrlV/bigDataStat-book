@@ -24,7 +24,7 @@
 
 ---
 
-[^pnmath_archive]: Download the package from [here](http://homepage.stat.uiowa.edu/~luke/R/experimental/). 
+[^pnmath_archive]: Download the package from [here](http://homepage.stat.uiowa.edu/~luke/R/experimental/). This is the [demo](https://www.olcf.ornl.gov/wp-content/uploads/2011/07/Lecture3.pdf).
 
 ---
 
