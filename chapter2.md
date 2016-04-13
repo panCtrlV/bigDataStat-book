@@ -11,7 +11,7 @@
   
    ![35 Year CPU Trend](./figures/35years_cpu_trend.png)
   
-  **Note** The explanation and raw data can be found on [Karl Rupp's webpage](https://www.karlrupp.net/2015/06/40-years-of-microprocessor-trend-data/).
+  **Note** The explanation and raw data for this figure can be found on [Karl Rupp's webpage](https://www.karlrupp.net/2015/06/40-years-of-microprocessor-trend-data/).
   
   
 - Parallel computing on a multicore personal computer
