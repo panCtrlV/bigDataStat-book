@@ -4,6 +4,8 @@
 
 - Explicit paralellization
 
+  Instruct R code to execute operations with multiple R processes (possibly on different machines)
+
 - Implicit paralellization
 
 
