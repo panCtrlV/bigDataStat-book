@@ -11,6 +11,7 @@
 * [Chapter 4 Statistical Analysis with R](chapter4.md)
 * [Chapter 5](chapter5.md)
    * [Explicit Parallelization](r_explicit_parallelization.md)
+   * Implicit Parallelization
 * [Chapter 6](chapter6.md)
    * [Tessera](tessera.md)
    * [SparkR](sparkr.md)
