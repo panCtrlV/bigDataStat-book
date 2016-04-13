@@ -38,7 +38,3 @@
 
 ## 1. Multicore computing
  
-
-# OpenMP
-
-[The most popular way to program on multicore machines is to use OpenMP, a C/C++ (and FORTRAN) callable system that runs on Linux, Mac and Windows.  (For Macs, you need the OpenMP-enabled version of Mac’s clang compiler.)](https://matloff.wordpress.com/2015/01/16/openmp-tutorial-with-r-interface/)
