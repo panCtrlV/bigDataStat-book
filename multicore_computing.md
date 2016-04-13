@@ -2,3 +2,5 @@
 
 ---
 
+- CPU architecture
+
