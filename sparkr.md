@@ -7,6 +7,9 @@
   Apache Spark is an open-source data analytics cluster computing framework. Spark is not tied to the two-stage MapReduce paradigm, and promises performance up to 100 times faster than Hadoop MapReduce for certain applications. Spark provides primitives for in-memory cluster computing that allows user programs to load data into a cluster's memory and query it repeatedly, making it well suited to machine learning algorithms. [[reference](https://www.rcac.purdue.edu/compute/hathi/guide/#run_hadoop_examples_spark)]
 
   * DAG
+    
+    Applications create linked sequences of operations. <font color='red'>Catalyst as the optimizer?</font>
+    
   * In-memory computing
 
     This makes iterative computing possible and efficient in Spark
