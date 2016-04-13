@@ -17,3 +17,7 @@ The wide adoption of multi-core architectures makes it possible to parallelize d
 - [Symmetric multiprocessing (SMPs)](https://en.wikipedia.org/wiki/Symmetric_multiprocessing) are Commonplace because of multicore CPUs. 
 
 ![SMP Diagram](./figures/smp_diagram.png)
+
+## OpenMP
+
+[The most popular way to program on multicore machines is to use OpenMP, a C/C++ (and FORTRAN) callable system that runs on Linux, Mac and Windows.  (For Macs, you need the OpenMP-enabled version of Mac’s clang compiler.)](https://matloff.wordpress.com/2015/01/16/openmp-tutorial-with-r-interface/)
