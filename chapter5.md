@@ -32,6 +32,9 @@
     + `inline` package provides functionality to dynamically define R functions and S4 methods with in-lined C, C++ and Fortran.
 
   * OpenMP
+    + It is a shared memory model.
+    + It is a Lightweight approach. 
+    + Workload is distributed between threads. 
 
   * OpenMPI
 
