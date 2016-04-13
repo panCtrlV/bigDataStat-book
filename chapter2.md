@@ -3,7 +3,8 @@
 
 - Motivation
 
-  
+  * Clock speed saturates at 3 to 4 GHz. 
+  * Computational intensive models (e.g. iterative)
   
 - Parallel computing on a multicore personal computer
   * Computer architecture
