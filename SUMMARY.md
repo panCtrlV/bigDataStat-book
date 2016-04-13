@@ -8,5 +8,6 @@
 * [Chapter 5](chapter5.md)
 * [Chapter 6](chapter6.md)
    * [Tessera](tessera.md)
+   * SparkR
 * [Chapter 7](chapter7.md)
 
