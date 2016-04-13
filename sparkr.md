@@ -25,12 +25,13 @@
 - SparkR Architecture
 
   <font color='red'>TODO: Refer to the paper "SparkR: Scaling R Programs with Spark"</font>
+  
   * R-JVM bridge
   
     Older versions use rJava to call Java/Scala code. Now has its own implementation. Refer to the paper.
        
   * Scala code spawns Rscript processes.
-
+  
     <font color='red'>Currently, Rscript process is launched and terminated for each operation. But it should be optimized via something like DAG.</font>
 
   [Link to examples](./sparkr_examples.md) 
