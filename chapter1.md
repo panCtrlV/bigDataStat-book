@@ -22,7 +22,7 @@
   * Rich functionality in statistics and machine learning, e.g. established packages
 
 - Big data brings new challenges to the computing environment
-  * Distributed file systems (DFS)
+  * Distributed data storage
     + Why using a distributed file system?
     
       Rapid access to the totality of the data.[^rapid_access_data]
