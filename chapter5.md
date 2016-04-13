@@ -26,6 +26,8 @@
 
   * requires no explicit user action once enabled <font color='red'>(just call the compiled function in R?)</font>
 
+  * Rcpp and inline
+
 
 ---
 
