@@ -12,3 +12,4 @@ Call R packages and following certain ways to write codes.
   
   ![](./figures/Rmpi_processes.jpg) 
 **Note** [Figure source](http://www.nimbios.org/tutorials/talks/Pragnesh-talk.pdf) with adaptation.
+
