@@ -2,8 +2,6 @@
 
 ---
 
-[maybe useful reference.pdf](http://www.labs.hpe.com/research/systems-research/R-workshop/luke-talk1.pdf) 
-
 - Explicit paralellization
 
   Instruct R code to execute operations with multiple R processes (possibly on different machines).
@@ -13,6 +11,8 @@
   ![](./figures/R_lapply.jpg) 
   
  **Note** [Figure source](http://www.nimbios.org/tutorials/talks/Pragnesh-talk.pdf) 
+ 
+ **Note** [maybe useful reference.pdf](http://www.labs.hpe.com/research/systems-research/R-workshop/luke-talk1.pdf) 
 
 - Implicit paralellization
 
