@@ -31,6 +31,8 @@
     + Rcpp is a C++ library facilitates the integration of R and C++
     + `inline` package provides functionality to dynamically define R functions and S4 methods with in-lined C, C++ and Fortran.
 
+  * OpenMP
+
 
 ---
 
