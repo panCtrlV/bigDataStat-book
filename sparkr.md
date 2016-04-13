@@ -35,6 +35,10 @@
 
   **Note** Some low level API are available through `SparkR:::`. But it is in general not a good practice to use those private functions in your coding. In addition, Pre 1.4 low level API is embarrassingly slow and clumsy and without all the goodness of the Catalyst optimizer it is most likely the same when it comes to internal 1.4 API.[^SparkR_low_level_api_slow]
 
+
+[Examples](./sparkr_examples.md)
+
+
 ---
 
 [^R-JVM_overhead]: Advanced Analytics with Spark p24.
