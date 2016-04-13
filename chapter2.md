@@ -9,6 +9,9 @@
   
   **So, the future is parallel.**
   
+  ![CPU Saturates](./figures/cpu_saturates.jpg) 
+  
+  
 - Parallel computing on a multicore personal computer
   * Computer architecture
   * Multithreading
