@@ -28,8 +28,8 @@
   * Cluster architecture
   * Distributed (memory) computing
   * Distributed data storage
-- Cloud computing
-  * Cloud architecture (virtualization)
+  * Cloud computing
+    + Cloud architecture (virtualization)
 
 ## 1. Parallel Computing on Multicore Computers
 
