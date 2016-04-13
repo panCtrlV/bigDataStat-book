@@ -7,3 +7,7 @@ Call R packages and following certain ways to write codes.
 - Rmpi
 
   R interface to MPI APIs.
+  
+  R is required at each compute node. 
+  
+  
