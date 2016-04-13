@@ -11,7 +11,7 @@ The most popular solution for using R in large scale distributed computing is to
 
 - [**Spark and SparkR**](https://spark.apache.org/docs/latest/sparkr.html) 
 
-- [**RHadoop**](https://github.com/RevolutionAnalytics/RHadoop/wiki) <font color='red'>(development seems to be paused)</font>
+- [**RHadoop**](https://github.com/RevolutionAnalytics/RHadoop/wiki) 
 
 - Limitations of the approaches in this chapter
   * It reduces performance overhead
