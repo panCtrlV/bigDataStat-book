@@ -8,6 +8,8 @@
 
 - Implicit paralellization
 
+- Combined approach
+
 - Limitations
 
   * The "load data at master -> send to workers -> collect at master -> send to worker->repeat" workflow is not suitable for interactive data analysis and iterative algorithms.
