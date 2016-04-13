@@ -28,6 +28,8 @@
 
   * Key features in its implementation 
     +  R-JVM bridge
+       Older versions use rJava. Now has its own implementation.
+       
   * More packages are under development, e.g. ggplot2.sparkr
 
 - [RHadoop](https://github.com/RevolutionAnalytics/RHadoop/wiki) <font color='red'>(development seems to be paused)</font>
