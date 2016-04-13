@@ -16,7 +16,7 @@
 
   * Core API (Scala, Python) is general purpose
 
-    All language functionality of Scala can be accessed by Spark. <font color='red'>But SparkR only implements a small subset of high-level operations.</font>
+    All language functionality of Scala can be accessed by Spark. <font color='red'>But SparkR only exposes a small subset of high-level operations.</font>
   
   * Interactive programming environment
 
