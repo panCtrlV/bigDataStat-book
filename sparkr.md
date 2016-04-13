@@ -15,6 +15,9 @@
     Spark stores data in memory between operations, as opposed to writing data to disk required by Hadoop. This makes iterative algorithm and interactive data analysis possible and efficient in Spark
 
   * Core API (Scala, Python) is general purpose
+
+    All language functionality of Scala can be accessed from within Spark.
+  
   * Interactive programming environment
 
 - SparkR architecture
