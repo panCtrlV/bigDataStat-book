@@ -32,7 +32,7 @@
        
   * More packages are under development, e.g. ggplot2.sparkr
 
-  [Link to examples](./sparkr_examples.md)
+  [Link to examples](./sparkr_examples.md) 
   
 - [RHadoop](https://github.com/RevolutionAnalytics/RHadoop/wiki) <font color='red'>(development seems to be paused)</font>
 
