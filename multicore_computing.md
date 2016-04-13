@@ -10,4 +10,8 @@ The wide adoption of multi-core architectures makes it possible to parallelize d
 
 ## Computer Architecture
 
-
+- Multiple processors which share one global memory(RAM) 
+- Bus interconnect 
+- Threaded programs 
+- Communication via shared variables
+- SMPs are Commonplace because of multicore CPUs. 
