@@ -183,18 +183,18 @@ printSchema(rawblock)
 
   **Note** Performing aggregations on data in the cluster is usually expensive. The more filtering that we can do to the data before performing an aggregation, the faster we will get an answer to our question.[^filter_before_aggregate]
 
-**Summary statistics**
+  **Summary statistics**
 
-```r
-library(dplyr)
+  ```r
+  library(dplyr)
 
-# remove missing values
-rawblock_filtered = filter(rawblock, isNotNull(rawblock$cmp_fname_c2))
+  # remove missing values
+  rawblock_filtered = filter(rawblock, isNotNull(rawblock$cmp_fname_c2))
 
-filter(rawblock, isNotNull(rawblock$cmp_fname_c2)) %>% head()
-```
+  filter(rawblock, isNotNull(rawblock$cmp_fname_c2)) %>% head()
+  ```
 
-**Note** If you are using the latest version of R, follow [this page](https://cran.r-project.org/web/packages/dplyr/README.html) to install `dplyr` package. Otherwise, you may need to install it from source (including any dependencies) by downloading a proper version (recommend >=0.4) from [cran archive](https://cran.r-project.org/src/contrib/Archive/dplyr/) and call `install.packages("path/to/download/file", type="source", repo=NULL)`.
+  **Note** If you are using the latest version of R, follow [this page](https://cran.r-project.org/web/packages/dplyr/README.html) to install `dplyr` package. Otherwise, you may need to install it from source (including any dependencies) by downloading a proper version (recommend >=0.4) from [cran archive](https://cran.r-project.org/src/contrib/Archive/dplyr/) and call `install.packages("path/to/download/file", type="source", repo=NULL)`.
 
 ---
 
