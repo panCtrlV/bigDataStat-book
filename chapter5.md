@@ -11,7 +11,7 @@
 
 - Implicit paralellization
 
-
+  via vectorized operations. 
 
 
 - [Rmpi](https://bioinfomagician.wordpress.com/2013/11/25/mpi-tutorial-for-r-rmpi/) but OpenMPI is for distributed memory cluster computing?
