@@ -17,10 +17,10 @@
   * uses threads and shared memory (ideally via OpenMP)
     + the user specifies a maximal number of threads to use
     + R decides internally when to use more than one thread, if allowed
+    + <font color='red'>available in an experimental package `pnmath`</font>
 
   * requires no explicit user action once enabled (just call the compiled function in R)
-  
-  * <font color='red'>available in an experimental package `pnmath`</font> 
+
 
 ---
 
