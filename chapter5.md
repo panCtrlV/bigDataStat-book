@@ -12,13 +12,15 @@
 
 - Implicit paralellization
 
-  via vectorized operations. R is a vector-oriented language
+  * via vectorized operations. R is a vector-oriented language
   
-  uses threads and shared memory (ideally via OpenMP)
+  * uses threads and shared memory (ideally via OpenMP)
 
-  requires no explicit user action once enabled (just call the compiled function in R)
+  * requires no explicit user action once enabled (just call the compiled function in R)
   
-  <font color='red'>available in an experimental package `pnmath`</font> 
+  * <font color='red'>available in an experimental package `pnmath`</font> 
+
+---
 
 - [Rmpi](https://bioinfomagician.wordpress.com/2013/11/25/mpi-tutorial-for-r-rmpi/) but OpenMPI is for distributed memory cluster computing?
 
