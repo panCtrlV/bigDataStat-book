@@ -79,9 +79,10 @@ The examples are run on Purdue's Hathi cluster.
 - **Bring data into SparkR**
 
   ```bash
-  # Start SparkR console
+  # Hathi specific loading
   panc@hathi ~$ source /etc/default/hadoop
   panc@hathi ~$ module load r
+  # Start SparkR console  
   panc@hathi ~$ sparkR --master yarn-client --packages com.databricks:spark-csv_2.10:1.3.0
   ```
 
@@ -221,7 +222,9 @@ The examples are run on Purdue's Hathi cluster.
 
   **Summary statistics**
   
-  
+  ```r
+  mean(rawblock)
+  ```
 
 
 ---
