@@ -31,8 +31,6 @@
        Older versions use rJava to call Java/Scala code. Now has its own implementation. Refer to the paper.
        
   * Scala code spawns Rscript processes.
-       
-  * More packages are under development, e.g. ggplot2.sparkr
 
   [Link to examples](./sparkr_examples.md) 
   
@@ -49,6 +47,7 @@
 
     **Note** Some low level API are available through `SparkR:::`. But it is in general not a good practice to use those private functions in your coding. In addition, Pre 1.4 low level API is embarrassingly slow and clumsy and without all the goodness of the Catalyst optimizer it is most likely the same when it comes to internal 1.4 API.[^SparkR_low_level_api_slow]
 
+  * More packages need to be developed for each solution
 
 ---
 
