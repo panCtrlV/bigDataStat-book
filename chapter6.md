@@ -239,10 +239,15 @@ The examples are run on Purdue's Hathi cluster.
   **Summary statistics**
   
   ```r
+  library(dplyr)
+  
   # remove missing values
-  rawblock_filtered = filter(rawblock, isNotNull(rawblock$cmp_fname_c1))
+  rawblock_filtered = filter(rawblock, isNotNull(rawblock$cmp_fname_c2))
+  
+  filter(rawblock, isNotNull(rawblock$cmp_fname_c2)) %>% head()
   ```
 
+  **Note** If you are using the latest version of R, follow [this page](https://cran.r-project.org/web/packages/dplyr/README.html) to install `dplyr` package. Otherwise, you may need to install it from source (including any dependencies) by downloading a proper version (recommend >=0.4) from [cran archive](https://cran.r-project.org/src/contrib/Archive/dplyr/) and call `install.packages("path/to/download/file", type="source", repo=NULL)`.
 
 ---
 
