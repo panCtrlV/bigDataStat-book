@@ -58,7 +58,7 @@ After Ubuntu 14.04.4 ISO being downloaded, we can use it to create our first VM.
 **Step 3** Click **Continue**. Select the radio button **Create a virtual hard disk now**[^other_options_vdi]. 
 
 
-[^other_options_vdi]: 
+[^other_options_vdi]: Alternatively, you can use an existing virtual hard disk (usually a .vdi file). 
 
 
 ## 2. Create more nodes and connect as a cluster
