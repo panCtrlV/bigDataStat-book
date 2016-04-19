@@ -18,7 +18,7 @@ We first show how to create a single Ubuntu VM, which will become the base node 
 
 ### 1.1. Downloading and Installing Ubuntu
 
-
+At the time of wrting this book, 
 
   
   
