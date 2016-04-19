@@ -80,6 +80,6 @@ After Ubuntu 14.04.4 ISO being downloaded, we can use it to create our first VM.
 
 ![Step 7 of creating the first VM](./figures/vbox_new_vm_step7.jpg) 
 
-After the seven steps above, our first VM is created in Virtual Box with the virtual hard disk file created. 
+After the seven steps above, our first VM is created in Virtual Box with the virtual hard disk file created. This is like we have assemabled a physical computer. The next 
 
 ## 2. Create more nodes and connect as a cluster
