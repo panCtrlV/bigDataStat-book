@@ -63,7 +63,7 @@ After Ubuntu 14.04.4 ISO being downloaded, we can use it to create our first VM.
 
 **Step 4** Click **Create**. The next window allows you to choose the file format for your virtual hard disk. We choose **VDI (VirtualBox Disk Image)**. <font color='red'>... TODO: What are other foramts for? ...</font>
 
-![Step 4 of creating the first VM](./figures/vbox_new_vm_step4.jpg)  
+![Step 4 of creating the first VM](./figures/vbox_new_vm_step4.jpg)   
 
 **Step 5** Click **Continue**. The next window asks you to choose the type of storage of VM on physical hard disk (i.e. Macbook Pro). Here, we choose **Dynamically allocated**. The description is quite clear.
 
