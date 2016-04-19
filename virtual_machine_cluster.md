@@ -76,5 +76,6 @@ After Ubuntu 14.04.4 ISO being downloaded, we can use it to create our first VM.
 
 [^extend_vm_hard_disk]: In case the VM's hard disk is full, we can extend its size and the file system of Linux. More details are deferred to later sections. 
 
+**Step 7** Click **Create**. 
 
 ## 2. Create more nodes and connect as a cluster
