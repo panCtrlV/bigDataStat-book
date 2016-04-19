@@ -9,6 +9,7 @@ In these cases, a large scale computing environment cannot be fully utlized. It 
 <font color='red'>... some introduction to the background on virtual machines ...</font>
 
 
+
 ## Installing One Virtual Machine (Node)
 
 
