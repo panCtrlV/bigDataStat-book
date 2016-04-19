@@ -86,6 +86,6 @@ At the time of writing this book, the long term supper (LTS)[^explain_LTS] versi
 
 After Ubuntu 14.04.4 ISO being downloaded, we can install it in the VM we just created. The installation process is similar to installing Ubuntu on a physical computer. 
 
-Since our VM is not empty, it cannnot be booted from a normal hard drive. Instead, we need to instruct it to boot from the downloaded ISO file. 
+Since our VM is not empty, it cannot be booted from a normal hard drive. Instead, we need to instruct it to boot from the downloaded ISO file. 
 
 ## 2. Create more nodes and connect as a cluster
