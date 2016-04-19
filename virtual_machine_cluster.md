@@ -12,6 +12,8 @@ In this chapter, we demonstrate how to use [Oracle VM VirtualBox](https://www.vi
 
 <font color='red'>... Some discussion on the pros and cons of different linux distributions, such as Redhat, CentOS, etc. There are also some packaged CD-ROM for easy installation, e.g. ...</font>
 
+The demonstration in this chapter is performed on my Macbook Pro (late 2011) with OS X Yosemite (10.10.5)
+
 ## 1. Installing One Virtual Machine (Node)
 
 We first show how to create a single Ubuntu VM, which will become the base node for creating other nodes in the future. While installing the first node, we don't have to consider network related issues. We defer them to the section where we discuss how to connect multiple nodes as a cluster.
@@ -23,6 +25,6 @@ At the time of writing this book, the long term supper (LTS)[^explain_LTS] versi
 [^explain_LTS]: More details about LTS can be found at [https://wiki.ubuntu.com/LTS](https://wiki.ubuntu.com/LTS).
 [^download_link]: Ubuntu 14.04.4 can be downloaded from [http://www.ubuntu.com/download/server/thank-you?country=CN&version=14.04.4&architecture=amd64](http://www.ubuntu.com/download/server/thank-you?country=CN&version=14.04.4&architecture=amd64)
 
-Now download Ubuntu 14.LTS
+
 
 ## 2. Create more nodes and connect as a cluster
