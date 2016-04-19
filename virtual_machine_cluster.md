@@ -12,6 +12,7 @@ In this chapter, we demonstrate how to use [Oracle VM VirtualBox](https://www.vi
 
 <font color='red'>... Some discussion on the pros and cons of different linux distributions, such as Redhat, CentOS, etc. </font>
 
+
 ## Installing One Virtual Machine (Node)
 
 
