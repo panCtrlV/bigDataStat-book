@@ -8,7 +8,7 @@ In these cases, a large scale computing environment cannot be fully utlized. It 
 
 <font color='red'>... some introduction to the background on virtual machines ...</font>
 
-In this chapter, we demonstrate how to use Virtual Box
+In this chapter, we demonstrate how to use [Oracle VM VirtualBox](https://www.virtualbox.org/) 
 
 ## Installing One Virtual Machine (Node)
 
