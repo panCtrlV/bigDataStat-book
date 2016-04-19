@@ -12,7 +12,7 @@ In this chapter, we demonstrate how to use [Oracle VM VirtualBox](https://www.vi
 
 <font color='red'>... Some discussion on the pros and cons of different linux distributions, such as Redhat, CentOS, etc. There are also some packaged CD-ROM for easy installation, e.g. ...</font>
 
-The demonstration in this chapter is performed on my Macbook Pro (late 2011) with OS X Yosemite (10.10.5). The hardware configuration is listed below:
+The demonstration in this chapter is performed on my Macbook Pro (late 2011) with OS X Yosemite (10.10.5). The hardware configuration of the laptop is listed below:
 
 - CPU: 2.3 GHz Intel Core i5
 - RAM: 16G DDR3 1333 MHz
@@ -28,7 +28,7 @@ We first show how to create a single Ubuntu VM, which will become the base node 
 At the time of writing this book, the long term supper (LTS)[^explain_LTS] version of Ubuntu server is 14.04.4[^download_link]. Though the latest version is 15.10 is available, we choose to use a more stable version. We choose the server distribution instead of the desktop distribution is because we want to keep the system light-weight. Since the memory and disk storage is limited on a personal computer, we want to keep the operating system as minimal as possible. 
 
 [^explain_LTS]: More details about LTS can be found at [https://wiki.ubuntu.com/LTS](https://wiki.ubuntu.com/LTS).
-[^download_link]: Ubuntu 14.04.4 ISO can be downloaded from [http://www.ubuntu.com/download/server/thank-you?country=CN&version=14.04.4&architecture=amd64](http://www.ubuntu.com/download/server/thank-you?country=CN&version=14.04.4&architecture=amd64)
+[^download_link]: Ubuntu 14.04.4 ISO can be downloaded from [http://www.ubuntu.com/download/server](http://www.ubuntu.com/download/server)
 
 
 
