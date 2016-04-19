@@ -51,6 +51,7 @@ After Ubuntu 14.04.4 ISO being downloaded, we can use it to create our first VM.
 
 ![Step 1 of creating the first VM](./figures/vbox_new_vm_step1.jpg)
 
+**Step 2** 
 
 
 
