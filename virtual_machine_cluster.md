@@ -71,6 +71,7 @@ After Ubuntu 14.04.4 ISO being downloaded, we can use it to create our first VM.
 
 **Step 6** Click **Continue**. In the next window, we need to decide the location where the virtual hard disk file (.vdi format) is stored. If you use the default setting, the file will be created in `Virtual Box installation location/system version/vm name/`. In this demonstration, the Virtual Box installation location is in our home account `$HOME/VirtualBox VMs` where `HOME` is an environment variable. The system version is **ubuntu** and our VM name is **fe1**. So the default path for the virtual hard disk file is `$HOME/VirtualBox VMs/ubuntu/fe1/fe1.vdi`.
 
+![Step 6 of creating the first VM](./figures/vbox_new_vm_step6.jpg)
 
 
 ## 2. Create more nodes and connect as a cluster
