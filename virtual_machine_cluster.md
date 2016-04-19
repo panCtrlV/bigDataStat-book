@@ -34,6 +34,10 @@ Oracle VM VirtualBox is a free and open-source hypervisor[^define_hypervisor] fo
 [^define_hypervisor]: A hypervisor or virtual machine monitor (VMM) is a piece of computer software, firmware or hardware that creates and runs virtual machines.
 [^vbox_download_page]: [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
 
+The following screenshot shows the interface of Virtual Box Manager version 5.0.16.
+
+
+
 ### 1.1. Downloading and Installing Ubuntu
 
 At the time of writing this book, the long term supper (LTS)[^explain_LTS] version of Ubuntu server is 14.04.4[^download_link]. Though the latest version is 15.10 is available, we choose to use a more stable version. We choose the server distribution instead of the desktop distribution is because we want to keep the system light-weight. Since the memory and disk storage is limited on a personal computer, we want to keep the operating system as minimal as possible. 
