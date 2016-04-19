@@ -12,4 +12,4 @@ In these cases, a large scale computing environment cannot be fully utlized. It 
   
   
 
-- Create more nodes and connect as a cluster
+## Create more nodes and connect as a cluster
