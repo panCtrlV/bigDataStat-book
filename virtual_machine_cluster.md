@@ -63,5 +63,6 @@ After Ubuntu 14.04.4 ISO being downloaded, we can use it to create our first VM.
 
 **Step 4** Click **Create**. The next window allows you to choose the file format for your virtual hard disk. We choose **VDI (VirtualBox Disk Image)**. <font color='red'>... TODO: What are other foramts for? ...</font>
 
+![]
 
 ## 2. Create more nodes and connect as a cluster
