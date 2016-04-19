@@ -88,6 +88,6 @@ After Ubuntu 14.04.4 ISO being downloaded, we can install it in the VM we just c
 
 Since our VM is not empty, it cannot be booted from a normal hard drive. Instead, we need to instruct it to boot from the downloaded ISO file. To accomplish this, click **Settings** in the Virtual Box Manager GUI.
 
-......
+<font color='red'>......</font>
 
 ## 2. Create more nodes and connect as a cluster
