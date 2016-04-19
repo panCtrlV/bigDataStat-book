@@ -21,6 +21,6 @@ We first show how to create a single Ubuntu VM, which will become the base node 
 At the time of wrting this book, the long term supper (LTS)[^explain_LTS] version of Ubuntu server is 14.04.4. Though the latest version is 15.10 is available, we choose to use a more stable version.  
 
   
-[^explain_LTS]: 
+[^explain_LTS]: More details about LTS can be found at [https://wiki.ubuntu.com/LTS](https://wiki.ubuntu.com/LTS).
 
 ## 2. Create more nodes and connect as a cluster
