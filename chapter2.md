@@ -36,6 +36,10 @@
 - Vector processors 
 - 
 
-## Multicore computing
+## Multicore Computing
 
-## Cluster computing
+## Cluster Computing
+
+## GPU Computing
+
+## Grid Computing
