@@ -18,7 +18,7 @@ We first show how to create a single Ubuntu VM, which will become the base node 
 
 ### 1.1. Downloading and Installing Ubuntu
 
-At the time of wrting this book, the long term supper (LTS)[^explain_LTS] version of Ubuntu server is 14.04.4. Though the latest version is 15.10 is available, we choose to use a more stable version.  
+At the time of wrting this book, the long term supper (LTS)[^explain_LTS] version of Ubuntu server is 14.04.4. Though the latest version is 15.10 is available, we choose to use a more stable version. We choose the server distribution instead of the desktop distribution is because we want to keep the system light-weight. Since the memory and disk storage is limited on a pernsonal computer, we want to keep the operating system as minmal as possible. 
 
   
 [^explain_LTS]: More details about LTS can be found at [https://wiki.ubuntu.com/LTS](https://wiki.ubuntu.com/LTS).
