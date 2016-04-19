@@ -25,7 +25,7 @@ We first show how to create a single Ubuntu VM, which will become the base node 
 
 ### 1.1. Downloading and Installing VirtualBox
 
-There are two terms we will use very often in this chapter, host system (or simply host) and guest system (or simply guest). 
+There are two terms we will use very often in this chapter, host system (or simply host) and guest system (or simply guest). The host system is the operating system comes with your personal computer. Throughout this chapter, the host we refer to is Mac OS X. 
 
 ### 1.1. Downloading and Installing Ubuntu
 
