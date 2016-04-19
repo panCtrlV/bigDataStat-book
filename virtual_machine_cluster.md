@@ -1,8 +1,10 @@
 # Virtual Machine Cluster
 
-- Install one node
+Cluster can be very expensive to build. It consists of many computer nodes, network switches, internet cable and other hardware equipments. 
 
-  refer to my installation guide
+## Install one node
+
+
   
   
 
