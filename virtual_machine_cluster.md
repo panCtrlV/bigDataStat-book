@@ -14,7 +14,8 @@ In this chapter, we demonstrate how to use [Oracle VM VirtualBox](https://www.vi
 
 The demonstration in this chapter is performed on my Macbook Pro (late 2011) with OS X Yosemite (10.10.5). The hardware configuration is listed below:
 
-- 
+- RAM: 16G DDR3 1333 MHz
+- Graphics: Intel HD Graphics 3000 512 MB
 
 ## 1. Installing One Virtual Machine (Node)
 
