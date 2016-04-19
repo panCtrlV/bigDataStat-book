@@ -14,7 +14,7 @@ In this chapter, we demonstrate how to use [Oracle VM VirtualBox](https://www.vi
 
 ## 1. Installing One Virtual Machine (Node)
 
-We first show how to create a single Ubuntu VM, which will become the base node for creating other nodes in the future. While installing the first node, we don't have to consider network related issues. 
+We first show how to create a single Ubuntu VM, which will become the base node for creating other nodes in the future. While installing the first node, we don't have to consider network related issues. We defer them to the section where we discuss how to connect multiple nodes as a cluster.
 
 ### 1.1. Downloading and Installing Ubuntu
 
