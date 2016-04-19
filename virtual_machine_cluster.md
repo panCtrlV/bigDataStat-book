@@ -16,7 +16,7 @@ The demonstration in this chapter is performed on my Macbook Pro (late 2011) wit
 
 - CPU: 2.3 GHz Intel Core i5
 - RAM: 16G DDR3 1333 MHz
-- Di
+- Disk: 512G SSD
 - Graphics: Intel HD Graphics 3000 512 MB
 
 ## 1. Installing One Virtual Machine (Node)
