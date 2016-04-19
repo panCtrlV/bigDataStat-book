@@ -12,13 +12,13 @@ In this chapter, we demonstrate how to use [Oracle VM VirtualBox](https://www.vi
 
 <font color='red'>... Some discussion on the pros and cons of different linux distributions, such as Redhat, CentOS, etc. There are also some packaged CD-ROM for easy installation, e.g. ...</font>
 
-## Installing One Virtual Machine (Node)
+## 1. Installing One Virtual Machine (Node)
 
-### Downloading and Installing Ubuntu
+### 1.1 Downloading and Installing Ubuntu
 
 
 
   
   
 
-## Create more nodes and connect as a cluster
+## 2. Create more nodes and connect as a cluster
