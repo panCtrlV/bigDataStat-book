@@ -74,4 +74,7 @@ After Ubuntu 14.04.4 ISO being downloaded, we can use it to create our first VM.
 ![Step 6 of creating the first VM](./figures/vbox_new_vm_step6.jpg)
 
 
+[^extend_vm_hard_disk]: In case the VM's hard disk is full, we can extend its size and the file system of Linux. More details are deferred to later chapters. 
+
+
 ## 2. Create more nodes and connect as a cluster
