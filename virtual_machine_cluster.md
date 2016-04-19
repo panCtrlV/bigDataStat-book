@@ -38,7 +38,7 @@ The following screenshot shows the interface of Virtual Box Manager version 5.0.
 
 ![Virtual Box Manager screenshot after installation](./figures/vbox_manager_screenshot.jpg)
 
-### 1.1. Downloading and Installing Ubuntu
+### 1.2. Creating a Virtual Machine
 
 At the time of writing this book, the long term supper (LTS)[^explain_LTS] version of Ubuntu server is 14.04.4[^download_link]. Though the latest version is 15.10 is available, we choose to use a more stable version. We choose the server distribution instead of the desktop distribution is because we want to keep the system light-weight. Since the memory and disk storage is limited on a personal computer, we want to keep the operating system as minimal as possible. 
 
