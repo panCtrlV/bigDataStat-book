@@ -23,6 +23,8 @@ The demonstration in this chapter is performed on my Macbook Pro (late 2011) wit
 
 We first show how to create a single Ubuntu VM, which will become the base node for creating other nodes in the future. While installing the first node, we don't have to consider network related issues. We defer them to the section where we discuss how to connect multiple nodes as a cluster.
 
+### 1.1. Downloading and Installing VirtualBox
+
 ### 1.1. Downloading and Installing Ubuntu
 
 At the time of writing this book, the long term supper (LTS)[^explain_LTS] version of Ubuntu server is 14.04.4[^download_link]. Though the latest version is 15.10 is available, we choose to use a more stable version. We choose the server distribution instead of the desktop distribution is because we want to keep the system light-weight. Since the memory and disk storage is limited on a personal computer, we want to keep the operating system as minimal as possible. 
