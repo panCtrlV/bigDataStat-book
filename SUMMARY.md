@@ -6,6 +6,7 @@
    * [Multicore Computing](multicore_computing.md)
    * [Cluster Computing](cluster_computing.md)
    * [GPU Computing](gpu_computing.md)
+   * Grid Computing
 * [Chapter 3 Building a Cluster](chapter3.md)
    * [Virtual Machine Cluster](virtual_machine_cluster.md)
    * [Purdue Cluster](purdue_cluster.md)
