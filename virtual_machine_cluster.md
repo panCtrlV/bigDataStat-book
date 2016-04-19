@@ -69,6 +69,6 @@ After Ubuntu 14.04.4 ISO being downloaded, we can use it to create our first VM.
 
 ![Step 5 of creating the first VM](./figures/vbox_new_vm_step5.jpg) 
 
-**Step 6** Click **Continue**. 
+**Step 6** Click **Continue**. In the next window, we need to decide the location where the virtual hard disk file (.vdi format) is stored. 
 
 ## 2. Create more nodes and connect as a cluster
