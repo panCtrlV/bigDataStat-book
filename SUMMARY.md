@@ -22,4 +22,5 @@
        * [Examples](sparkr_examples.md)
    * [RHadoop](rhadoop.md)
 * [Chapter 7](chapter7.md)
+* Chapter 8 Production
 
