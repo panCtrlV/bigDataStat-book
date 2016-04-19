@@ -36,7 +36,7 @@ Oracle VM VirtualBox is a free and open-source hypervisor[^define_hypervisor] fo
 
 The following screenshot shows the interface of Virtual Box Manager version 5.0.16.
 
-
+![Virtual Box Manager screenshot after installation](./figures/vbox_manager_screenshot.jpg)
 
 ### 1.1. Downloading and Installing Ubuntu
 
