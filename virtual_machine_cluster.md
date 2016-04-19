@@ -55,7 +55,7 @@ After Ubuntu 14.04.4 ISO being downloaded, we can use it to create our first VM.
 
 ![Step 2 of creating the first VM](./figures/vbox_new_vm_step2.jpg)
 
-
+**Step 3** Click **Continue**. 
 
 
 ## 2. Create more nodes and connect as a cluster
