@@ -8,7 +8,7 @@ In these cases, a large scale computing environment cannot be fully utlized. It 
 
 <font color='red'>... some introduction to the background on virtual machines ...</font>
 
-In this chapter, we demonstrate how to use [Oracle VM VirtualBox](https://www.virtualbox.org/) to build a virtual cluster. In the following example, we will build a cluster with three Ubuntu nodes. The operating system can be any linux distribution (or even windows). 
+In this chapter, we demonstrate how to use [Oracle VM VirtualBox](https://www.virtualbox.org/) to build a virtual cluster. In the following example, we will build a cluster with three Ubuntu nodes. The operating system can be any linux distribution (or even windows). Though we only create three nodes, more nodes can be added if your personal computer is powerful enough. 
 
 ## Installing One Virtual Machine (Node)
 
