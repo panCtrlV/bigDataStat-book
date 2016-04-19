@@ -71,12 +71,14 @@ After Ubuntu 14.04.4 ISO being downloaded, we can use it to create our first VM.
 
 **Step 6** Click **Continue**. In the next window, we need to decide the location where the virtual hard disk file (.vdi format) is stored and the size of the hard disk for the VM. If you use the default setting, the file will be created in `Virtual Box installation location/system version/vm name/`. In this demonstration, the Virtual Box installation location is in our home account `$HOME/VirtualBox VMs` where `HOME` is an environment variable. The system version is **ubuntu** and our VM name is **fe1**. So the default path for the virtual hard disk file is `$HOME/VirtualBox VMs/ubuntu/fe1/fe1.vdi`. The hard disk size is like the HDD or SSD on a physical computer. Here we set it as 30 GB[^extend_vm_hard_disk].
 
-![Step 6 of creating the first VM](./figures/vbox_new_vm_step6.jpg)
+![Step 6 of creating the first VM](./figures/vbox_new_vm_step6.jpg) 
 
 
 [^extend_vm_hard_disk]: In case the VM's hard disk is full, we can extend its size and the file system of Linux. More details are deferred to later sections. 
 
 **Step 7** Click **Create**. 
+
+![Step 7 of creating the first VM](./figures/vbox_new_vm_step7.jpg) 
 
 Now our first VM is created in Virtual Box with the virtual hard disk file created. 
 
