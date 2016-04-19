@@ -61,7 +61,7 @@ After Ubuntu 14.04.4 ISO being downloaded, we can use it to create our first VM.
 
 [^other_options_vdi]: Alternatively, you can use an existing virtual hard disk (usually a .vdi file) if you have one. Since this is our first time to create a VM, we don't have an existing virtual hard disk. The relationship between a VM and a virtual hard disk is that the VM can be considered as a computer case and the virtual hard disk as the storage.
 
-
+**Step 4**
 
 
 ## 2. Create more nodes and connect as a cluster
