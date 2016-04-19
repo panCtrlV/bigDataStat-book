@@ -47,7 +47,7 @@ At the time of writing this book, the long term supper (LTS)[^explain_LTS] versi
 
 After Ubuntu 14.04.4 ISO being downloaded, we can use it to create our first VM. The detaled steps are listed as follows.
 
-**Step 1** 
+**Step 1** Click **New** in the tool bar of Virtual Box Manager GUI, 
 
 
 ## 2. Create more nodes and connect as a cluster
