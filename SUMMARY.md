@@ -8,7 +8,7 @@
    * [GPU Computing](gpu_computing.md)
 * [Chapter 3 Building a Cluster](chapter3.md)
    * [Virtual Machine Cluster](virtual_machine_cluster.md)
-   * Purdue Cluster
+   * [Purdue Cluster](purdue_cluster.md)
    * [Amazon AWS](amazon_aws.md)
 * [Chapter 4 Statistical Analysis with R](chapter4.md)
 * [Chapter 5](chapter5.md)
