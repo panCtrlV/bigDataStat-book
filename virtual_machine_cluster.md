@@ -69,4 +69,5 @@ After Ubuntu 14.04.4 ISO being downloaded, we can use it to create our first VM.
 
 
 
+
 ## 2. Create more nodes and connect as a cluster
