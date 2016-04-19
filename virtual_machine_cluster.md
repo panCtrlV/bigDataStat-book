@@ -51,7 +51,7 @@ After Ubuntu 14.04.4 ISO being downloaded, we can use it to create our first VM.
 
 ![Step 1 of creating the first VM](./figures/vbox_new_vm_step1.jpg)
 
-**Step 2** Click **Continue**. This brings us to the window where we set the memory size for our VM. 
+**Step 2** Click **Continue**. This brings us to the window where we set the memory size for our VM. Since the memory on my host is 16G, I decided to give the first node 3 GB (i.e. 3072 MB)
 
 
 
