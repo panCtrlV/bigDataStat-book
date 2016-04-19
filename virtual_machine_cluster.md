@@ -84,6 +84,6 @@ At the time of writing this book, the long term supper (LTS)[^explain_LTS] versi
 [^explain_LTS]: More details about LTS can be found at [https://wiki.ubuntu.com/LTS](https://wiki.ubuntu.com/LTS).
 [^download_link]: Ubuntu 14.04.4 ISO can be downloaded from the server page [http://www.ubuntu.com/download/server](http://www.ubuntu.com/download/server)
 
-After Ubuntu 14.04.4 ISO being downloaded, we can install it in the VM we just created. 
+After Ubuntu 14.04.4 ISO being downloaded, we can install it in the VM we just created. The installation process is similar to installing Ubuntu on a physical computer. 
 
 ## 2. Create more nodes and connect as a cluster
