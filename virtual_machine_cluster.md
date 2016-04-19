@@ -12,7 +12,9 @@ In this chapter, we demonstrate how to use [Oracle VM VirtualBox](https://www.vi
 
 <font color='red'>... Some discussion on the pros and cons of different linux distributions, such as Redhat, CentOS, etc. There are also some packaged CD-ROM for easy installation, e.g. ...</font>
 
-The demonstration in this chapter is performed on my Macbook Pro (late 2011) with OS X Yosemite (10.10.5)
+The demonstration in this chapter is performed on my Macbook Pro (late 2011) with OS X Yosemite (10.10.5). The hardware configuration is listed below:
+
+- 
 
 ## 1. Installing One Virtual Machine (Node)
 
