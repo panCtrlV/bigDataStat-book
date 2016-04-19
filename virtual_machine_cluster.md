@@ -47,7 +47,10 @@ At the time of writing this book, the long term supper (LTS)[^explain_LTS] versi
 
 After Ubuntu 14.04.4 ISO being downloaded, we can use it to create our first VM. The detaled steps are listed as follows.
 
-**Step 1** Click **New** in the tool bar of Virtual Box Manager GUI. In the pop-up window, give a name to the VM you are creating. Since this is our first node which will be used as a front-end of our future cluster, we name it "fe1". Then choose the type of the **Type** as "Linux" and "Version" as "Ubuntu (64-bit)"
+**Step 1** Click **New** in the tool bar of Virtual Box Manager GUI. In the pop-up window, give a name to the VM you are creating. Since this is our first node which will be used as a front-end of our future cluster, we name it "fe1". Then choose the type of the **Type** as "Linux" and "Version" as "Ubuntu (64-bit)". This is shown in the following figure.
+
+![Step 1 of creating the first VM](./figures/vbox_new_vm_step1.jpg)
+
 
 
 
