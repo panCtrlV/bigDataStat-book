@@ -16,4 +16,4 @@ In the later chapters, we will show how to deploy Hadoop, Tessera, Spark, and Su
 
 ## [Amazon AWS](amazon_aws.md) 
 
-<font color='red'>[This post]() may be a good reference for building a real cluster.</font>
+<font color='red'>[This post](http://www.tldp.org/HOWTO/Cluster-HOWTO-4.html#ss4.3) may be a good reference for building a real cluster.</font>
