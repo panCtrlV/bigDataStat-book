@@ -79,12 +79,16 @@ After the seven steps above, our first VM is created in Virtual Box with the vir
 
 ### 1.3. Installing the Operating System
 
+#### 1.3.1. Downloading Ubuntu Installation Disk Image
+
 At the time of writing this book, the long term supper (LTS)[^explain_LTS] version of Ubuntu server is 14.04.4[^download_link]. Though the latest version is 15.10 is available, we choose to use a more stable version. We choose the server distribution instead of the desktop distribution is because we want to keep the system light-weight. Since the memory and disk storage is limited on a personal computer, we want to keep the operating system as minimal as possible. 
 
 [^explain_LTS]: More details about LTS can be found at [https://wiki.ubuntu.com/LTS](https://wiki.ubuntu.com/LTS).
 [^download_link]: Ubuntu 14.04.4 ISO can be downloaded from the server page [http://www.ubuntu.com/download/server](http://www.ubuntu.com/download/server)
 
 After Ubuntu 14.04.4 ISO being downloaded, we can install it in the VM we just created. The installation process is similar to installing Ubuntu on a physical computer. 
+
+#### 1.3.2. Configure Boot Device and Propority
 
 Since our VM is not empty, it cannot be booted from a normal hard drive. Instead, we need to configure the VM to boot from the ISO file we just downloaded. In order to accomplish this, first select the VM "fe1" we just created and click **Settings** in the Virtual Box Manager GUI.
 
@@ -111,6 +115,9 @@ Go back to **Setting**, and select the **System** tab.
 ![](./figures/vm-config-boot-device-6.jpg)
 
 In the pop-up window, **Optical** device is listed as the second boot device, we need to move it to the top by clicking the <font color='red'>up arrow TODO: replace with inline image</font>. Then, click **Ok**. 
+
+![](./figures/vm-config-boot-device-7.jpg)
+
 
 
 
