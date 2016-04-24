@@ -152,6 +152,8 @@ We have created an empty VM, downloaded the OS image file, and configured the bo
 
 **Step 8** Configure tasksel. We choose **No automatic updates**. We will manually updates softwares.
 
+**Step 9** Select pre-installed softwares. 
+
 
 
 
