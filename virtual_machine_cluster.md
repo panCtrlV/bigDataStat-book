@@ -122,4 +122,5 @@ In the pop-up window, **Optical** device is listed as the second boot device, we
 
 
 
+
 ## 2. Create more nodes and connect as a cluster
