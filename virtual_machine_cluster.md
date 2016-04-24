@@ -90,5 +90,10 @@ Since our VM is not empty, it cannot be booted from a normal hard drive. Instead
 
 ![](./figures/vm-config-boot-device-1.jpg)
 
+Then, under the **storage** tab, click the <font color='red'>disk icon with a plus sign (TODO: replace with an inline image)</font> next to **Controller: IDE**.
+
+![](./figures/vm-config-boot-device-2.jpg)
+
+
 
 ## 2. Create more nodes and connect as a cluster
