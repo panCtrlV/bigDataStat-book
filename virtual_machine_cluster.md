@@ -86,7 +86,7 @@ At the time of writing this book, the long term supper (LTS)[^explain_LTS] versi
 
 After Ubuntu 14.04.4 ISO being downloaded, we can install it in the VM we just created. The installation process is similar to installing Ubuntu on a physical computer. 
 
-Since our VM is not empty, it cannot be booted from a normal hard drive. Instead, we need to configure the VM to boot from the downloaded ISO file. To accomplish this, click **Settings** in the Virtual Box Manager GUI.
+Since our VM is not empty, it cannot be booted from a normal hard drive. Instead, we need to configure the VM to boot from the ISO file we just downloaded. To accomplish this, click **Settings** in the Virtual Box Manager GUI.
 
 <font color='red'>......</font>
 
