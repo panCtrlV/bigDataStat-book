@@ -4,4 +4,4 @@ Amazon Web Service is a collection of cloud computing services offerec by Amazon
 
 ## Amazon EC2 Quick Start
 
-[^aws_geo_locations]: Source from \url{https://aws.amazon.com/about-aws/global-infrastructure/}.
+[^aws_geo_locations]: Source from [https://aws.amazon.com/about-aws/global-infrastructure/](https://aws.amazon.com/about-aws/global-infrastructure/).
