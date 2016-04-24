@@ -142,7 +142,7 @@ We have created an empty VM, downloaded the OS image file, and configured the bo
 
 **Note** It will take some time to configure the time for the system.
 
-**Step 7** Configure disk partitioning. 
+**Step 7** Configure disk partitioning. It configures the native Linux file system on the available disk space (30GB). 
 
 
 ## 2. Create more nodes and connect as a cluster
