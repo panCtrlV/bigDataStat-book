@@ -152,7 +152,7 @@ We have created an empty VM, downloaded the OS image file, and configured the bo
 
 **Step 8** Configure tasksel. We choose **No automatic updates**. We will manually updates softwares.
 
-**Step 9** Select pre-installed softwares. By default, only the core of the OS is installed. We choose to install **OpenSSH server** and **LAMP server**. In order to make the selection, use up and daown arrows for nevigation and hit Space to select.
+**Step 9** Select pre-installed softwares. By default, only the core of the OS is installed. We choose to install **OpenSSH server** and **LAMP server**. In order to make the selection, use up and down arrows for navigation and hit Space to select.
 
 **Note** LAMP is a software bundle consisting of Linux OS, Apache HTTP Server, MySQL relational database management system (RDBMS), and the PHP programming language. 
 
