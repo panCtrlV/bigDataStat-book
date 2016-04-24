@@ -140,6 +140,8 @@ We have created an empty VM, downloaded the OS image file, and configured the bo
 
 **Step 6** Set up user and passwords. While root account is available in a Linux OS, it is highly recommended to create your own account for non-administrative activities. In this step, provide your real name (Pan Chao), your account username (panc), and password (passward). The installation process also gives you the option to encrypt your home directory. Since this section is for demonstration purpose, we choose **No**.
 
+**Note** It will take some time to configure the time for the system.
+
 **Step 7** 
 
 
