@@ -118,7 +118,8 @@ In the pop-up window, **Optical** device is listed as the second boot device, we
 
 ![](./figures/vm-config-boot-device-7.jpg)
 
-#### 1.3.3. 
+#### 1.3.3. Installing Ubuntu Server
+
 
 
 ## 2. Create more nodes and connect as a cluster
