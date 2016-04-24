@@ -120,7 +120,9 @@ In the pop-up window, **Optical** device is listed as the second boot device, we
 
 #### 1.3.3. Installing Ubuntu Server
 
-We have created an empty VM, downloaded the OS image file, and configured the boot order. Now, we are ready to install the OS. 
+We have created an empty VM, downloaded the OS image file, and configured the boot order. Now, we are ready to install the OS. The installation of the OS is similar to the the installation on a physical computer. The following describes the detailed steps.
+
+**Step 1** 
 
 
 ## 2. Create more nodes and connect as a cluster
