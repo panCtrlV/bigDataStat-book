@@ -120,7 +120,7 @@ In the pop-up window, **Optical** device is listed as the second boot device, we
 
 #### 1.3.3. Installing Ubuntu Server
 
-
+Now we have created an empty VM, downloaded the OS image file, and 
 
 
 ## 2. Create more nodes and connect as a cluster
