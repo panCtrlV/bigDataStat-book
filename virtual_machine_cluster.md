@@ -148,6 +148,10 @@ We have created an empty VM, downloaded the OS image file, and configured the bo
 
 **Note** In case your disk is not large enough, we can allocate more disk space to a VM and expand the file system. Useing LVM has the implication on how we expand the file system. A detailed discussion will be deferred to a later section. 
 
+**Note** Skip configuring HTTP proxy since we are not using any.
+
+
+
 
 
 
