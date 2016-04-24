@@ -130,11 +130,9 @@ We have created an empty VM, downloaded the OS image file, and configured the bo
 
 **Step 4** Configure the keyboard. Choose **Detect keyboard layout**.
 
-**Step 5** 
+**Step 5** Configure the network. Give your node a hostname. It is used to refer to this node by this name later on without using its IP address. 
 
-
-
-
+**Note** The hostname of your laptop is "localhost" and its IP address is 127.0.0.1.
 
 
 ## 2. Create more nodes and connect as a cluster
