@@ -126,7 +126,9 @@ We have created an empty VM, downloaded the OS image file, and configured the bo
 
 **Step 2** Choose **Install Ubuntu Server**.
 
-**Step 3** 
+**Step 3** Choose the language (English) again and your location (Normally the country you live. This is used for your time zone. So we choose China). <font color='red'>combination of China and English not recognized.</font>
+
+**Step 4** Configure 
 
 
 
