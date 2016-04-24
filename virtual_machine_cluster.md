@@ -136,7 +136,9 @@ We have created an empty VM, downloaded the OS image file, and configured the bo
 
 **Note** By specifying the hostname, Ubuntu will write the information to the file `/ect/hosts`.
 
-**Step 6** Set up user and passwords. While root account is available in a Linux OS, it is highly recommended to create your own account for non-administrative activities. 
+**Step 6** Set up user and passwords. While root account is available in a Linux OS, it is highly recommended to create your own account for non-administrative activities. In this step, provide your real name (Pan Chao), your account username (panc), and password (passward). The installation process also gives you the option to encrypt your home directory. Since this section is for demonstration purpose, we choose **No**.
+
+**Step 7** 
 
 
 ## 2. Create more nodes and connect as a cluster
