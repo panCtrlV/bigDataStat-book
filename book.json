@@ -2,7 +2,8 @@
     "plugins": [
         "mathjax",
         "-bibtex-citation",
-        "image-captions"
+        "image-captions",
+        "fancybox"
     ],
     "pluginsConfig": {}
 }
