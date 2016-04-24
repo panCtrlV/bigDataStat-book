@@ -110,7 +110,7 @@ Go back to **Setting**, and select the **System** tab.
 
 ![](./figures/vm-config-boot-device-6.jpg)
 
-In the pop-up window, **Optical** device is listed as the second boot device, we need to move it to the top by clicking the <font color='red'>up arrow TODO: replace with inline image</font>.
+In the pop-up window, **Optical** device is listed as the second boot device, we need to move it to the top by clicking the <font color='red'>up arrow TODO: replace with inline image</font>. Then, click **Ok**. 
 
 
 
