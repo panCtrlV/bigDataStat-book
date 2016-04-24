@@ -150,7 +150,7 @@ We have created an empty VM, downloaded the OS image file, and configured the bo
 
 **Note** Skip configuring HTTP proxy since we are not using any.
 
-**Step 8** Configure tasksel. We choose **No automatic updates**.
+**Step 8** Configure tasksel. We choose **No automatic updates**. We will manually updates softwares.
 
 
 
