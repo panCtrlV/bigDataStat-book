@@ -94,9 +94,17 @@ Then, under the **Storage** tab, click the <font color='red'>disk icon with a pl
 
 ![](./figures/vm-config-boot-device-2.jpg)
 
-Next, in the pop-up dialogue window, click **Choose disk**, then choose the ubuntu iso file we just downloaded and click **open**. 
+Next, in the pop-up dialogue window, click **Choose disk**, then choose the ubuntu iso file we just downloaded and click **Open**. 
 
 ![](./figures/vm-config-boot-device-3.jpg) 
 
 ![](./figures/vm-config-boot-device-4.jpg)
+
+Now, you can see from the Storage window that _ubuntu_14.04.4-server-amd64.iso_ is listed as a new IDE device.
+
+![](./figures/vm-config-boot-device-5.jpg)
+
+
+
+
 ## 2. Create more nodes and connect as a cluster
