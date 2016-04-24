@@ -94,7 +94,9 @@ Then, under the **Storage** tab, click the <font color='red'>disk icon with a pl
 
 ![](./figures/vm-config-boot-device-2.jpg)
 
-Next, in the pop-up window, 
+Next, in the pop-up dialogue window, click **Choose disk**, then choose the ubuntu iso file we just downloaded. 
+
+![](./figures/vm-config-boot-device-3.jpg) 
 
 
 ## 2. Create more nodes and connect as a cluster
