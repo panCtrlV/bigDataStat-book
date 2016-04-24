@@ -77,6 +77,8 @@ After Virtual Box being downloaded, we can use it to create our first VM. The de
 
 After the seven steps above, our first VM is created in Virtual Box with the virtual hard disk file created. This is like we have assemabled a physical computer. The next step for building a full-fledged computer node is to install the operating system. 
 
+**Note** By default, VM Manager configures the network interface for your VM as NAT. 
+
 ### 1.3. Installing the Operating System
 
 #### 1.3.1. Downloading Ubuntu Installation Disk Image
