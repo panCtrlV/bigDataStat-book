@@ -142,7 +142,9 @@ We have created an empty VM, downloaded the OS image file, and configured the bo
 
 **Note** It will take some time to configure the time for the system.
 
-**Step 7** Configure disk partitioning. It configures the native Linux file system on the available disk space (30GB). 
+**Step 7** Configure disk partitioning. It configures the native Linux file system on the available disk space (30GB). We choose **Guided - use entire disk and set up LVM**.
+
+**Note** LVM stands for Logical Volume Management. It is a system of managing logical volumes, or filesystems, that is much more advanced and flexible than the traditional method of partitioning a disk into one or more segments and formatting that partition with a filesystem. More details can be found on [Ubuntu's wiki page](https://wiki.ubuntu.com/Lvm).
 
 
 ## 2. Create more nodes and connect as a cluster
