@@ -88,7 +88,7 @@ At the time of writing this book, the long term supper (LTS)[^explain_LTS] versi
 
 After Ubuntu 14.04.4 ISO being downloaded, we can install it in the VM we just created. The installation process is similar to installing Ubuntu on a physical computer. 
 
-#### 1.3.2. Configure Boot Device and Propority
+#### 1.3.2. Configure Boot Device and Order
 
 Since our VM is not empty, it cannot be booted from a normal hard drive. Instead, we need to configure the VM to boot from the ISO file we just downloaded. In order to accomplish this, first select the VM "fe1" we just created and click **Settings** in the Virtual Box Manager GUI.
 
@@ -118,7 +118,7 @@ In the pop-up window, **Optical** device is listed as the second boot device, we
 
 ![](./figures/vm-config-boot-device-7.jpg)
 
-
+#### 1.3.3. 
 
 
 ## 2. Create more nodes and connect as a cluster
