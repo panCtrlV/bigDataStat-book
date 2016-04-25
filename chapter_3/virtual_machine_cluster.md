@@ -267,13 +267,29 @@ The first step to enable passworkless login is to generate a public/private keyp
 ssh-keygen -t rsa
 ```
 
-Immediately, you will be asked for the location to save the to-be-generated key files. We create a new directory via `mkdir $HOME/.ssh/demo` and rename the files to `demo_id_rsa`. It will also ask you for a passphrase to protect the key files. It is up to you whether you want to use a passphrase. In the current demonstration, we choose not to use a passphrase (just press `Enter` twice).
+Immediately, you will be asked for the location to save the to-be-generated key files. We create a new directory via `mkdir $HOME/.ssh/demo` and rename the files to `demo_id_rsa`. It will also ask you for a passphrase to protect the key files. It is up to you whether you want to use a passphrase. In the current demonstration, we choose not to use a passphrase (just press `Enter` twice). This following is the entire key generation process:
 
 ```
 Generating public/private rsa key pair.
 Enter file in which to save the key (/Users/panc25/.ssh/id_rsa):/User/panc25/.ssh/demo/demo_id_rsa
 Enter passphrase (empty for no passphrase):
 Enter same passphrase again:
+Your identification has been saved in /Users/panc25/.ssh/demo_id_rsa.
+Your public key has been saved in /Users/panc25/.ssh/demo_id_rsa.pub.
+The key fingerprint is:
+87:7e:6c:64:6a:ba:41:ab:35:4c:b0:f3:b0:ff:d7:f4 panc25@panc.local
+The key's randomart image is:
++--[ RSA 2048]----+
+|                 |
+|                 |
+|    .            |
+|     o   .       |
+|    + o S +      |
+|     O o *  .    |
+|    . B + +o .   |
+|     + = o. . E  |
+|    . +o..       |
++-----------------+
 ```
 
 
