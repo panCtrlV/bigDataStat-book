@@ -257,7 +257,7 @@ Though using an alias or an ssh configuration file relive the burden of rememnbe
 
 Password login is set through creating and configuring public/private keypairs[^public_and_private_keys_ref].
 
-[^public_and_private_keys_ref]: 
+[^public_and_private_keys_ref]: A good reference on public and private keys can be found at: [https://www.comodo.com/resources/small-business/digital-certificates2.php?s_track=7639&key5sk1=6346caf8b13ba3b6c83f339651110c114ce37e8a](https://www.comodo.com/resources/small-business/digital-certificates2.php?s_track=7639&key5sk1=6346caf8b13ba3b6c83f339651110c114ce37e8a). 
 
 #### 1.3.5. Installing Useful Softwares
 
