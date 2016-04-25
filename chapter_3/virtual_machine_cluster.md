@@ -330,7 +330,9 @@ You also need to specify the private key in your `$HOME/.ssh/config` file if it 
   IdentityFile ~/.ssh/demo/demo_id_rsa
 ```
 
-If you properly edited `$HOME/.ssh/config` and configured public/private keys, you can now log in "fe1" VM by simply typeing `ssh ubuntu-fe1`. 
+If you properly edited `$HOME/.ssh/config` and configured public/private keys, you can now log in "fe1" VM by simply typeing `ssh ubuntu-fe1`. The following shows that result:
+
+![Effect of passwordless ssh login for VM from the host.](../figures/vm-passwordless-login.jpg)
 
 #### 1.3.5. Installing Useful Softwares
 
