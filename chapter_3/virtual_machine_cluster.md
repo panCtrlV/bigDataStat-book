@@ -179,11 +179,11 @@ Since the guest ues NAT networking, this can be accomplished by enabling port fo
 
 **Step 1** In VM Manager, choose the VM "fe1", and open **Setting** window of the VM. Click on the **Network** tab on the top, click on "Advanced" to expand the additional network adapter options.
 
-**Step 2** Click on a button labeled **Port Forwarding**. You will see a window where you can configure port forwarding rules. Click on "Add" icon in the upper right corner.
+**Step 2** Click on a button labeled **Port Forwarding**. You will see a window where you can configure port forwarding rules. 
 
 ![Configure VirtualBox NAT port forwarding step 1](../figures/vm-nat-port-forwarding-1.jpg) 
 
-**Step 3** 
+**Step 3** Click on **Add** icon in the upper right corner.
 
 #### 1.3.5. Installing Useful Softwares
 
