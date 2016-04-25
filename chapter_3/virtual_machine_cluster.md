@@ -170,7 +170,7 @@ Now we have installed our first VM which is used as the front end in our VM clus
 
 #### 1.3.4. SSH VM from Host
 
-Though our VM is fully functional which can be accessed via 
+Though our VM is fully functional which can be accessed via its VM Manager terminal, the font is kinda ugly <font color='red'>(TODO: or use primitive?)</font> and it lacks the ability of copying and pasting. 
 
 #### 1.3.5. Installing Useful Softwares
 
