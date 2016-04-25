@@ -216,7 +216,7 @@ Simply type `yes` to confirm that you want to proceed and then type the password
 
 Now you can preform all kinds of operation on Ubuntu from within your host's terminal shell, which is nativly integrated with your host system. 
 
-**Note** One can avoid typing the long command to log into the guest by 
+**Note** One can avoid typing the long command to log into the guest system through proper configuration of ssh. 
 
 **Note**
 
