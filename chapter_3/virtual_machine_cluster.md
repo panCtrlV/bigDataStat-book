@@ -60,22 +60,22 @@ After Virtual Box being downloaded, we can use it to create our first VM. The de
 
 **Step 4** Click **Create**. The next window allows you to choose the file format for your virtual hard disk. We choose **VDI (VirtualBox Disk Image)**. <font color='red'>... TODO: What are other foramts for? ...</font>
 
-![Step 4 of creating the first VM](./figures/vbox_new_vm_step4.jpg)   
+![Step 4 of creating the first VM](../figures/vbox_new_vm_step4.jpg)   
 
 **Step 5** Click **Continue**. The next window asks you to choose the type of storage of VM on physical hard disk (i.e. Macbook Pro). Here, we choose **Dynamically allocated**. The description is quite clear.
 
-![Step 5 of creating the first VM](./figures/vbox_new_vm_step5.jpg) 
+![Step 5 of creating the first VM](../figures/vbox_new_vm_step5.jpg) 
 
 **Step 6** Click **Continue**. In the next window, we need to decide the location where the virtual hard disk file (.vdi format) is stored and the size of the hard disk for the VM. If you use the default setting, the file will be created in `Virtual Box installation location/system version/vm name/`. In this demonstration, the Virtual Box installation location is in our home account `$HOME/VirtualBox VMs` where `HOME` is an environment variable. The system version is **ubuntu** and our VM name is **fe1**. So the default path for the virtual hard disk file is `$HOME/VirtualBox VMs/ubuntu/fe1/fe1.vdi`. The hard disk size is like the HDD or SSD on a physical computer. Here we set it as 30 GB[^extend_vm_hard_disk].
 
-![Step 6 of creating the first VM](./figures/vbox_new_vm_step6.jpg) 
+![Step 6 of creating the first VM](../figures/vbox_new_vm_step6.jpg) 
 
 
 [^extend_vm_hard_disk]: In case the VM's hard disk is full, we can extend its size and the file system of Linux. More details are deferred to later sections. 
 
 **Step 7** Click **Create**. 
 
-![Step 7 of creating the first VM](./figures/vbox_new_vm_step7.jpg) 
+![Step 7 of creating the first VM](../figures/vbox_new_vm_step7.jpg) 
 
 After the seven steps above, our first VM is created in Virtual Box with the virtual hard disk file created. This is like we have assemabled a physical computer. The next step for building a full-fledged computer node is to install the operating system. 
 
@@ -96,15 +96,15 @@ After Ubuntu 14.04.4 ISO being downloaded, we can install it in the VM we just c
 
 Since our VM is not empty, it cannot be booted from a normal hard drive. Instead, we need to configure the VM to boot from the ISO file we just downloaded. In order to accomplish this, first select the VM "fe1" we just created and click **Settings** in the Virtual Box Manager GUI.
 
-![](./figures/vm-config-boot-device-1.jpg)
+![](../figures/vm-config-boot-device-1.jpg)
 
 Then, under the **Storage** tab, click the <font color='red'>disk icon with a plus sign (TODO: replace with an inline image)</font> next to **Controller: IDE**.
 
-![](./figures/vm-config-boot-device-2.jpg)
+![](../figures/vm-config-boot-device-2.jpg)
 
 Next, in the pop-up dialogue window, click **Choose disk**, then choose the ubuntu iso file we just downloaded and click **Open**. 
 
-![](./figures/vm-config-boot-device-3.jpg) 
+![](../figures/vm-config-boot-device-3.jpg) 
 
 ![](./figures/vm-config-boot-device-4.jpg)
 
