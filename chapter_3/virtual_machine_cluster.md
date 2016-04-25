@@ -253,7 +253,7 @@ Now, we can simply run `ssh ubuntu-fe1`, and the options will be read automatica
 
 **Passwordless login**
 
-
+Though using an alias or an ssh configuration file relive the burden of rememnber the usernames, hostnames and various options, 
 
 #### 1.3.5. Installing Useful Softwares
 
