@@ -166,5 +166,6 @@ We have created an empty VM, downloaded the OS image file, and configured the bo
 
 ![Ubuntu VM fe1: first login.](../figures/vm-ubuntu-fe1-first-time-login.jpg)
 
+Now we have installed our first VM which is used as the front end in our VM cluster. 
 
 ## 2. Create more nodes and connect as a cluster
