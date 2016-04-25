@@ -1,4 +1,4 @@
-## 1. Installing One Virtual Machine (Node)
+## 1. Creating One Virtual Machine Node
 
 We first show how to create a single Ubuntu VM, which will become the base node for creating other nodes in the future. While installing the first node, we don't have to consider network related issues. We defer them to the section where we discuss how to connect multiple nodes as a cluster.
 
