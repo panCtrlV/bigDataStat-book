@@ -172,6 +172,6 @@ Now we have installed our first VM which is used as the front end in our VM clus
 
 - **Java** Java is commonly used as the run time environment for many <font color='red'>(almost all?)</font> big data systems including Hadoop and Spark. At the time of writing, Java 8 is released <font color='red'>(TODO: How about their support for Java 8?)</font>.
 
-  There are multiple versions of Java available for Ubuntu Linux, including OpenJDK and Oracle JDK <font color='red'>(TODO: other JDK version on Ubuntu?)</font> 
+  There are multiple versions of Java available for Ubuntu Linux, including OpenJDK and Oracle JDK <font color='red'>(TODO: other JDK version on Ubuntu?)</font>.
 
 ## 2. Create more nodes and connect as a cluster
