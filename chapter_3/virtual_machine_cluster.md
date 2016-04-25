@@ -240,7 +240,7 @@ alias ssh-fe1='ssh panc@localhost -p 22222'
 
 Then you can log in the guest (after `source($HOME/.bash_profile)`) by simply typing `ssh-fe1`. This works just fine.
 
-Alternatively, 
+Alternatively, there is a much more elegant and fexiable solution to this problem. 
 
 **Passwordless login**
 
