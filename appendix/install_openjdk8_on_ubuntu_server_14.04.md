@@ -8,7 +8,12 @@ OpenJDK 8 was released in March 2014. It is available in Ubuntu Software Center 
   sudo add-apt-repository ppa:openjdk-r/ppa
   ```
 
-- **Step 2** 
+- **Step 2** Update system package cache and install OpenJDK 8.
+
+  ```bash
+  sudo apt-get update 
+  sudo apt-get install openjdk-8-jdk
+  ```
 
 ---
 
