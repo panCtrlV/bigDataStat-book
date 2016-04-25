@@ -305,7 +305,7 @@ The public key is now located in `$HOME/.ssh/demo/demo_id_rsa.pub` and the priva
 Once the key pair is generated, it is time to place the public key on the VM we want to use. You can copy the content of `demo_id_rsa.pub` with the `ssh-copy-id` command[^install_ssh-copy-id_on_mac]. 
 
 ```bash
-ssh-copy-id demo/demo_id_rsa.pub ubuntu-fe1
+ssh-copy-id -i $HOME/.ssh/demo/demo_id_rsa.pub -p 22222 panc@localhost
 ```
 
 [^install_ssh-copy-id_on_mac]: On Mac OS, you can install `ssh-copy-id` via brew as `brew install ssh-copy-id`.
