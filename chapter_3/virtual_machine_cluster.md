@@ -189,7 +189,8 @@ Since the guest ues NAT networking, this can be accomplished by enabling port fo
 - Protocol: TCP
 - Host IP: 127.0.0.1
 - Host Port: 2222 (any unused port number higher than 1024)
-- 
+- Guest IP: 
+- Guest Port: 22
 
 #### 1.3.5. Installing Useful Softwares
 
