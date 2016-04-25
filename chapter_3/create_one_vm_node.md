@@ -236,7 +236,7 @@ Now, we can simply run `ssh ubuntu-fe1`, and the options will be read automatica
 
 **Passwordless login**
 
-Though using an alias or an ssh configuration file relive the burden of rememnber the usernames, hostnames and various options, each time we still need to type the password. A more important motivation for enabling passwordless login is that most distributed computing systems use ssh for network communication. So a passwordless setup is required. 
+Though using an alias or an ssh configuration file alleviate the burden of rememnber the usernames, hostnames and various options, each time we still need to type the password. A more important motivation for enabling passwordless login is that most distributed computing systems use ssh for network communication. So a passwordless setup is required. 
 
 Password login is set through creating and configuring public/private keypairs[^public_and_private_keys_ref][^other_auth_method]. One can use different keypairs for different servers to ensure that in the event of having one of the keys compromised the damage is as restricted as possible. Nevertheless, we use one public/private keypair for all servers in this chapter in order to minimize our workload. 
 
@@ -309,7 +309,7 @@ If you properly edited `$HOME/.ssh/config` and configured public/private keys, y
 
 ![Effect of passwordless ssh login for VM from the host.](../figures/vm-passwordless-login.jpg)
 
-#### 1.3.5. Installing Useful Softwares
+#### 1.3.5. Installing Additional Softwares
 
 - **Java** Java is commonly used as the run time environment for many <font color='red'>(almost all?)</font> big data systems including Hadoop and Spark. At the time of writing, Java 8 is released <font color='red'>(TODO: How about their support for Java 8?)</font>.
 
