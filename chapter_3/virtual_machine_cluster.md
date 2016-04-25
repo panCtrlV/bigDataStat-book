@@ -52,7 +52,8 @@ After Virtual Box being downloaded, we can use it to create our first VM. The de
 
 **Step 3** Click **Continue**. Select the radio button **Create a virtual hard disk now**[^other_options_vdi]. 
 
-![Step 3 of creating the first VM](./figures/vbox_new_vm_step3.jpg)
+![Step 3 of creating the first VM](../figures/vbox_new_vm_step3.jpg)
+
 
 [^other_options_vdi]: Alternatively, you can use an existing virtual hard disk (usually a .vdi file) if you have one. Since this is our first time to create a VM, we don't have an existing virtual hard disk. The relationship between a VM and a virtual hard disk is that the VM can be considered as a computer case and the virtual hard disk as the storage.
 
