@@ -261,7 +261,22 @@ Password login is set through creating and configuring public/private keypairs[^
 
 [^other_auth_method]: Another popular authentication method used by many cloud computing service is via authentication tokens. 
 
-The first step to enable passworkless login is to generate a public/private keypair on the host. 
+The first step to enable passworkless login is to generate a public/private keypair on the host. Runing the following command on our host (i.e. Mac OS).
+
+```bash
+ssh-keygen -t rsa
+```
+
+Immediately, you will be asked for the location to save the to-be-generated key files. We keep the same directory and rename the files to `demo_id_rsa`. It will also ask you for a passphrase to protect the key files. It is up to you whether you want to use a passphrase. In the current demonstration, we choose not to use a passphrase.
+
+```
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/panc25/.ssh/id_rsa):/User/panc25/.ssh/demo_id_rsa
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+```
+
+
 
 #### 1.3.5. Installing Useful Softwares
 
