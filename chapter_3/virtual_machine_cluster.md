@@ -255,7 +255,9 @@ Now, we can simply run `ssh ubuntu-fe1`, and the options will be read automatica
 
 Though using an alias or an ssh configuration file relive the burden of rememnber the usernames, hostnames and various options, each time we still need to type the password. A more important motivation for enabling passwordless login is that most distributed computing systems use ssh for network communication. So a passwordless setup is required. 
 
-Password login is set through creating and configuring public/private keypairs. 
+Password login is set through creating and configuring public/private keypairs[^public_and_private_keys_ref].
+
+[^public_and_private_keys_ref]: 
 
 #### 1.3.5. Installing Useful Softwares
 
