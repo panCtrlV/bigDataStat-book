@@ -255,11 +255,13 @@ Now, we can simply run `ssh ubuntu-fe1`, and the options will be read automatica
 
 Though using an alias or an ssh configuration file relive the burden of rememnber the usernames, hostnames and various options, each time we still need to type the password. A more important motivation for enabling passwordless login is that most distributed computing systems use ssh for network communication. So a passwordless setup is required. 
 
-Password login is set through creating and configuring public/private keypairs[^public_and_private_keys_ref]. One can use different keypairs for different servers to ensure that in the event of having one of the keys compromised the damage is as restricted as possible. Nevertheless, we use one public/private keypair for all servers in this chapter in order to minimize our workload. 
+Password login is set through creating and configuring public/private keypairs[^public_and_private_keys_ref][^other_auth_method]. One can use different keypairs for different servers to ensure that in the event of having one of the keys compromised the damage is as restricted as possible. Nevertheless, we use one public/private keypair for all servers in this chapter in order to minimize our workload. 
 
 [^public_and_private_keys_ref]: A good reference on public and private keys can be found at: [https://www.comodo.com/resources/small-business/digital-certificates2.php?s_track=7639&key5sk1=6346caf8b13ba3b6c83f339651110c114ce37e8a](https://www.comodo.com/resources/small-business/digital-certificates2.php?s_track=7639&key5sk1=6346caf8b13ba3b6c83f339651110c114ce37e8a). 
 
-The first step to enable passworkless login is to create a public/private keypair on the host. 
+[^other_auth_method]: Another popular authentication method used by many cloud computing service is via authentication tokens. 
+
+The first step to enable passworkless login is to generate a public/private keypair on the host. 
 
 #### 1.3.5. Installing Useful Softwares
 
