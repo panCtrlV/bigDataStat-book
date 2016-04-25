@@ -79,7 +79,7 @@ After Virtual Box being downloaded, we can use it to create our first VM. The de
 
 After the seven steps above, our first VM is created in Virtual Box with the virtual hard disk file created. This is like we have assemabled a physical computer. The next step for building a full-fledged computer node is to install the operating system. 
 
-**Note** <font color='red'>By default, VM Manager configures the network interface for your VM as NAT. TODO: correct?</font> 
+**Note** By default, VM Manager configures the network interface for your VM as NAT. <font color='red'>(TODO: correct?)</font> By using NAT, 
 
 ### 1.3. Installing the Operating System
 
@@ -170,7 +170,7 @@ Now we have installed our first VM which is used as the front end in our VM clus
 
 #### 1.3.4. SSH VM from Host
 
-Though our VM is fully functional which can be accessed via its VM Manager terminal, the font is kinda ugly <font color='red'>(TODO: or use primitive?)</font> and it lacks the ability of copying and pasting. The terminal software on our host system (e.g. Terminal on OS X) provides a better appearance and more functionality. It would be desirable to be able to ssh to and operate on the guest system from within the host's terminal. 
+Though our VM is fully functional which can be accessed via its VM Manager terminal, the font is kinda ugly <font color='red'>(TODO: or use primitive?)</font> and it lacks the ability of copying and pasting. The terminal software on our host system (e.g. Terminal on OS X) provides a better appearance and more functionality. It would be desirable to be able to ssh to and operate on the guest system from within the host's terminal. In order to enable this feature, we have to configure 
 
 #### 1.3.5. Installing Useful Softwares
 
