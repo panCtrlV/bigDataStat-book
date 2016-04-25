@@ -318,6 +318,6 @@ Java is commonly used as the compiler and the run time environment for many <fon
 There are multiple versions of Java available for Ubuntu Linux, including OpenJDK and Oracle JDK <font color='red'>(TODO: other JDK version on Ubuntu?)</font>. In this section, we choose to install OpenJDK 8 by running the following command:
 
 ```bash
-apt-get install openjdk-8-jdk.
+sudo apt-get install openjdk-8-jdk
 ```
 
