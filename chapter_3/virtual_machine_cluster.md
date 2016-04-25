@@ -235,7 +235,7 @@ Using the above command requires remembering the username, hostname and port num
 One solution is to cut down the verbosity by creating a simpler alias for each command. For example,
 
 ```bash
-alias ssh-fe1='ssh fooey@dev.example.com -p 22000'
+alias ssh-fe1='ssh panc@localhost -p 22222'
 ```
 
 **Passwordless login**
