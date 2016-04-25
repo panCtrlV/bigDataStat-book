@@ -183,7 +183,13 @@ Since the guest ues NAT networking, this can be accomplished by enabling port fo
 
 ![Configure VirtualBox NAT port forwarding step 1](../figures/vm-nat-port-forwarding-1.jpg) 
 
-**Step 3** Click on **Add** icon in the upper right corner.
+**Step 3** Click on **Add** icon in the upper right corner. Add a new port forwarding rule with the following detail.
+
+- Name: SSH
+- Protocol: TCP
+- Host IP: 127.0.0.1
+- Host Port: 2222 (any unused port number higher than 1024)
+- 
 
 #### 1.3.5. Installing Useful Softwares
 
