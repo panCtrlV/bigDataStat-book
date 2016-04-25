@@ -106,21 +106,21 @@ Next, in the pop-up dialogue window, click **Choose disk**, then choose the ubun
 
 ![](../figures/vm-config-boot-device-3.jpg) 
 
-![](./figures/vm-config-boot-device-4.jpg)
+![](../figures/vm-config-boot-device-4.jpg)
 
 Now, you can see from the Storage window that _ubuntu_14.04.4-server-amd64.iso_ is listed as a new IDE device.
 
-![](./figures/vm-config-boot-device-5.jpg)
+![](../figures/vm-config-boot-device-5.jpg)
 
 After adding the ISO file as a new IDE device, we also need to tell VM to boot from this device. 
 
 Go back to **Setting**, and select the **System** tab. 
 
-![](./figures/vm-config-boot-device-6.jpg)
+![](../figures/vm-config-boot-device-6.jpg)
 
 In the pop-up window, **Optical** device is listed as the second boot device, we need to move it to the top by clicking the <font color='red'>up arrow TODO: replace with inline image</font>. Then, click **Ok**. 
 
-![](./figures/vm-config-boot-device-7.jpg)
+![](../figures/vm-config-boot-device-7.jpg)
 
 #### 1.3.3. Installing Ubuntu Server
 
