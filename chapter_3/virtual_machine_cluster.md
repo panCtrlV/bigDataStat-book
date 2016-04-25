@@ -200,7 +200,7 @@ Since the guest ues NAT networking, this can be accomplished by enabling port fo
 
 **Configuration through VirtualBox's commandline interface**
 
-VirtualBox provides a commandline tool to operate on VM Manager. 
+VirtualBox provides a commandline tool, called `VBoxManage`, to operate on VM Manager. In order to use it for VM port forwarding, 
 
 After the above configurations, you can now ssh to the guest OS by typing the following command in your host's terminal shell:
 
