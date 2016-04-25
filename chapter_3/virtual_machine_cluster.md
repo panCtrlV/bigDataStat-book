@@ -181,7 +181,9 @@ Since the guest ues NAT networking, this can be accomplished by enabling port fo
 
 **Step 2** Click on a button labeled **Port Forwarding**.
 
-![]()
+![Configure VirtualBox NAT port forwarding step 1](../figures/vm-nat-port-forwarding-1.jpg) 
+
+**Step 3** 
 
 #### 1.3.5. Installing Useful Softwares
 
