@@ -32,6 +32,14 @@ OpenJDK 8 was released in March 2014. It is available in Ubuntu Software Center 
   ```bash
   java -version
   ```
+  
+  which outputs something like this:
+  
+  ```
+  openjdk version "1.8.0_01-internal"
+  OpenJDK Runtime Environment (build 1.8.0_01-internal-b04)
+  OpenJDK 64-Bit Server VM (build 25.40-b08, mixed mode)
+  ```
 
 ---
 
