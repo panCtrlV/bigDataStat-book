@@ -1,1 +1,1 @@
-## Creating Additional VM Nodes
+## Creating Additional Virtual Machine Nodes
