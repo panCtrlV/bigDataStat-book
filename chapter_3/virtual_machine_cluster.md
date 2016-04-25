@@ -168,11 +168,11 @@ We have created an empty VM, downloaded the OS image file, and configured the bo
 
 Now we have installed our first VM which is used as the front end in our VM cluster. 
 
-#### 1.3.5. SSH VM from Host
+#### 1.3.4. SSH VM from Host
 
 
 
-#### 1.3.4. Installing Useful Softwares
+#### 1.3.5. Installing Useful Softwares
 
 - **Java** Java is commonly used as the run time environment for many <font color='red'>(almost all?)</font> big data systems including Hadoop and Spark. At the time of writing, Java 8 is released <font color='red'>(TODO: How about their support for Java 8?)</font>.
 
