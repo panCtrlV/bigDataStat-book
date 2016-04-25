@@ -40,6 +40,8 @@ The following screenshot shows the interface of Virtual Box Manager version 5.0.
 
 ![Virtual Box Manager screenshot after installation](../figures/vbox_manager_screenshot.jpg)
 
+<font color='red'>TODO: VirtualBox also provides a command line interface ...</font>
+
 ### 1.2. Creating a Virtual Machine
 
 After Virtual Box being downloaded, we can use it to create our first VM. The detaled steps are listed as follows.
