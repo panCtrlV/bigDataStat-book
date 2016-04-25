@@ -206,6 +206,8 @@ VirtualBox provides a commandline tool, called `VBoxManage`, to enable operation
 VBoxManage modifyvm "fe1" --natpf1 "SSH,tcp,,22222,,22"
 ```
 
+**Log in guest from host**
+
 After the above configurations, you can now ssh to the guest OS by typing the following command in your host's terminal shell:
 
 ```bash
@@ -226,7 +228,9 @@ Simply type `yes` to confirm that you want to proceed and then type the password
 
 Now you can preform all kinds of operation on Ubuntu from within your host's terminal shell, which is nativly integrated with your host system. 
 
-**Note** One can avoid typing the long command to log into the guest system through proper configuration of ssh. In 
+**Simplify your life with an SSH config file**
+
+One can avoid typing the long command to log into the guest system through proper configuration of ssh. In 
 
 **Note**
 
