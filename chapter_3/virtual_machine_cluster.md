@@ -179,6 +179,8 @@ Since the guest ues NAT networking, this can be accomplished by enabling port fo
 
 **Step 1** In VM Manager, choose the VM "fe1", and open **Setting** window of the VM. Click on the **Network** tab on the top, click on "Advanced" to expand the additional network adapter options.
 
+
+
 #### 1.3.5. Installing Useful Softwares
 
 - **Java** Java is commonly used as the run time environment for many <font color='red'>(almost all?)</font> big data systems including Hadoop and Spark. At the time of writing, Java 8 is released <font color='red'>(TODO: How about their support for Java 8?)</font>.
