@@ -243,7 +243,10 @@ Then you can log in the guest (after `source($HOME/.bash_profile)`) by simply ty
 Alternatively, there is a much more elegant and fexiable solution to this problem. This is done by eiditing your `$HOME/.ssh/config` file. If you cannot `config` file in the `$HOME/.ssh/` directory, just create one. Enter the `config` file the following:
 
 ```
-
+Host ubuntu-fe1
+  HostName localhost
+  Port 22222
+  User panc
 ```
 
 **Passwordless login**
