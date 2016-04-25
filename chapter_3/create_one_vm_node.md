@@ -309,7 +309,9 @@ If you properly edited `$HOME/.ssh/config` and configured public/private keys, y
 
 ![Effect of passwordless ssh login for VM from the host.](../figures/vm-passwordless-login.jpg)
 
-#### 1.3.5. Installing Additional Softwares
+#### 1.3.5. 
+
+#### 1.3.6. Installing Additional Softwares
 
 **Enabling main repository for 14.04**
 
