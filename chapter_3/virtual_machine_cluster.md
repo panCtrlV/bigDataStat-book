@@ -175,6 +175,8 @@ Now we have installed our first VM which is used as the front end in our VM clus
 
 Though our VM is fully functional which can be accessed via its VM Manager terminal, the font is kinda ugly <font color='red'>(TODO: or use primitive?)</font> and it lacks the ability of copying and pasting. The terminal software on our host system (e.g. Terminal on OS X) provides a better appearance and more functionality. It would be desirable to be able to ssh to and operate on the guest system from within the host's terminal. In order to enable this feature, we have to configure VirtualBox properly.
 
+**Configuration through VirtualBox VM Manager's GUI**
+
 Since the guest ues NAT networking, this can be accomplished by enabling port forwarding for VirtualBox NAT, either from the GUI or from the command line. This section provides the detailed steps for configuring port forwarding from the GUI.
 
 **Step 1** In VM Manager, choose the VM "fe1", and open **Setting** window of the VM. Click on the **Network** tab on the top, click on "Advanced" to expand the additional network adapter options.
@@ -216,7 +218,7 @@ Simply type `yes` to confirm that you want to proceed and then type the password
 
 Now you can preform all kinds of operation on Ubuntu from within your host's terminal shell, which is nativly integrated with your host system. 
 
-**Note** One can avoid typing the long command to log into the guest system through proper configuration of ssh. 
+**Note** One can avoid typing the long command to log into the guest system through proper configuration of ssh. In 
 
 **Note**
 
