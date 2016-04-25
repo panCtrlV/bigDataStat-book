@@ -321,4 +321,4 @@ There are multiple versions of Java available for Ubuntu Linux, including OpenJD
 sudo apt-get install openjdk-8-jdk
 ```
 
-[^fail_to_install_openjdk8]: If you enounter "Unable to locate package openjdk-8-jdk" error, 
+[^fail_to_install_openjdk8]: If you enounter "Unable to locate package openjdk-8-jdk" error, please refer to the appendix for a workaround. 
