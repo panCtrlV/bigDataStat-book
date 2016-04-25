@@ -177,6 +177,8 @@ Though our VM is fully functional which can be accessed via its VM Manager termi
 
 Since the guest ues NAT networking, this can be accomplished by enabling port forwarding for VirtualBox NAT, either from the GUI or from the command line. This section provides the detailed steps for configuring port forwarding.
 
+
+
 #### 1.3.5. Installing Useful Softwares
 
 - **Java** Java is commonly used as the run time environment for many <font color='red'>(almost all?)</font> big data systems including Hadoop and Spark. At the time of writing, Java 8 is released <font color='red'>(TODO: How about their support for Java 8?)</font>.
