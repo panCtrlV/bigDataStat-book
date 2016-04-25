@@ -309,7 +309,7 @@ If you properly edited `$HOME/.ssh/config` and configured public/private keys, y
 
 ![Effect of passwordless ssh login for VM from the host.](../figures/vm-passwordless-login.jpg)
 
-#### 1.3.5. 
+#### 1.3.5. Enabling Internet Access from Guest
 
 #### 1.3.6. Installing Additional Softwares
 
