@@ -232,7 +232,7 @@ Once the port forwarding rule is created, you can verify that by using the follo
 VBoxManage showvminfo "fe1" | grep NIC
 ```
 
-![Verifying SSH port forwarding rule.]
+![Verifying SSH port forwarding rule.](../figures/vm-nat-port-forwarding-ssh-verify.jpg)
 
 Now you can preform all kinds of operation on Ubuntu from within your host's terminal shell, which is nativly integrated with your host system. 
 
