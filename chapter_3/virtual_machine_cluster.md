@@ -218,6 +218,8 @@ Now you can preform all kinds of operation on Ubuntu from within your host's ter
 
 **Note** 
 
+**Note**
+
 #### 1.3.5. Installing Useful Softwares
 
 - **Java** Java is commonly used as the run time environment for many <font color='red'>(almost all?)</font> big data systems including Hadoop and Spark. At the time of writing, Java 8 is released <font color='red'>(TODO: How about their support for Java 8?)</font>.
