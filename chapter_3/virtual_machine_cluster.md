@@ -232,11 +232,13 @@ Now you can preform all kinds of operation on Ubuntu from within your host's ter
 
 Using the above command requires remembering the username, hostname and port number. If you have to log in and out of many servers in your daily work and you have poor memory like me, it would be very painful. 
 
-One solution is to cut down the verbosity by creating a simpler alias for each command. For example, edit your `$HOME/.bash_profile` <font color='red'>(TODO: What is the difference between `.bash_profile` and `.bashrc`?)</font>
+One solution is to cut down the verbosity by creating a simpler alias for each command. For example, edit your `$HOME/.bash_profile` file <font color='red'>(TODO: What is the difference between `.bash_profile` and `.bashrc`?)</font> by appending the following line:
 
 ```bash
 alias ssh-fe1='ssh panc@localhost -p 22222'
 ```
+
+Then you can log in the guest (after `source($HOME/.bash_profile)`) by simply typing 
 
 **Passwordless login**
 
