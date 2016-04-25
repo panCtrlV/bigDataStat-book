@@ -315,5 +315,9 @@ If you properly edited `$HOME/.ssh/config` and configured public/private keys, y
 
 Java is commonly used as the compiler and the run time environment for many <font color='red'>(almost all?)</font> big data systems including Hadoop and Spark and their applications. At the time of writing, Java 8 is released <font color='red'>(TODO: How about their support for Java 8?)</font>.
 
-There are multiple versions of Java available for Ubuntu Linux, including OpenJDK and Oracle JDK <font color='red'>(TODO: other JDK version on Ubuntu?)</font>.
+There are multiple versions of Java available for Ubuntu Linux, including OpenJDK and Oracle JDK <font color='red'>(TODO: other JDK version on Ubuntu?)</font>. In this section, we choose to install OpenJDK 8 by running the following command:
+
+```bash
+apt-get install openjdk-8-jdk.
+```
 
