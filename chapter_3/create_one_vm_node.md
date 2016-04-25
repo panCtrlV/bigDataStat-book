@@ -313,7 +313,11 @@ If you properly edited `$HOME/.ssh/config` and configured public/private keys, y
 
 **Enabling main repository for 14.04**
 
-
+```bash
+# enable Main & Universe repository
+sudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) main universe"
+sudo apt-get update
+```
 
 **Java** 
 
