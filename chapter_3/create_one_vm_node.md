@@ -322,3 +322,6 @@ sudo apt-get install openjdk-8-jdk
 ```
 
 [^fail_to_install_openjdk8]: If you enounter "Unable to locate package openjdk-8-jdk" error, please refer to [the appendix](../appendix/install_openjdk8_on_ubuntu_server_14.04.md) for a workaround. 
+
+**Emacs**
+
