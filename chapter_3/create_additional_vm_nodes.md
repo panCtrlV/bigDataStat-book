@@ -2,6 +2,6 @@
 
 We have created a VM as the front end of our cluster. In this section, we will create two more VM nodes so that the three nodes can be connected to form a virtual cluster. 
 
-![Diagram of a cluster with three VM nodes.]
+![Diagram of a cluster with three VM nodes.](../figures/)
 
 https://www.communigate.com/communigatepro/ClusterStatic.html
