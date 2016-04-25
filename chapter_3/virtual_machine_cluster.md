@@ -308,6 +308,20 @@ Once the key pair is generated, it is time to place the public key on the VM we 
 ssh-copy-id -i $HOME/.ssh/demo/demo_id_rsa.pub -p 22222 panc@localhost
 ```
 
+The following shows the copying process, where we need to provide the password of the account on the VM. 
+
+```
+/usr/local/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/Users/panc25/.ssh/demo/demo_id_rsa.pub"
+/usr/local/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+/usr/local/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys
+panc@localhost's password:
+
+Number of key(s) added:        1
+
+Now try logging into the machine, with:   "ssh -p '22222' 'panc@localhost'"
+and check to make sure that only the key(s) you wanted were added.
+```
+
 [^install_ssh-copy-id_on_mac]: On Mac OS, you can install `ssh-copy-id` via brew as `brew install ssh-copy-id`.
 
 #### 1.3.5. Installing Useful Softwares
