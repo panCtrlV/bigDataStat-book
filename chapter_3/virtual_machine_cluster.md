@@ -292,7 +292,7 @@ The key's randomart image is:
 +-----------------+
 ```
 
-The public key 
+The public key is now located in `$HOME/.ssh/demo/demo_id_rsa.pub` and the private key is saved in the file `$HOME/.ssh/demo/demo_id_rsa`. 
 
 
 #### 1.3.5. Installing Useful Softwares
