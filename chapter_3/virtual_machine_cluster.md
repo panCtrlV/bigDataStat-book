@@ -26,6 +26,6 @@ The demonstration in this chapter is performed on my Macbook Pro (late 2011) wit
 
 ## 1. [Creating One VM Node](./create_one_vm_node.md)
 
-## 2. Creating Additional VM Nodes
+## 2. [Creating Additional VM Nodes](./create_additional_vm_nodes.md)
 
 ## 3. Connecting VM Nodes as a Cluster
