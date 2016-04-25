@@ -1,4 +1,4 @@
-# Virtual Machine Cluster
+ # Virtual Machine Cluster
 
 Cluster can be very expensive to build. It consists of many computer nodes, network switches, internet cable and other hardware equipment. It also requires installation of operating systems and managment softwares to be functioning. Dedicated administrating staff are also needed to maintain the whole system. 
 
@@ -330,7 +330,7 @@ You also need to specify the private key in your `$HOME/.ssh/config` file if it 
   IdentityFile ~/.ssh/demo/demo_id_rsa
 ```
 
-If you properly edited `$HOME/.ssh/config` and configured public/private keys, you can now log in "fe1" VM by simply typeing ``
+If you properly edited `$HOME/.ssh/config` and configured public/private keys, you can now log in "fe1" VM by simply typeing `ss`
 
 #### 1.3.5. Installing Useful Softwares
 
