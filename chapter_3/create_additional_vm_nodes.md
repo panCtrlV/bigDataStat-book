@@ -8,4 +8,5 @@ We have created a VM as the front end of our cluster. In this section, we will c
 
 ### 2.1. Further Configuration on the Front End as a Base System
 
-While "fe1" is going to be our front end, it can be configured as the base system for the other two nodes. VirtualBox allows us to create a node by cloning an existing one so that we don't have to build the other two nodes from scratch. We have done most of the work in the previous section. Some additional configuration, in particular networking setting, is needed to accommodate the multi-node cluster environment.
+While "fe1" is going to be our front end, it can be configured as the base system for the other two nodes. VirtualBox allows us to create a node by cloning an existing one so that we don't have to build the other two nodes from scratch. We have done most of the work in the previous section. Some additional configuration, in particular some networking setting, is needed to accommodate the multi-node cluster environment.
+
