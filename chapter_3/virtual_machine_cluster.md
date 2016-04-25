@@ -188,7 +188,7 @@ Since the guest ues NAT networking, this can be accomplished by enabling port fo
 - Name: SSH
 - Protocol: TCP
 - Host IP: 127.0.0.1
-- Host Port: 2222 (any unused port number higher than 1024)
+- Host Port: 22222 (any unused port number higher than 1024) <font color='red'>TODO: I tried 2222, but "Host key verification failed".</font>
 - Guest IP: (optional) IP address of the guest VM
 - Guest Port: 22
 
