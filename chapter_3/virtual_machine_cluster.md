@@ -36,7 +36,7 @@ Oracle VM VirtualBox is a free and open-source hypervisor[^define_hypervisor] fo
 
 The following screenshot shows the interface of Virtual Box Manager version 5.0.16.
 
-![Virtual Box Manager screenshot after installation](./figures/vbox_manager_screenshot.jpg)
+![Virtual Box Manager screenshot after installation](../figures/vbox_manager_screenshot.jpg)
 
 ### 1.2. Creating a Virtual Machine
 
@@ -44,11 +44,11 @@ After Virtual Box being downloaded, we can use it to create our first VM. The de
 
 **Step 1** Click **New** in the tool bar of Virtual Box Manager GUI. In the pop-up window, give a name to the VM you are creating. Since this is our first node which will be used as a front-end of our future cluster, we name it "fe1". Then choose the type of the **Type** as "Linux" and "Version" as "Ubuntu (64-bit)". This is shown in the following figure.
 
-![Step 1 of creating the first VM](./figures/vbox_new_vm_step1.jpg)
+![Step 1 of creating the first VM](../figures/vbox_new_vm_step1.jpg)
 
 **Step 2** Click **Continue**. This brings us to the window where we set the memory size for our VM. Since the memory on my host is 16G, I decided to give the first node 3 GB (i.e. 3072 MB). This size depends on your computer's configureation. The following figure shows my setting.
 
-![Step 2 of creating the first VM](./figures/vbox_new_vm_step2.jpg) 
+![Step 2 of creating the first VM](../figures/vbox_new_vm_step2.jpg) 
 
 **Step 3** Click **Continue**. Select the radio button **Create a virtual hard disk now**[^other_options_vdi]. 
 
