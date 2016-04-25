@@ -249,6 +249,8 @@ Host ubuntu-fe1
   User panc
 ```
 
+Now, we can simply run `ssh ubuntu-fe1`, and the options will be read automatically from the configuration file. 
+
 **Passwordless login**
 
 
