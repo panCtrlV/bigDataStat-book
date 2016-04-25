@@ -1,4 +1,4 @@
- # Virtual Machine Cluster
+ # Virtual Machine (VM Cluster
 
 Cluster can be very expensive to build. It consists of many computer nodes, network switches, internet cable and other hardware equipment. It also requires installation of operating systems and managment softwares to be functioning. Dedicated administrating staff are also needed to maintain the whole system. 
 
