@@ -210,7 +210,7 @@ RSA key fingerprint is 6c:02:8e:e6:c9:7f:91:0f:f6:07:9d:13:00:83:f9:ce.
 Are you sure you want to continue connecting (yes/no)?
 ```
 
-Simply type `yes` to proceed. 
+Simply type `yes` to confirm login and proceed. 
 
 
 #### 1.3.5. Installing Useful Softwares
