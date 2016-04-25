@@ -259,7 +259,7 @@ Password login is set through creating and configuring public/private keypairs[^
 
 [^public_and_private_keys_ref]: A good reference on public and private keys can be found at: [https://www.comodo.com/resources/small-business/digital-certificates2.php?s_track=7639&key5sk1=6346caf8b13ba3b6c83f339651110c114ce37e8a](https://www.comodo.com/resources/small-business/digital-certificates2.php?s_track=7639&key5sk1=6346caf8b13ba3b6c83f339651110c114ce37e8a). 
 
-
+The first step to enable passworkless login is to create a public/private keypair on the host. 
 
 #### 1.3.5. Installing Useful Softwares
 
