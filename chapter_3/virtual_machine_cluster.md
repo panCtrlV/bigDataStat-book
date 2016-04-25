@@ -212,8 +212,7 @@ Are you sure you want to continue connecting (yes/no)?
 
 Simply type `yes` to confirm that you want to proceed and then type the password for your Ubuntu account, i.e. `password`. Now, you are in the Ubuntu VM "fe1".
 
-
-
+![Configure VirtualBox NAT port forwarding step 2](../figures/vm-nat-port-forwarding-2.jpg)
 
 #### 1.3.5. Installing Useful Softwares
 
