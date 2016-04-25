@@ -170,6 +170,6 @@ Now we have installed our first VM which is used as the front end in our VM clus
 
 #### 1.3.4. Installing Useful Softwares
 
-
+**Java** 
 
 ## 2. Create more nodes and connect as a cluster
