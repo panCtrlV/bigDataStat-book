@@ -162,4 +162,7 @@ We have created an empty VM, downloaded the OS image file, and configured the bo
 
 **Step 11** Finish the installation and reboot. At the login prompt, type your username and password we just specified in Step 6. 
 
+![Ubuntu VM fe1: first login.](../figures/vm-ubuntu-fe1-first-time-login.jpg)
+
+
 ## 2. Create more nodes and connect as a cluster
