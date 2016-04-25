@@ -158,6 +158,8 @@ We have created an empty VM, downloaded the OS image file, and configured the bo
 
 **Note** During the installation of MySQL, you will be asked to assign a root password. We simly use "root" as the password. 
 
-**Step 10** Install GRUB boot loader. Briefly, a boot loader is the first software program that runs when a computer starts. It is responsible for loading and transferring control to the operating system kernel software (such as the Hurd or Linux). The kernel, in turn, initializes the rest of the operating system (e.g. GNU)<font color='red'>(copied from [GNU GRUB](https://www.gnu.org/software/grub/))</font>. More details can be found on [GNU GRUB's page](https://www.gnu.org/software/grub/). 
+**Step 10** Install GRUB boot loader. Briefly, a boot loader is the first software program that runs when a computer starts. It is responsible for loading and transferring control to the operating system kernel software (such as the Hurd or Linux). The kernel, in turn, initializes the rest of the operating system (e.g. GNU)<font color='red'>(copied from [GNU GRUB](https://www.gnu.org/software/grub/))</font>. More details can be found on [GNU GRUB's page](https://www.gnu.org/software/grub/).
+
+**Step 11** Finish the installation and reboot.
 
 ## 2. Create more nodes and connect as a cluster
