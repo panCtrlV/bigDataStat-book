@@ -238,7 +238,9 @@ One solution is to cut down the verbosity by creating a simpler alias for each c
 alias ssh-fe1='ssh panc@localhost -p 22222'
 ```
 
-Then you can log in the guest (after `source($HOME/.bash_profile)`) by simply typing 
+Then you can log in the guest (after `source($HOME/.bash_profile)`) by simply typing `ssh-fe1`. This works just fine.
+
+Alternatively, 
 
 **Passwordless login**
 
