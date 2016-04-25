@@ -200,6 +200,8 @@ Since the guest ues NAT networking, this can be accomplished by enabling port fo
 
 **Configuration through VirtualBox's commandline interface**
 
+VirtualBox provides a commandline tool 
+
 After the above configurations, you can now ssh to the guest OS by typing the following command in your host's terminal shell:
 
 ```bash
