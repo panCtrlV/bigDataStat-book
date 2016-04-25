@@ -202,7 +202,7 @@ After the above configurations, you can now ssh to the guest OS by typing the fo
 ssh panc@localhost -p 22222
 ```
 
-where `panc` is the username of the account for Ubuntu and `-p 22222` pass the forwarded port number as an argument. 
+where `panc` is the username of the account for Ubuntu and the option `-p 22222` pass the forwarded port number as an argument. 
 
 ```
 The authenticity of host '[localhost]:22222 ([127.0.0.1]:22222)' can't be established.
