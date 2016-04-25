@@ -232,7 +232,9 @@ Now you can preform all kinds of operation on Ubuntu from within your host's ter
 
 One can avoid typing the long command to log into the guest system through proper configuration of ssh. This is especially useful when you have to log in and out of many servers in your daily work. 
 
-**Phraseless login**
+**Passwordless login**
+
+
 
 #### 1.3.5. Installing Useful Softwares
 
