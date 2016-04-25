@@ -26,6 +26,8 @@ OpenJDK 8 was released in March 2014. It is available in Ubuntu Software Center 
   ```bash
   sudo update-alternatives --config javac
   ```
+  
+- **Step 4** Finally check out current Java version by running:
 
 ---
 
