@@ -226,6 +226,14 @@ Simply type `yes` to confirm that you want to proceed and then type the password
 
 ![Configure VirtualBox NAT port forwarding step 4](../figures/vm-nat-port-forwarding-4.jpg)
 
+Once the port forwarding rule is created, you can verify that by using the following command:
+
+```bash
+VBoxManage showvminfo "fe1" | grep NIC
+```
+
+
+
 Now you can preform all kinds of operation on Ubuntu from within your host's terminal shell, which is nativly integrated with your host system. 
 
 **Simplify your life with an SSH config file**
