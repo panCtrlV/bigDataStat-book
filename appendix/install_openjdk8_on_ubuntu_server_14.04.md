@@ -2,7 +2,11 @@
 
 OpenJDK 8 was released in March 2014. It is available in Ubuntu Software Center for Ubuntu 14.10 and Ubuntu 15.04 but not for Ubuntu 14.04. This tutorial teaches you how to install OpenJDK 8 from a PPA repository[^what_is_ppa](there are other methods).
 
-- **Step 1** 
+- **Step 1** Add the PPA by running the following command:
+  
+  ```bash
+  sudo add-apt-repository ppa:openjdk-r/ppa
+  ```
 
 
 [^install_openjdk8_ref]: [http://ubuntuhandbook.org/index.php/2015/01/install-openjdk-8-ubuntu-14-04-12-04-lts/](http://ubuntuhandbook.org/index.php/2015/01/install-openjdk-8-ubuntu-14-04-12-04-lts/)
