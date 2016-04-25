@@ -168,4 +168,8 @@ We have created an empty VM, downloaded the OS image file, and configured the bo
 
 Now we have installed our first VM which is used as the front end in our VM cluster. 
 
+#### 1.3.4. Installing Useful Softwares
+
+
+
 ## 2. Create more nodes and connect as a cluster
