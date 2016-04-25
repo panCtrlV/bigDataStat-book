@@ -23,6 +23,6 @@ OpenJDK 8 was released in March 2014. It is available in Ubuntu Software Center 
 
 ---
 
-[^install_openjdk8_ref]: [http://ubuntuhandbook.org/index.php/2015/01/install-openjdk-8-ubuntu-14-04-12-04-lts/](http://ubuntuhandbook.org/index.php/2015/01/install-openjdk-8-ubuntu-14-04-12-04-lts/)
+[^install_openjdk8_ref]: This tutorial is copied from the post at  [http://ubuntuhandbook.org/index.php/2015/01/install-openjdk-8-ubuntu-14-04-12-04-lts/](http://ubuntuhandbook.org/index.php/2015/01/install-openjdk-8-ubuntu-14-04-12-04-lts/)
 
 [^what_is_pps]: PPA stands for Personal Package Archives, they are for non standard software/updates. If you are interested in more details about PPA, [the ask ubuntu page](http://askubuntu.com/questions/4983/what-are-ppas-and-how-do-i-use-them/4987) is a good start. 
