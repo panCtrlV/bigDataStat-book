@@ -170,7 +170,7 @@ Now we have installed our first VM which is used as the front end in our VM clus
 
 #### 1.3.4. SSH VM from Host
 
-
+Though our VM is fully functional which can be accessed via 
 
 #### 1.3.5. Installing Useful Softwares
 
