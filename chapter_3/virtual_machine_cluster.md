@@ -204,6 +204,12 @@ ssh panc@localhost -p 22222
 
 where `panc` is the username of the account for Ubuntu and `-p 22222` pass the forwarded port number as an argument. 
 
+```
+The authenticity of host '[localhost]:22222 ([127.0.0.1]:22222)' can't be established.
+RSA key fingerprint is 6c:02:8e:e6:c9:7f:91:0f:f6:07:9d:13:00:83:f9:ce.
+Are you sure you want to continue connecting (yes/no)?
+```
+
 
 #### 1.3.5. Installing Useful Softwares
 
