@@ -6,4 +6,4 @@ We have created a VM as the front end of our cluster. In this section, we will c
 
 [^cluster_diagram_source]: This diagram is adapted from the one on [https://www.communigate.com/communigatepro/ClusterStatic.html](https://www.communigate.com/communigatepro/ClusterStatic.html).
 
-### 2.1. 
+### 2.1. Further Configuring the Front End as a Base System
