@@ -158,6 +158,6 @@ We have created an empty VM, downloaded the OS image file, and configured the bo
 
 **Note** During the installation of MySQL, you will be asked to assign a root password. We simly use "root" as the password. 
 
-**Step 10**
+**Step 10** 
 
 ## 2. Create more nodes and connect as a cluster
