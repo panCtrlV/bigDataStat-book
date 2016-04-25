@@ -232,7 +232,7 @@ Now you can preform all kinds of operation on Ubuntu from within your host's ter
 
 Using the above command requires remembering the username, hostname and port number. If you have to log in and out of many servers in your daily work and you have poor memory like me, it would be very painful. 
 
-One solution is to cut down the verbosity by creating a simpler alias for each command. For example,
+One solution is to cut down the verbosity by creating a simpler alias for each command. For example, edit your `$HOME/.bash_profile` 
 
 ```bash
 alias ssh-fe1='ssh panc@localhost -p 22222'
