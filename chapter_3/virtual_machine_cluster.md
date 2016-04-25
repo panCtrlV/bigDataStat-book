@@ -230,7 +230,7 @@ Now you can preform all kinds of operation on Ubuntu from within your host's ter
 
 **Simplify your life with an SSH config file**
 
-One can avoid typing the long command to log into the guest system through proper configuration of ssh. This is especially useful when you have to log in and out of many servers in your daily work. 
+Using the above command requires remembering the username, hostname and port number. If you have to log in and out of many servers in your daily work and you have poor memory like me, it would be very painful. 
 
 **Passwordless login**
 
