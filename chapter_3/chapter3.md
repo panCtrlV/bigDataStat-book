@@ -10,7 +10,7 @@ One can also rent a cluster from Amazon's EC2. This allows you to scale up the i
 
 In the later chapters, we will show how to deploy Hadoop, Tessera, Spark, and SupR on each cluster platform.
 
-## [Virtual Machine Cluster](./chapter_3/virtual_machine_cluster.md) 
+## [Virtual Machine Cluster](./virtual_machine_cluster.md) 
 
 ## Purdue Clusters
 
