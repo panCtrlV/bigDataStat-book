@@ -300,7 +300,7 @@ Once the key pair is generated, it is time to place the public key on the VM we 
 ssh-copy-id demo/demo_id_rsa.pub ubuntu-fe1
 ```
 
-[^install_ssh-copy-id_on_mac]: 
+[^install_ssh-copy-id_on_mac]: On Mac OS, you can install `ssh-copy-id` via brew as `brew install ssh-copy-id`.
 
 #### 1.3.5. Installing Useful Softwares
 
