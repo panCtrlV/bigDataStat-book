@@ -294,8 +294,13 @@ The key's randomart image is:
 
 The public key is now located in `$HOME/.ssh/demo/demo_id_rsa.pub` and the private key is saved in the file `$HOME/.ssh/demo/demo_id_rsa`. Make sure you set the permission of your private key file properly to be only accessible by yourself, that is running `sudo chmod 600 $HOME/.ssh/demo/demo_id_rsa` if the permission is not 600 yet. 
 
-Once the key pair is generated, it is time to place the public key on the VM we want to use. You can copy the content of `demo_id_rsa.pub` with the `ssh-copy-id` command.  
+Once the key pair is generated, it is time to place the public key on the VM we want to use. You can copy the content of `demo_id_rsa.pub` with the `ssh-copy-id` command[^install_ssh-copy-id_on_mac]. 
 
+```bash
+ssh-copy-id demo/demo_id_rsa.pub ubuntu-fe1
+```
+
+[^install_ssh-copy-id_on_mac]: 
 
 #### 1.3.5. Installing Useful Softwares
 
