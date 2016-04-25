@@ -255,7 +255,7 @@ Now, we can simply run `ssh ubuntu-fe1`, and the options will be read automatica
 
 Though using an alias or an ssh configuration file relive the burden of rememnber the usernames, hostnames and various options, each time we still need to type the password. A more important motivation for enabling passwordless login is that most distributed computing systems use ssh for network communication. So a passwordless setup is required. 
 
-Password login is set through creating and configuring public/private keypairs[^public_and_private_keys_ref].
+Password login is set through creating and configuring public/private keypairs[^public_and_private_keys_ref]. One can use different keypairs for different servers to ensure that in the event of having one of the keys compromised the damage is as restricted as possible.
 
 [^public_and_private_keys_ref]: A good reference on public and private keys can be found at: [https://www.comodo.com/resources/small-business/digital-certificates2.php?s_track=7639&key5sk1=6346caf8b13ba3b6c83f339651110c114ce37e8a](https://www.comodo.com/resources/small-business/digital-certificates2.php?s_track=7639&key5sk1=6346caf8b13ba3b6c83f339651110c114ce37e8a). 
 
