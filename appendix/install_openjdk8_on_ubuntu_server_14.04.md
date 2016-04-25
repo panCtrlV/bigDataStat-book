@@ -29,6 +29,8 @@ OpenJDK 8 was released in March 2014. It is available in Ubuntu Software Center 
   
 - **Step 4** Finally check out current Java version by running:
 
+  
+
 ---
 
 [^install_openjdk8_ref]: This tutorial is copied from the post at [http://ubuntuhandbook.org/index.php/2015/01/install-openjdk-8-ubuntu-14-04-12-04-lts/](http://ubuntuhandbook.org/index.php/2015/01/install-openjdk-8-ubuntu-14-04-12-04-lts/)
