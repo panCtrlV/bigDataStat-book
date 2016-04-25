@@ -324,7 +324,11 @@ and check to make sure that only the key(s) you wanted were added.
 
 [^install_ssh-copy-id_on_mac]: On Mac OS, you can install `ssh-copy-id` via brew as `brew install ssh-copy-id`.
 
+You also need to specify the private key in your `$HOME/.ssh/config` file if it is used for configuring your ssh. Update the file by adding the following line under `Host ubuntu-fe1`:
 
+```
+  IdentityFile ~/.ssh/demo/demo_id_rsa
+```
 
 #### 1.3.5. Installing Useful Softwares
 
