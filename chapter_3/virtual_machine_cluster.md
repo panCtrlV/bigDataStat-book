@@ -292,6 +292,7 @@ The key's randomart image is:
 +-----------------+
 ```
 
+The public key 
 
 
 #### 1.3.5. Installing Useful Softwares
