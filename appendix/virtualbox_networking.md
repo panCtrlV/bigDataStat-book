@@ -148,6 +148,8 @@ To start the NAT service, use the following command:
 VBoxManage natnetwork start --netname natnet1
 ```
 
+If the network has a DHCP server attached then it will start together with the NAT network service.
+
 
 
 
