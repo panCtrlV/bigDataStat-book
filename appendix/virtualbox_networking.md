@@ -58,7 +58,7 @@ The virtual machine receives its network address and configuration on the privat
 
 #### 2.1.1. Configuring Port Forwarding with NAT
 
-As the virtual machine is connected to a private network internal to VirtualBox and invisible to the host, network services on the guest are not accessible to the host machine or to other computers on the same network. However, like a physical router, VirtualBox can make selected services available to the world outside the guest through port forwarding. This means that VirtualBox listens to certain ports on the host and resends all packets which arrive there to the guest, on the same or a different port.
+As the virtual machine is connected to a private network internal to VirtualBox and invisible to the host, network services on the guest are not accessible to the host machine or to other computers on the same network. However, like a physical router, VirtualBox can make selected services available to the world outside the guest through **port forwarding**. This means that VirtualBox listens to certain ports on the host and resends all packets which arrive there to the guest, on the same or a different port.
 
 ---
 
