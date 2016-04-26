@@ -162,6 +162,10 @@ To delete the NAT network service use:
 VBoxManage natnetwork remove --netname natnet1
 ```
 
+This command does not remove the DHCP server if one is enabled on the internal network.
+
+
+
 ---
 
 [^ref_source]: This article is copied from [https://www.virtualbox.org/manual/ch06.html](https://www.virtualbox.org/manual/ch06.html).
