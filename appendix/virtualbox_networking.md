@@ -112,7 +112,7 @@ There are **four limitations** of NAT mode which users should be aware of:
 
 These limitations normally don't affect standard network use. But the presence of NAT has also subtle effects that may interfere with protocols that are normally working. One example is NFS, where the server is often configured to refuse connections from non-privileged ports (i.e. ports not below 1024).
 
-#### 2.1.4. Network Address Translation Service (experimental)
+#### 2.1.4. NAT Service (experimental)
 
 The NAT service works in a similar way to a home router, grouping the systems using it into a network and preventing systems outside of this network from directly accessing systems inside it, but letting systems inside communicate with each other and with systems outside using TCP and UDP over IPv4 and IPv6.
 
