@@ -92,6 +92,10 @@ To forward all incoming traffic from a specific host interface to the guest, spe
 VBoxManage modifyvm "VM name" --natpf1 "guestssh,tcp,127.0.0.1,2222,,22"
 ```
 
+This forwards all TCP traffic arriving on the localhost interface (127.0.0.1) via port 2222 to port 22 in the guest.
+
+It is possible to configure incoming NAT connections while the VM is running, see [VirtualBox's manual page “VBoxManage controlvm”](https://www.virtualbox.org/manual/ch08.html#vboxmanage-controlvm).
+
 ---
 
 [^ref_source]: This article is copied from [https://www.virtualbox.org/manual/ch06.html](https://www.virtualbox.org/manual/ch06.html).
