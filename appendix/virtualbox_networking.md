@@ -66,6 +66,10 @@ To configure Port Forwarding you can use the graphical Port Forwarding editor wh
 
 You will need to know which ports on the guest the service uses and to decide which ports to use on the host (often but not always you will want to use the same ports on the guest and on the host). You can use any ports on the host which are not already in use by a service. For example, to set up incoming NAT connections to an ssh server in the guest, use the following command:
 
+```bash
+VBoxManage modifyvm "VM name" --natpf1 "guestssh,tcp,,2222,,22"
+```
+
 ---
 
 [^ref_source]: This article is copied from [https://www.virtualbox.org/manual/ch06.html](https://www.virtualbox.org/manual/ch06.html).
