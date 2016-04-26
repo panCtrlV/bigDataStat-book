@@ -108,7 +108,7 @@ There are **four limitations** of NAT mode which users should be aware of:
 
 3. **Protocols such as GRE are unsupported** Protocols other than TCP and UDP are not supported. This means some VPN products (e.g. PPTP from Microsoft) cannot be used. There are other VPN products which use simply TCP and UDP.
 
-4. 
+4. **Forwarding host ports < 1024 impossible** On Unix-based hosts (e.g. Linux, Solaris, Mac OS X) it is not possible to bind to ports below 1024 from applications that are not run by root. As a result, if you try to configure such a port forwarding, the VM will refuse to start.
 
 ---
 
