@@ -126,4 +126,4 @@ VBoxManage natnetwork add --netname natnet1 --network "192.168.15.0/24" --enable
 
 [^ref_source]: This article is copied from [https://www.virtualbox.org/manual/ch06.html](https://www.virtualbox.org/manual/ch06.html).
 
-[^why_192_168]: 
+[^why_192_168]: 192.168.x.x is one of the three reserved classes of IPs for private network. 
