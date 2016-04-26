@@ -174,6 +174,10 @@ This adds a port-forwarding rule from the host's TCP 1022 port to the port 22 on
 
 To delete the rule, use:
 
+```bash
+VBoxManage natnetwork modify --netname natnet1 --port-forward-4 delete ssh
+```
+
 
 
 ---
