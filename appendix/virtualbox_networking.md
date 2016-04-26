@@ -164,6 +164,8 @@ VBoxManage natnetwork remove --netname natnet1
 
 This command does not remove the DHCP server if one is enabled on the internal network.
 
+Port-forwarding is supported (using the `--port-forward-4` switch for IPv4 and `--port-forward-6` for IPv6) <font color='red'>TODO: what is the difference from section 2.1.1?</font>:
+
 ```bash
 VBoxManage natnetwork modify --netname natnet1 --port-forward-4 "ssh:tcp:[]:1022:[192.168.15.5]:22"
 ```
