@@ -230,6 +230,8 @@ In order to attach a VM's network card to an internal network, set its networkin
   
   As a security measure, the Linux implementation of internal networking only allows VMs running under the same user ID to establish an internal network.
   
+## 2.4. Host-only Networking
+  
 ---
 
 [^ref_source]: This article is copied from [https://www.virtualbox.org/manual/ch06.html](https://www.virtualbox.org/manual/ch06.html).
