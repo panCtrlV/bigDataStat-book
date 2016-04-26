@@ -62,7 +62,7 @@ As the virtual machine is connected to a private network internal to VirtualBox 
 
 To an application on the host or other physical (or virtual) machines on the network, it looks as though the service being proxied is actually running on the host. This also means that you cannot run the same service on the same ports on the host. However, you still gain the advantages of running the service in a virtual machine -- for example, services on the host machine or on other virtual machines cannot be compromised or crashed by a vulnerability or a bug in the service, and the service can run in a different operating system than the host system.
 
-
+To configure Port Forwarding you can use the graphical Port Forwarding editor which can be found in the Network Settings dialog for Network Adaptors configured to use NAT. Here you can map host ports to guest ports to allow network traffic to be routed to a specific port in the guest. Alternatively command line tool VBoxManage could be used; for details, please refer to [VirtualBox's manual page “VBoxManage modifyvm”](https://www.virtualbox.org/manual/ch06.html) or [an example in Chapter 3](../chapter_3/create_one_vm_node.md).
 
 ---
 
