@@ -84,7 +84,9 @@ If for some reason the guest uses a **static assigned IP** address not leased fr
 VBoxManage modifyvm "VM name" --natpf1 "guestssh,tcp,,2222,10.0.2.19,22"
 ```
 
+This example is identical to the previous one, except that the NAT engine is being told that the guest can be found at the 10.0.2.19 address.
 
+To forward all incoming traffic from a specific host interface to the guest, specify the IP of that host interface like this:
 
 ---
 
