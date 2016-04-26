@@ -60,6 +60,8 @@ The virtual machine receives its network address and configuration on the privat
 
 As the virtual machine is connected to a private network internal to VirtualBox and invisible to the host, network services on the guest are not accessible to the host machine or to other computers on the same network. However, like a physical router, VirtualBox can make selected services available to the world outside the guest through **port forwarding**. This means that VirtualBox listens to certain ports on the host and resends all packets which arrive there to the guest, on the same or a different port.
 
+To an application on the host or other physical (or virtual) machines on the network, it looks as though the service being proxied is actually running on the host. This also means that you cannot run the same service on the same ports on the host. However, you still gain the advantages of running the service in a virtual machine -- for example, services on the host machine or on other virtual machines cannot be compromised or crashed by a vulnerability or a bug in the service, and the service can run in a different operating system than the host system.
+
 
 
 ---
