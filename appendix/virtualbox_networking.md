@@ -156,7 +156,11 @@ To stop the NAT service, together with DHCP server if any.
 VBoxManage natnetwork stop --netname natnet1
 ```
 
+To delete the NAT network service use:
 
+```bash
+VBoxManage natnetwork remove --netname natnet1
+```
 
 ---
 
