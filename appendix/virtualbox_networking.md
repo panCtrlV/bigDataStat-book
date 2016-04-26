@@ -104,7 +104,7 @@ There are **four limitations** of NAT mode which users should be aware of:
 
 1. **ICMP protocol limitations** Some frequently used network debugging tools (e.g. `ping` or tracerouting) rely on the ICMP protocol for sending/receiving messages. While ICMP support has been improved with VirtualBox 2.1 (`ping` should now work), some other tools may not work reliably.
 
-2. 
+2. **Receiving of UDP broadcasts is not reliable** The guest does not reliably receive broadcasts, since, in order to save resources, it only listens for a certain amount of time after the guest has sent UDP data on a particular port. As a consequence, NetBios name resolution based on broadcasts does not always work (but WINS always works). As a workaround, you can use the numeric IP of the desired server in the `\\server\share` notation.
 
 ---
 
