@@ -58,6 +58,8 @@ The virtual machine receives its network address and configuration on the privat
 
 #### 2.1.1. Configuring Port Forwarding with NAT
 
+
+
 ---
 
 [^ref_source]: This article is copied from [https://www.virtualbox.org/manual/ch06.html](https://www.virtualbox.org/manual/ch06.html).
