@@ -104,6 +104,8 @@ There are **four limitations** of NAT mode which users should be aware of:
 
 1. **ICMP protocol limitations** Some frequently used network debugging tools (e.g. `ping` or tracerouting) rely on the ICMP protocol for sending/receiving messages. While ICMP support has been improved with VirtualBox 2.1 (`ping` should now work), some other tools may not work reliably.
 
+2. 
+
 ---
 
 [^ref_source]: This article is copied from [https://www.virtualbox.org/manual/ch06.html](https://www.virtualbox.org/manual/ch06.html).
