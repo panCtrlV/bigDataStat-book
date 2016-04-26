@@ -228,7 +228,7 @@ In order to attach a VM's network card to an internal network, set its networkin
   
   Unless you configure the (virtual) network cards in the guest operating systems that are participating in the internal network to use static IP addresses, you may want to use the DHCP server that is built into VirtualBox to manage IP addresses for the internal network. Please see [VirtualBox's manual page “VBoxManage dhcpserver”](https://www.virtualbox.org/manual/ch08.html#vboxmanage-dhcpserver) for details.
   
-  
+  As a security measure, the Linux implementation of internal networking only allows VMs running under the same user ID to establish an internal network.
   
 ---
 
