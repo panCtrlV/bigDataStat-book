@@ -196,6 +196,10 @@ With bridged networking, VirtualBox uses a device driver on your host system tha
 
 For this to work, VirtualBox needs a device driver on your host system. The way bridged networking works has been completely rewritten with VirtualBox 2.0 and 2.1, depending on the host operating system. From the user perspective, the main difference is that complex configuration is no longer necessary on any of the supported host operating systems.
 
+On Macintosh hosts, functionality is limited when using AirPort (the Mac's wireless networking) for bridged networking. Currently, VirtualBox supports only IPv4 over AirPort. For other protocols such as IPv6 and IPX, you must choose a wired interface.
+
+The limitations for using bridged networking on other host OS can be found on [VirtualBox's manual page](https://www.virtualbox.org/manual/ch06.html).
+
 
 
 ---
