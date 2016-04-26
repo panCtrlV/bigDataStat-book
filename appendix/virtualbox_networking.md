@@ -28,7 +28,7 @@ Each of the eight networking adapters can be separately configured to operate in
 
 3. **NAT Network** The NAT network is a new NAT flavour introduced in VirtualBox 4.3.
 
-4. 
+4. **Bridged networking** This is for more advanced networking needs such as network simulations and running servers in a guest. When enabled, VirtualBox connects to one of your installed network cards and exchanges network packets directly, circumventing your host operating system's network stack.
 
 ---
 
