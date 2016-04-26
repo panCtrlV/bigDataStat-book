@@ -128,7 +128,11 @@ Here, "natnet1" is the name of the internal network to be used and "192.168.15.0
 VBoxManage natnetwork add --netname natnet1 --network "192.168.15.0/24" --enable --dhcp on
 ```
 
+or to add a DHCP server to the network after creation:
 
+```bash
+VBoxManage natnetwork modify --netname natnet1 --dhcp on
+```
 
 
 ---
