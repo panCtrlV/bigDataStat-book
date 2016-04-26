@@ -134,6 +134,12 @@ or to add a DHCP server to the network after creation:
 VBoxManage natnetwork modify --netname natnet1 --dhcp on
 ```
 
+To disable it again, use:
+
+```bash
+VBoxManage natnetwork modify --netname natnet1 --dhcp off
+```
+
 
 
 
