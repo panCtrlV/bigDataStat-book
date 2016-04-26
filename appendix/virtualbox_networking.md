@@ -30,7 +30,7 @@ Each of the eight networking adapters can be separately configured to operate in
 
 4. **Bridged networking** This is for more advanced networking needs such as network simulations and **running servers in a guest**. When enabled, VirtualBox connects to one of your installed network cards and exchanges network packets directly, circumventing your host operating system's network stack.
 
-5. **Internal networking** 
+5. **Internal networking** This can be used to create a different kind of software-based network which is visible to selected virtual machines, but not to applications running on the host or to the outside world. <font color='red'>One use case is that it can be used for connecting the back end nodes in a cluster.</font>
 
 ---
 
