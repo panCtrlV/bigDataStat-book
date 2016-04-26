@@ -22,7 +22,9 @@ The PCNet FAST III is the default because it is supported by nearly all operatin
 
 Each of the eight networking adapters can be separately configured to operate in one of the following modes:
 
-1. Not attached
+1. **Not attached** In this mode, VirtualBox reports to the guest that a network card is present, but that there is no connection -- as if no Ethernet cable was plugged into the card. This way it is possible to "pull" the virtual Ethernet cable and disrupt the connection, which can be useful to inform a guest operating system that no network connection is available and enforce a reconfiguration.
+
+2. 
 
 ---
 
