@@ -24,7 +24,7 @@ Each of the eight networking adapters can be separately configured to operate in
 
 1. **Not attached** In this mode, VirtualBox reports to the guest that a network card is present, but that there is no connection -- as if no Ethernet cable was plugged into the card. This way it is possible to "pull" the virtual Ethernet cable and disrupt the connection, which can be useful to inform a guest operating system that no network connection is available and enforce a reconfiguration.
 
-2. 
+2. **Network Address Translation (NAT)** 
 
 ---
 
