@@ -172,6 +172,8 @@ VBoxManage natnetwork modify --netname natnet1 --port-forward-4 "ssh:tcp:[]:1022
 
 This adds a port-forwarding rule from the host's TCP 1022 port to the port 22 on the guest with IP address 192.168.15.5. Host port, guest port and guest IP are mandatory. To delete the rule, use:
 
+
+
 ---
 
 [^ref_source]: This article is copied from [https://www.virtualbox.org/manual/ch06.html](https://www.virtualbox.org/manual/ch06.html).
