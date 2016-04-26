@@ -135,6 +135,8 @@ VBoxManage natnetwork modify --netname natnet1 --dhcp on
 ```
 
 
+
+
 ---
 
 [^ref_source]: This article is copied from [https://www.virtualbox.org/manual/ch06.html](https://www.virtualbox.org/manual/ch06.html).
