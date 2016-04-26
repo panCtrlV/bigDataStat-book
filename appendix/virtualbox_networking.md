@@ -26,7 +26,9 @@ Each of the eight networking adapters can be separately configured to operate in
 
 2. **Network Address Translation (NAT)** If all you want is to browse the Web, download files and view e-mail inside the guest, then this default mode should be sufficient for you.
 
-3. 
+3. **NAT Network** The NAT network is a new NAT flavour introduced in VirtualBox 4.3.
+
+4. 
 
 ---
 
