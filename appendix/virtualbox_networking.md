@@ -164,6 +164,10 @@ VBoxManage natnetwork remove --netname natnet1
 
 This command does not remove the DHCP server if one is enabled on the internal network.
 
+```bash
+VBoxManage natnetwork modify --netname natnet1 --port-forward-4 "ssh:tcp:[]:1022:[192.168.15.5]:22"
+```
+
 
 
 ---
