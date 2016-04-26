@@ -204,7 +204,6 @@ The limitations for using bridged networking on other host OS can be found on [V
 
 
 
-
 ---
 
 [^ref_source]: This article is copied from [https://www.virtualbox.org/manual/ch06.html](https://www.virtualbox.org/manual/ch06.html).
