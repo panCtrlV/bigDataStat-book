@@ -200,6 +200,9 @@ On Macintosh hosts, functionality is limited when using AirPort (the Mac's wirel
 
 The limitations for using bridged networking on other host OS can be found on [VirtualBox's manual page](https://www.virtualbox.org/manual/ch06.html).
 
+## 2.3. Internal Networking
+
+
 
 
 ---
