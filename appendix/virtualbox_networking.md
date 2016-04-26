@@ -80,6 +80,10 @@ VBoxManage modifyvm "VM name" --natpf1 delete "guestssh"
 
 If for some reason the guest uses a **static assigned IP** address not leased from the built-in DHCP server, it is required to specify the guest IP when registering the forwarding rule:
 
+```bash
+VBoxManage modifyvm "VM name" --natpf1 "guestssh,tcp,,2222,10.0.2.19,22"
+```
+
 
 
 ---
