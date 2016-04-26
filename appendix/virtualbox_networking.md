@@ -202,6 +202,8 @@ The limitations for using bridged networking on other host OS can be found on [V
 
 ## 2.3. Internal Networking
 
+Internal Networking is similar to bridged networking in that the VM can directly communicate with the outside world. However, the "outside world" is limited to other VMs on the same host which connect to the same internal network.
+
 
 
 ---
