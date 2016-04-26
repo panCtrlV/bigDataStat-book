@@ -56,6 +56,7 @@ The virtual machine receives its network address and configuration on the privat
 
 ![An example of NAT private IP address on a Ubuntu virtual machine](../figures/vm-nat-private-network-ip.jpg)
 
+#### 2.1.1. Configuring Port Forwarding with NAT
 
 ---
 
