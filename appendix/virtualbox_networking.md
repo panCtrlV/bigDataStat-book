@@ -170,7 +170,7 @@ Port-forwarding is supported (using the `--port-forward-4` switch for IPv4 and `
 VBoxManage natnetwork modify --netname natnet1 --port-forward-4 "ssh:tcp:[]:1022:[192.168.15.5]:22"
 ```
 
-
+This adds a port-forwarding rule from the host's TCP 1022 port to the port 22 on the guest with IP address 192.168.15.5. Host port, guest port and guest IP are mandatory. To delete the rule, use:
 
 ---
 
