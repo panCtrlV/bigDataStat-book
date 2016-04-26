@@ -190,6 +190,8 @@ To see the list of registered NAT networks, use:
 VBoxManage list natnetworks
 ```
 
+## 2.2. Bridged Networking
+
 ---
 
 [^ref_source]: This article is copied from [https://www.virtualbox.org/manual/ch06.html](https://www.virtualbox.org/manual/ch06.html).
