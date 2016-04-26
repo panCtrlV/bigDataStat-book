@@ -89,7 +89,7 @@ This example is identical to the previous one, except that the NAT engine is bei
 To forward all incoming traffic from a specific host interface to the guest, specify the IP of that host interface like this:
 
 ```bash
-
+VBoxManage modifyvm "VM name" --natpf1 "guestssh,tcp,127.0.0.1,2222,,22"
 ```
 
 ---
