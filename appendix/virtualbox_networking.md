@@ -150,6 +150,11 @@ VBoxManage natnetwork start --netname natnet1
 
 If the network has a DHCP server attached then it will start together with the NAT network service.
 
+To stop the NAT service, together with DHCP server if any.
+
+```bash
+VBoxManage natnetwork stop --netname natnet1
+```
 
 
 
