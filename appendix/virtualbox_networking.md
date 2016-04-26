@@ -34,7 +34,7 @@ Each of the eight networking adapters can be separately configured to operate in
 
 6. **Host-only networking** This can be used to create a network containing the host and a set of virtual machines, without the need for the host's physical network interface. Instead, a virtual network interface (similar to a loopback interface) is created on the host, providing connectivity among virtual machines and the host.
 
-7. 
+7. **Generic networking** 
 
 ---
 
