@@ -20,7 +20,9 @@ The PCNet FAST III is the default because it is supported by nearly all operatin
 
 ## 2. Introduction to Networking Modes
 
+Each of the eight networking adapters can be separately configured to operate in one of the following modes:
 
+1. 
 
 ---
 
