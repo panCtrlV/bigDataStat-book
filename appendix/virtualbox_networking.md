@@ -34,7 +34,13 @@ Each of the eight networking adapters can be separately configured to operate in
 
 6. **Host-only networking** This can be used to create a network containing the host and a set of virtual machines, without the need for the host's physical network interface. Instead, a virtual network interface (similar to a loopback interface) is created on the host, providing connectivity among virtual machines and the host.
 
-7. **Generic networking** 
+7. **Generic networking** Rarely used modes share the same generic network interface, by allowing the user to select a driver which can be included with VirtualBox or be distributed in an extension pack.
+
+At the moment there are potentially two available sub-modes:
+
+1. **UDP Tunnel** This can be used to interconnect virtual machines running on different hosts directly, easily and transparently, over existing network infrastructure.
+
+2. 
 
 ---
 
