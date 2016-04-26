@@ -40,7 +40,7 @@ At the moment there are potentially two available sub-modes:
 
 1. **UDP Tunnel** This can be used to interconnect virtual machines running on different hosts directly, easily and transparently, over existing network infrastructure.
 
-2. 
+2. **VDE (Virtual Distributed Ethernet) networking** This option can be used to connect to a Virtual Distributed Ethernet switch on a Linux or a FreeBSD host. At the moment this needs compiling VirtualBox from sources, as the Oracle packages do not include it.
 
 ---
 
