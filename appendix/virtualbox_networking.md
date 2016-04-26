@@ -140,6 +140,14 @@ To disable it again, use:
 VBoxManage natnetwork modify --netname natnet1 --dhcp off
 ```
 
+DHCP server provides list of registered nameservers, but doesn't map servers from 127/8 network.
+
+To start the NAT service, use the following command:
+
+```bash
+VBoxManage natnetwork start --netname natnet1
+```
+
 
 
 
