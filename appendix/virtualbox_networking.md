@@ -4,6 +4,10 @@ VirtualBox provides up to eight virtual PCI Ethernet cards for each virtual mach
 
 Four of the network cards can be configured in the "Network" section of the settings dialog in the VirtualBox GUI. You can configure all eight network cards on the command line via VBoxManage ｀modifyvm｀。
 
+For each card, you can individually select what kind of hardware will be presented to the virtual machine. VirtualBox can virtualize the following six types of networking hardware:
+
+1. 
+
 ---
 
 [^ref_source]: This article is copied from [https://www.virtualbox.org/manual/ch06.html](https://www.virtualbox.org/manual/ch06.html).
