@@ -116,9 +116,14 @@ These limitations normally don't affect standard network use. But the presence o
 
 The NAT service works in a similar way to a home router, grouping the systems using it into a network and preventing systems outside of this network from directly accessing systems inside it, but letting systems inside communicate with each other and with systems outside using TCP and UDP over IPv4 and IPv6.
 
-A NAT service is attached to an internal network. Virtual machines which are to make use of it should be attached to that internal network. The name of internal network is chosen when the NAT service is created. An internal network will be created if it does not already exist. An example command to create a NAT network is:
+A NAT service is attached to an internal network. Virtual machines which are to make use of it should be attached to that internal network. The name of internal network is chosen when the NAT service is created. An internal network will be created if it does not already exist. An example command[^why_192_168] to create a NAT network is:
 
+```bash
+VBoxManage natnetwork add --netname natnet1 --network "192.168.15.0/24" --enable
+```
 
 ---
 
 [^ref_source]: This article is copied from [https://www.virtualbox.org/manual/ch06.html](https://www.virtualbox.org/manual/ch06.html).
+
+[^why_192_168]: 
