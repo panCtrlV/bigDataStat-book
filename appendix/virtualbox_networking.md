@@ -184,6 +184,12 @@ It's possible to bind NAT service to specified interface:
 VBoxManage setextradata global "NAT/win-nat-test-0/SourceIp4" 192.168.1.185
 ```
 
+To see the list of registered NAT networks, use:
+
+```bash
+VBoxManage list natnetworks
+```
+
 ---
 
 [^ref_source]: This article is copied from [https://www.virtualbox.org/manual/ch06.html](https://www.virtualbox.org/manual/ch06.html).
