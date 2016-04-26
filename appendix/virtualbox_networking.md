@@ -88,6 +88,10 @@ This example is identical to the previous one, except that the NAT engine is bei
 
 To forward all incoming traffic from a specific host interface to the guest, specify the IP of that host interface like this:
 
+```bash
+
+```
+
 ---
 
 [^ref_source]: This article is copied from [https://www.virtualbox.org/manual/ch06.html](https://www.virtualbox.org/manual/ch06.html).
