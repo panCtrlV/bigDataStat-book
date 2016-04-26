@@ -178,7 +178,11 @@ To delete the rule, use:
 VBoxManage natnetwork modify --netname natnet1 --port-forward-4 delete ssh
 ```
 
+It's possible to bind NAT service to specified interface:
 
+```bash
+VBoxManage setextradata global "NAT/win-nat-test-0/SourceIp4" 192.168.1.185
+```
 
 ---
 
