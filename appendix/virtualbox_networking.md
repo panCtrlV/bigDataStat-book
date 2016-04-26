@@ -96,9 +96,9 @@ This forwards all TCP traffic arriving on the localhost interface (127.0.0.1) vi
 
 It is possible to configure incoming NAT connections while the VM is running, see [VirtualBox's manual page “VBoxManage controlvm”](https://www.virtualbox.org/manual/ch08.html#vboxmanage-controlvm).
 
-#### <font color='red'>2.1.2. PXE booting with NAT</font>
+#### <font color='red'>2.1.2. PXE Booting with NAT</font>
 
-
+#### 2.1.3. NAT Limitations
 
 ---
 
