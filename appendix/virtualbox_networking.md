@@ -54,6 +54,8 @@ The network frames sent out by the guest operating system are received by Virtua
 
 The virtual machine receives its network address and configuration on the private network from a DHCP server integrated into VirtualBox. The IP address thus assigned to the virtual machine is usually on a completely different network than the host. As more than one card of a virtual machine can be set up to use NAT, the first card is connected to the private network 10.0.2.0, the second card to the network 10.0.3.0 and so on. If you need to change the guest-assigned IP range for some reason, please refer to [VirtualBox manual page “Fine-tuning the VirtualBox NAT engine”](https://www.virtualbox.org/manual/ch09.html#changenat).
 
+
+
 ---
 
 [^ref_source]: This article is copied from [https://www.virtualbox.org/manual/ch06.html](https://www.virtualbox.org/manual/ch06.html).
