@@ -208,6 +208,25 @@ Even though technically, everything that can be done using internal networking c
 
 Internal networks are created automatically as needed, i.e. there is no central configuration. Every internal network is identified simply by its name. Once there is more than one active virtual network card with the same internal network ID, the VirtualBox support driver will automatically "wire" the cards and act as a network switch. The VirtualBox support driver implements a complete Ethernet switch and supports both broadcast/multicast frames and promiscuous mode.
 
+In order to attach a VM's network card to an internal network, set its networking mode to "internal networking". There are two ways to accomplish this:
+
+- You can use a VM's "Settings" dialog in the VirtualBox graphical user interface. In the "Networking" category of the settings dialog, select "Internal Networking" from the drop-down list of networking modes. Now select the name of an existing internal network from the drop-down below or enter a new name into the entry field.
+
+- You can use command line:
+
+  ```bash
+  BoxManage modifyvm "VM name" --nic<x> intnet
+  ```
+  
+  Optionally, you can specify a network name with the command
+  
+  ```bash
+  VBoxManage modifyvm "VM name" --intnet<x> "network name"
+  ```
+
+  If you do not specify a network name, the network card will be attached to the network `intnet` by default.
+  
+  
 ---
 
 [^ref_source]: This article is copied from [https://www.virtualbox.org/manual/ch06.html](https://www.virtualbox.org/manual/ch06.html).
