@@ -122,6 +122,12 @@ A NAT service is attached to an internal network. Virtual machines which are to 
 VBoxManage natnetwork add --netname natnet1 --network "192.168.15.0/24" --enable
 ```
 
+Here, "natnet1" is the name of the internal network to be used and "192.168.15.0/24" is the network address and mask of the NAT service interface. By default in this static configuration the gateway will be assigned the address 192.168.15.1 (the address following the interface address), though this is subject to change. To attach a DHCP server to the internal network, we modify the example as follows:
+
+VBoxManage natnetwork add --netname natnet1 --network "192.168.15.0/24" --enable --dhcp on
+
+
+
 ---
 
 [^ref_source]: This article is copied from [https://www.virtualbox.org/manual/ch06.html](https://www.virtualbox.org/manual/ch06.html).
