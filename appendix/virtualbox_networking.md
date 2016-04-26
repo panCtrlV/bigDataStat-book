@@ -204,10 +204,12 @@ The limitations for using bridged networking on other host OS can be found on [V
 
 Internal Networking is similar to bridged networking in that the VM can directly communicate with the outside world. However, the "outside world" is limited to other VMs on the same host which connect to the same internal network.
 
-
+Even though technically, everything that can be done using internal networking can also be done using bridged networking, there are security advantages with internal networking. In bridged networking mode, all traffic goes through a physical interface of the host system. It is therefore possible to attach a packet sniffer (such as Wireshark) to the host interface and log all traffic that goes over it. **If, for any reason, you prefer two or more VMs on the same machine to communicate privately, hiding their data from both the host system and the user, bridged networking therefore is not an option.[^internal_network_for_cluster_backend]**
 
 ---
 
 [^ref_source]: This article is copied from [https://www.virtualbox.org/manual/ch06.html](https://www.virtualbox.org/manual/ch06.html).
 
 [^why_192_168]: 192.168.x.x is one of the three reserved classes (class C) of IPs for private network. More explaination can be found on [this blog post](http://trendblog.net/ever-wondered-use-192-168-x-x-ip-addresses-home/).
+
+[^internal_network_for_cluster_backend]: This is the case for the back end nodes for our cluster.
