@@ -42,6 +42,10 @@ At the moment there are potentially two available sub-modes:
 
 2. **VDE (Virtual Distributed Ethernet) networking** This option can be used to connect to a Virtual Distributed Ethernet switch on a Linux or a FreeBSD host. At the moment this needs compiling VirtualBox from sources, as the Oracle packages do not include it.
 
+### 2.1. Network Address Translation (NAT)
+
+
+
 ---
 
 [^ref_source]: This article is copied from [https://www.virtualbox.org/manual/ch06.html](https://www.virtualbox.org/manual/ch06.html).
