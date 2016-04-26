@@ -231,6 +231,10 @@ In order to attach a VM's network card to an internal network, set its networkin
   As a security measure, the Linux implementation of internal networking only allows VMs running under the same user ID to establish an internal network.
   
 ## 2.4. Host-only Networking
+
+Host-only networking is another networking mode that was added with version 2.2 of VirtualBox. It can be thought of as a hybrid between the bridged and internal networking modes: as with bridged networking, the virtual machines can talk to each other and the host as if they were connected through a physical Ethernet switch. Similarly, as with internal networking however, a physical networking interface need not be present, and the virtual machines cannot talk to the world outside the host since they are not connected to a physical networking interface.
+
+<font color='red'>... more ...</font>
   
 ---
 
