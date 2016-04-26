@@ -6,7 +6,12 @@ Four of the network cards can be configured in the "Network" section of the sett
 
 For each card, you can individually select what kind of hardware will be presented to the virtual machine. VirtualBox can virtualize the following six types of networking hardware:
 
-1. 
+1. AMD PCNet PCI II (Am79C970A);
+2. AMD PCNet FAST III (Am79C973, the default);
+3. Intel PRO/1000 MT Desktop (82540EM);
+4. Intel PRO/1000 T Server (82543GC);
+5. Intel PRO/1000 MT Server (82545EM);
+6. Paravirtualized network adapter (virtio-net).
 
 ---
 
