@@ -32,6 +32,10 @@ Each of the eight networking adapters can be separately configured to operate in
 
 5. **Internal networking** This can be used to create a different kind of software-based network which is visible to selected virtual machines, but not to applications running on the host or to the outside world. <font color='red'>One use case is that it can be used for connecting the back end nodes in a cluster.</font>
 
+6. **Host-only networking** This can be used to create a network containing the host and a set of virtual machines, without the need for the host's physical network interface. Instead, a virtual network interface (similar to a loopback interface) is created on the host, providing connectivity among virtual machines and the host.
+
+7. 
+
 ---
 
 [^ref_source]: This article is copied from [https://www.virtualbox.org/manual/ch06.html](https://www.virtualbox.org/manual/ch06.html).
