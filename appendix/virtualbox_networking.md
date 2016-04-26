@@ -78,6 +78,8 @@ To remove this forwarding rule again, use the following command:
 VBoxManage modifyvm "VM name" --natpf1 delete "guestssh"
 ```
 
+
+
 ---
 
 [^ref_source]: This article is copied from [https://www.virtualbox.org/manual/ch06.html](https://www.virtualbox.org/manual/ch06.html).
