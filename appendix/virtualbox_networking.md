@@ -100,6 +100,8 @@ It is possible to configure incoming NAT connections while the VM is running, se
 
 #### 2.1.3. NAT Limitations
 
+
+
 ---
 
 [^ref_source]: This article is copied from [https://www.virtualbox.org/manual/ch06.html](https://www.virtualbox.org/manual/ch06.html).
