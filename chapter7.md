@@ -1,4 +1,4 @@
-# Chapter 7 Distributed Computing in R
+# Chapter 7 Native Distributed Computing in R
 
 ---
 
