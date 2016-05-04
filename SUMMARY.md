@@ -9,7 +9,7 @@
        * [Create A VM Node](./chapter_3/create_one_vm_node.md)
        * [Create Additional VM Nodes](./chapter_3/create_additional_vm_nodes.md)
    * [Purdue Cluster](./chapter3/purdue_cluster.md) 
-   * [Amazon Web Service](./chapter3/amazon_aws.md)
+   * [Amazon Web Service](./chapter_3/amazon_aws.md)
 * [Chapter 4 R for Statistical Analysis](./chapter4.md) 
 * [Chapter 5 Parallel Computing in R](./chapter_5/chapter5.md) 
    * [Explicit Parallelization](./chapter_5/r_explicit_parallelization.md)
