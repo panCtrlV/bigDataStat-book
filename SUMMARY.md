@@ -15,6 +15,8 @@
    * [Explicit Parallelization](./chapter_5/r_explicit_parallelization.md)
    * [Implicit Parallelization](./chapter_5/r_implicit_parallelization.md) 
    * [Combined Approach](./chapter_5/r_combined_approach.md)
-* [Chapter 6](./chapter6.md)
-* [Chapter 7](./chapter7.md)
+* [Chapter 6 Bridge R and Big Data Platforms](./chapter_6/chapter6.md) 
+   * [Tessera](./chapter_6/Tessera/tessera.md) 
+   * [SparkR](./chapter_6/SparkR/sparkr.md)
+* [Chapter 7](./chapter7.md) 
 
