@@ -19,4 +19,7 @@
    * [Tessera](./chapter_6/Tessera/tessera.md) 
    * [SparkR](./chapter_6/SparkR/sparkr.md)
 * [Chapter 7 Native Distributed Computing in R](./chapter7.md) 
+* [Appendix](./appendix/README.md)
+   * [Install OpenJDK 8 on Ubuntu Server 14.04](./appendix/install_openjdk8_on_ubuntu_server_14.04.md)
+   * 
 
