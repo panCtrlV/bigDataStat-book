@@ -1,7 +1,4 @@
 # Summary
 
-* Chapter 1 Preface
-* Introduction
-* Appendix
-* Chapter 2
+* [Chapter 1 Introduction](./chapter1.md)
 
