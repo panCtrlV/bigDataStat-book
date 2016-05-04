@@ -21,5 +21,6 @@
 * [Chapter 7 Native Distributed Computing in R](./chapter7.md) 
 * [Appendix](./appendix/README.md)
    * [Install OpenJDK 8 on Ubuntu Server 14.04](./appendix/install_openjdk8_on_ubuntu_server_14.04.md)
-   * 
+   * [Oracle VirtualBox Networking](./appendix/virtualbox_networking.md)
+
 
