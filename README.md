@@ -8,4 +8,4 @@ Big Data is ...
 4. R for Statistical Analysis
 5. Shared Memory Parallel Computing in R
 6. R and Distributed Computing Platforms
-7. Distributed Computing in R
+7. Native Distributed Computing in R
