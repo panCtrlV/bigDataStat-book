@@ -30,4 +30,4 @@ The demonstration in this chapter is performed on my Macbook Pro (late 2011) wit
 
 ## 3. Connecting VM Nodes as a Cluster
 
-## <font color='red'>TODO: Docker?</font>
+## <font color='red'>TODO: [Docker](https://www.docker.com/what-docker)?</font> 
