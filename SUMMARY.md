@@ -1,6 +1,6 @@
 # Summary
 
+* Preface
 * Introduction
 * Appendix
-* Preface
 
