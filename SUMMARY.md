@@ -2,7 +2,7 @@
 
 * [Preface](./README.md) 
 * [Chapter 1 Introduction](chapter1.md)
-* [Chapter 2 Computing Infrastructures](chapter_3/virtual_machine_cluster.md)
+* [Chapter 2 Computing Infrastructures](./chapter2.md) 
 * [Chapter 3 Clusters](chapter_3/chapter3.md)
    * [Multicore Computing](./chapter3/multicore_computing.md) 
    * [Virtual Machine Clusters](./chapter_3/virtual_machine_cluster.md)
